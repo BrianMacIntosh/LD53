@@ -53,6 +53,9 @@ public class OrderManager : MonoBehaviour
 
 	private int m_nextOrderId = 0;
 
+	public delegate void OrdersChangedDelegate(OrderManager sender);
+	public static event OrdersChangedDelegate OnOrdersChanged;
+
 	/// <summary>
 	/// Adds a new order to the system.
 	/// </summary>
@@ -60,6 +63,11 @@ public class OrderManager : MonoBehaviour
 	{
 		OrderId orderId = new OrderId(m_nextOrderId++);
 		m_orders.Add(orderId, new Order(orderId, orderSpec));
+
+		if (OnOrdersChanged != null)
+		{
+			OnOrdersChanged(this);
+		}
 	}
 
 	/// <summary>
@@ -68,7 +76,21 @@ public class OrderManager : MonoBehaviour
 	public void FillOrder(OrderId orderId)
 	{
 		m_orders.Remove(orderId);
+
+		if (OnOrdersChanged != null)
+		{
+			OnOrdersChanged(this);
+		}
 	}
+
+	/// <summary>
+	/// Returns true if there are no outstanding orders.
+	/// </summary>
+	public bool HasNoOrders()
+	{
+		return m_orders.Count == 0;
+	}
+
 
 	/// <summary>
 	/// Returns the ids of every outstanding order for the specified customer.
@@ -83,5 +105,10 @@ public class OrderManager : MonoBehaviour
 				outBuffer.Add(order);
 			}
 		}
+	}
+
+	public IEnumerable<Order> GetOrders()
+	{
+		return m_orders.Values;
 	}
 }

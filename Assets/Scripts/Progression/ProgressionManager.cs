@@ -9,13 +9,15 @@ public class ProgressionManager : MonoBehaviour
 	[Serializable]
 	public struct ProgressionEventEntry
 	{
+		public string Note;
+
 		public BaseProgressionEvent Event;
 
-		//TODO: conditions
+		public BaseProgressionCondition Condition;
 
 		public bool CanTrigger()
 		{
-			return true;
+			return Condition.Evaluate();
 		}
 
 		public void Trigger()

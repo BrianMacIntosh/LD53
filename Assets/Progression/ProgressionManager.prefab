@@ -45,4 +45,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_events:
-  - Event: {fileID: 11400000, guid: 74c7ca44223301e408a4ec984a587890, type: 2}
+  - Note: Test Popcorn
+    Event: {fileID: 11400000, guid: 74c7ca44223301e408a4ec984a587890, type: 2}
+    Condition: {fileID: 11400000, guid: d9d24ead1294d344eb640aca4ad06b85, type: 2}
