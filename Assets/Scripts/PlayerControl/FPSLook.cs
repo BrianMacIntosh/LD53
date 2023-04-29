@@ -44,7 +44,6 @@ namespace PlayerControl
 
         private void NewMousePos(Vector2 pos)
         {
-            Debug.Log(pos);
             mousePos = pos;
         }
     }

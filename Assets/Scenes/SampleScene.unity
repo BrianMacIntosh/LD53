@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientSkyColor: {r: 0.254717, g: 0.254717, b: 0.254717, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -204,7 +204,7 @@ GameObject:
   - component: {fileID: 60049587}
   - component: {fileID: 60049586}
   - component: {fileID: 60049589}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -270,11 +270,11 @@ Transform:
   m_GameObject: {fileID: 60049584}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3, y: 1, z: 3}
+  m_LocalScale: {x: 10, y: 1, z: 15}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &60049589
 BoxCollider:
@@ -540,6 +540,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   jumpForce: 5
+  groundCheckDistance: 0.1
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -791,7 +795,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &881220526
 PrefabInstance:
@@ -912,7 +916,7 @@ Transform:
   - {fileID: 341420142}
   - {fileID: 330585546}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &931803565
 PrefabInstance:
@@ -924,7 +928,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d96cd1a9d39728e43a7a8747e6a04cdb,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d96cd1a9d39728e43a7a8747e6a04cdb,
         type: 3}
@@ -993,7 +997,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: f1556cfef8518ab479ca98f0bdf09efb,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f1556cfef8518ab479ca98f0bdf09efb,
         type: 3}
@@ -1252,7 +1256,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: f72144d957bc4234a9b27595169be4bf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f72144d957bc4234a9b27595169be4bf,
         type: 3}
