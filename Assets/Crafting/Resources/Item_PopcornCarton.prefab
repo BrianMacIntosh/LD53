@@ -17,6 +17,12 @@ PrefabInstance:
       propertyPath: m_itemTag
       value: PopcornCarton
       objectReference: {fileID: 0}
+    - target: {fileID: -5057105337779408933, guid: 07356d4d52ead1e4c968831fd1f0c487,
+        type: 3}
+      propertyPath: m_itemData
+      value: 
+      objectReference: {fileID: 11400000, guid: e4a651beef9f19d4a8366f8ad8baac6e,
+        type: 2}
     - target: {fileID: -2061653707383167130, guid: 07356d4d52ead1e4c968831fd1f0c487,
         type: 3}
       propertyPath: m_Mesh

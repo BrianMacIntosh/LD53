@@ -114,7 +114,7 @@ public class PopcornMachine : CraftingMachine
 	{
 		base.ItemInteract(sourceItem);
 
-		if (sourceItem.ItemTag == "Corn")
+		if (sourceItem.ItemData.name == "ID_Corn")
 		{
 			if (m_queuedCorns < m_maxQueuedCorns)
 			{
@@ -128,7 +128,7 @@ public class PopcornMachine : CraftingMachine
 				}
 			}
 		}
-		else if (sourceItem.ItemTag == "EmptyCarton")
+		else if (sourceItem.ItemData.name == "ID_EmptyCarton")
 		{
 			if (m_poppedCorns > 0)
 			{

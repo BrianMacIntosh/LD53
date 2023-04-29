@@ -5,15 +5,12 @@ using UnityEngine;
 /// </summary>
 public class CraftingItem : Interactable
 {
-	/// <summary>
-	/// Tag uniquely identifying this type of item.
-	/// </summary>
 	[SerializeField]
-	private string m_itemTag;
+	private CraftingItemData m_itemData;
 
-	public string ItemTag
+	public CraftingItemData ItemData
 	{
-		get { return m_itemTag; }
+		get { return m_itemData; }
 	}
 
 	public override void Interact(PlayerInteractor interactor)
@@ -35,6 +32,14 @@ public class CraftingItem : Interactable
 	/// A machine has eaten this item.
 	/// </summary>
 	public void MachineEat()
+	{
+		Destroy(gameObject);
+	}
+
+	/// <summary>
+	/// A customer has eaten this item.
+	/// </summary>
+	public void CustomerEat()
 	{
 		Destroy(gameObject);
 	}
