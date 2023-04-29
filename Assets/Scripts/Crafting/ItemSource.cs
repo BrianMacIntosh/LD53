@@ -5,5 +5,16 @@ using UnityEngine;
 /// </summary>
 public class ItemSource : MonoBehaviour
 {
+	[SerializeField]
+	private GameObject m_prefab;
 
+	private void Start()
+	{
+		Spawn();
+	}
+
+	private void Spawn()
+	{
+		Instantiate<GameObject>(m_prefab, transform);
+	}
 }
