@@ -46,12 +46,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_events:
-  - Note: Intro Narration
-    Event: {fileID: 11400000, guid: b9af212859198374690ec15668e102ae, type: 2}
-    Condition: {fileID: 0}
-  - Note: Test Popcorn
-    Event: {fileID: 11400000, guid: 74c7ca44223301e408a4ec984a587890, type: 2}
-    Condition: {fileID: 11400000, guid: d9d24ead1294d344eb640aca4ad06b85, type: 2}
+  - {fileID: 11400000, guid: b9af212859198374690ec15668e102ae, type: 2}
+  - {fileID: 11400000, guid: 74c7ca44223301e408a4ec984a587890, type: 2}
 --- !u!114 &5202220177983664643
 MonoBehaviour:
   m_ObjectHideFlags: 0

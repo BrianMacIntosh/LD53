@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System.Collections;
 using UnityEngine;
 
 /// <summary>
@@ -6,36 +6,16 @@ using UnityEngine;
 /// </summary>
 public class ProgressionManager : MonoBehaviour
 {
-	[Serializable]
-	public struct ProgressionEventEntry
-	{
-		public string Note;
-
-		public BaseProgressionEvent Event;
-
-		public BaseProgressionCondition Condition;
-
-		public bool CanTrigger()
-		{
-			return !Condition || Condition.Evaluate();
-		}
-
-		public void Trigger()
-		{
-			Event.Execute();
-		}
-	}
-
 	public static ProgressionManager Instance
 	{
 		get; private set;
 	}
 
 	/// <summary>
-	/// List of events that can trigger over the game.
+	/// List of events that can trigger in the game.
 	/// </summary>
 	[SerializeField]
-	private ProgressionEventEntry[] m_events;
+	private BaseProgressionEvent[] m_events;
 
 	/// <summary>
 	/// Which events have already been triggered?
@@ -57,18 +37,22 @@ public class ProgressionManager : MonoBehaviour
 
 	private void CheckFireEvents()
 	{
-		for (int i = 0; i < m_events.Length; i++)
+		for (int index = 0; index < m_events.Length; index++)
 		{
-			if (!m_eventsTriggered[i] && m_events[i].CanTrigger())
+			if (!m_eventsTriggered[index] && m_events[index].CanTrigger())
 			{
-				TriggerEvent(i);
+				StartCoroutine(TriggerEvent(index));
+				m_eventsTriggered[index] = true;
 			}
 		}
 	}
 
-	private void TriggerEvent(int index)
+	private IEnumerator TriggerEvent(int index)
 	{
-		m_events[index].Trigger();
-		m_eventsTriggered[index] = true;
+		BaseProgressionEvent progEvent = m_events[index];
+
+		yield return new WaitForSeconds(progEvent.Delay);
+
+		progEvent.Execute();
 	}
 }

@@ -22,6 +22,7 @@ public class NarrationManager : MonoBehaviour
 
 	public void Play(NarrationSetData narration)
 	{
+		Debug.Log("Start narration set '" + narration.name + "'");
 		m_activeSet = narration;
 		m_activeSetIndex = -1;
 		PostNextLine();
@@ -29,6 +30,7 @@ public class NarrationManager : MonoBehaviour
 
 	private void HandleNarrationCallback(object in_cookie, AkCallbackType in_type, AkCallbackInfo in_info)
 	{
+		Debug.Log("Narration next line from WWise.");
 		PostNextLine();
 	}
 
@@ -38,11 +40,21 @@ public class NarrationManager : MonoBehaviour
 		float time = caption.Split(' ').Length * 0.5f;
 		yield return new WaitForSeconds(time);
 
+		Debug.Log("Narration next line from fallback wait.");
 		PostNextLine();
 	}
 
 	private void PostNextLine()
 	{
+		if (m_activeSet == null)
+		{
+			return;
+		}
+
+		if (m_activeSetIndex >= 0)
+		{
+			m_activeSet.MarkLinePlayed(m_activeSetIndex);
+		}
 		m_activeSetIndex++;
 
 		if (m_activeSetIndex >= m_activeSet.Lines.Length)
