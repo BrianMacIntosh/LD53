@@ -80,6 +80,15 @@ public partial class @InputMaster: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""DropItem"",
+                    ""type"": ""Button"",
+                    ""id"": ""ed2cb3bf-fb23-4ac3-871e-16266f0efab5"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -192,6 +201,17 @@ public partial class @InputMaster: IInputActionCollection2, IDisposable
                     ""action"": ""NextItem"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""afd11eb3-649c-46e6-a438-dd50b5eeea99"",
+                    ""path"": ""<Mouse>/rightButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""DropItem"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -206,6 +226,7 @@ public partial class @InputMaster: IInputActionCollection2, IDisposable
         m_Main_Interact = m_Main.FindAction("Interact", throwIfNotFound: true);
         m_Main_PrevItem = m_Main.FindAction("PrevItem", throwIfNotFound: true);
         m_Main_NextItem = m_Main.FindAction("NextItem", throwIfNotFound: true);
+        m_Main_DropItem = m_Main.FindAction("DropItem", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -273,6 +294,7 @@ public partial class @InputMaster: IInputActionCollection2, IDisposable
     private readonly InputAction m_Main_Interact;
     private readonly InputAction m_Main_PrevItem;
     private readonly InputAction m_Main_NextItem;
+    private readonly InputAction m_Main_DropItem;
     public struct MainActions
     {
         private @InputMaster m_Wrapper;
@@ -283,6 +305,7 @@ public partial class @InputMaster: IInputActionCollection2, IDisposable
         public InputAction @Interact => m_Wrapper.m_Main_Interact;
         public InputAction @PrevItem => m_Wrapper.m_Main_PrevItem;
         public InputAction @NextItem => m_Wrapper.m_Main_NextItem;
+        public InputAction @DropItem => m_Wrapper.m_Main_DropItem;
         public InputActionMap Get() { return m_Wrapper.m_Main; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -310,6 +333,9 @@ public partial class @InputMaster: IInputActionCollection2, IDisposable
             @NextItem.started += instance.OnNextItem;
             @NextItem.performed += instance.OnNextItem;
             @NextItem.canceled += instance.OnNextItem;
+            @DropItem.started += instance.OnDropItem;
+            @DropItem.performed += instance.OnDropItem;
+            @DropItem.canceled += instance.OnDropItem;
         }
 
         private void UnregisterCallbacks(IMainActions instance)
@@ -332,6 +358,9 @@ public partial class @InputMaster: IInputActionCollection2, IDisposable
             @NextItem.started -= instance.OnNextItem;
             @NextItem.performed -= instance.OnNextItem;
             @NextItem.canceled -= instance.OnNextItem;
+            @DropItem.started -= instance.OnDropItem;
+            @DropItem.performed -= instance.OnDropItem;
+            @DropItem.canceled -= instance.OnDropItem;
         }
 
         public void RemoveCallbacks(IMainActions instance)
@@ -357,5 +386,6 @@ public partial class @InputMaster: IInputActionCollection2, IDisposable
         void OnInteract(InputAction.CallbackContext context);
         void OnPrevItem(InputAction.CallbackContext context);
         void OnNextItem(InputAction.CallbackContext context);
+        void OnDropItem(InputAction.CallbackContext context);
     }
 }

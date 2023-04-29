@@ -9,6 +9,9 @@ public class PlayerInventory : MonoBehaviour
 	[SerializeField]
 	private int m_heldItemCount = 3;
 
+	[SerializeField]
+	private float m_dropVelocity = 3f;
+
 	/// <summary>
 	/// The set of items the player is holding.
 	/// </summary>
@@ -56,6 +59,27 @@ public class PlayerInventory : MonoBehaviour
 	public void OnNextItem(InputValue value)
 	{
 		m_selectedItem = (m_selectedItem + 1) % m_items.Length;
+	}
+
+	/// <summary>
+	/// Input action for the DropItem action.
+	/// </summary>
+	public void OnDropItem(InputValue value)
+	{
+		CraftingItem dropItem = m_items[m_selectedItem];
+		if (dropItem)
+		{
+			m_items[m_selectedItem] = null;
+			dropItem.transform.SetParent(null, true);
+
+			Rigidbody rigidbody = dropItem.GetComponent<Rigidbody>();
+			if (rigidbody)
+			{
+				rigidbody.isKinematic = false;
+				Vector3 dropVelocity = (transform.forward + Vector3.up).normalized * m_dropVelocity;
+				rigidbody.velocity = dropVelocity;
+			}
+		}
 	}
 
 	public void ReplaceItem(CraftingItem oldItem, CraftingItem newItem)
@@ -118,5 +142,11 @@ public class PlayerInventory : MonoBehaviour
 		item.transform.SetParent(m_itemSlots[slot], false);
 		item.transform.localPosition = Vector3.zero;
 		item.transform.localRotation = Quaternion.identity;
+
+		Rigidbody rigidbody = item.GetComponent<Rigidbody>();
+		if (rigidbody)
+		{
+			rigidbody.isKinematic = true;
+		}
 	}
 }
