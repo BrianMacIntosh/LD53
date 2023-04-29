@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerInventory : MonoBehaviour
 {
@@ -24,10 +25,37 @@ public class PlayerInventory : MonoBehaviour
 	[SerializeField]
 	private Transform[] m_itemSlots;
 
+	[SerializeField]
+	private Transform m_itemTray;
+
 	private void Awake()
 	{
 		m_items = new CraftingItem[m_heldItemCount];
 		Debug.Assert(m_itemSlots.Length == m_heldItemCount);
+	}
+
+	private void Update()
+	{
+		// rotate the item tray to the current selection
+		Quaternion targetRotation = Quaternion.FromToRotation(m_itemSlots[m_selectedItem].transform.localPosition, Vector3.left);
+		//HACK: not timer-based
+		m_itemTray.transform.localRotation = Quaternion.Slerp(m_itemTray.transform.localRotation, targetRotation, 0.1f);
+	}
+
+	/// <summary>
+	/// Input action for the PrevItem action.
+	/// </summary>
+	public void OnPrevItem(InputValue value)
+	{
+		m_selectedItem = (m_selectedItem - 1 + m_items.Length) % m_items.Length;
+	}
+
+	/// <summary>
+	/// Input action for the NextItem action.
+	/// </summary>
+	public void OnNextItem(InputValue value)
+	{
+		m_selectedItem = (m_selectedItem + 1) % m_items.Length;
 	}
 
 	public void ReplaceItem(CraftingItem oldItem, CraftingItem newItem)

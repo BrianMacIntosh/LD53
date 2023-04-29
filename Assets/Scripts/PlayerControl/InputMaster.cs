@@ -62,6 +62,24 @@ public partial class @InputMaster: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""PrevItem"",
+                    ""type"": ""Button"",
+                    ""id"": ""77fe64a2-ea03-4470-a93c-c06be6fb5a70"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""NextItem"",
+                    ""type"": ""Button"",
+                    ""id"": ""4178bcc9-2a28-4d5b-8c6d-9450ded8721a"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -152,6 +170,28 @@ public partial class @InputMaster: IInputActionCollection2, IDisposable
                     ""action"": ""Interact"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""48665cd5-b10c-481e-b7e7-1fa1ca76b985"",
+                    ""path"": ""<Keyboard>/q"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""PrevItem"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""db4d2dfe-a0ce-4d28-986d-cf9cef7c0318"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""NextItem"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -164,6 +204,8 @@ public partial class @InputMaster: IInputActionCollection2, IDisposable
         m_Main_Movement = m_Main.FindAction("Movement", throwIfNotFound: true);
         m_Main_Jump = m_Main.FindAction("Jump", throwIfNotFound: true);
         m_Main_Interact = m_Main.FindAction("Interact", throwIfNotFound: true);
+        m_Main_PrevItem = m_Main.FindAction("PrevItem", throwIfNotFound: true);
+        m_Main_NextItem = m_Main.FindAction("NextItem", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -229,6 +271,8 @@ public partial class @InputMaster: IInputActionCollection2, IDisposable
     private readonly InputAction m_Main_Movement;
     private readonly InputAction m_Main_Jump;
     private readonly InputAction m_Main_Interact;
+    private readonly InputAction m_Main_PrevItem;
+    private readonly InputAction m_Main_NextItem;
     public struct MainActions
     {
         private @InputMaster m_Wrapper;
@@ -237,6 +281,8 @@ public partial class @InputMaster: IInputActionCollection2, IDisposable
         public InputAction @Movement => m_Wrapper.m_Main_Movement;
         public InputAction @Jump => m_Wrapper.m_Main_Jump;
         public InputAction @Interact => m_Wrapper.m_Main_Interact;
+        public InputAction @PrevItem => m_Wrapper.m_Main_PrevItem;
+        public InputAction @NextItem => m_Wrapper.m_Main_NextItem;
         public InputActionMap Get() { return m_Wrapper.m_Main; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -258,6 +304,12 @@ public partial class @InputMaster: IInputActionCollection2, IDisposable
             @Interact.started += instance.OnInteract;
             @Interact.performed += instance.OnInteract;
             @Interact.canceled += instance.OnInteract;
+            @PrevItem.started += instance.OnPrevItem;
+            @PrevItem.performed += instance.OnPrevItem;
+            @PrevItem.canceled += instance.OnPrevItem;
+            @NextItem.started += instance.OnNextItem;
+            @NextItem.performed += instance.OnNextItem;
+            @NextItem.canceled += instance.OnNextItem;
         }
 
         private void UnregisterCallbacks(IMainActions instance)
@@ -274,6 +326,12 @@ public partial class @InputMaster: IInputActionCollection2, IDisposable
             @Interact.started -= instance.OnInteract;
             @Interact.performed -= instance.OnInteract;
             @Interact.canceled -= instance.OnInteract;
+            @PrevItem.started -= instance.OnPrevItem;
+            @PrevItem.performed -= instance.OnPrevItem;
+            @PrevItem.canceled -= instance.OnPrevItem;
+            @NextItem.started -= instance.OnNextItem;
+            @NextItem.performed -= instance.OnNextItem;
+            @NextItem.canceled -= instance.OnNextItem;
         }
 
         public void RemoveCallbacks(IMainActions instance)
@@ -297,5 +355,7 @@ public partial class @InputMaster: IInputActionCollection2, IDisposable
         void OnMovement(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
         void OnInteract(InputAction.CallbackContext context);
+        void OnPrevItem(InputAction.CallbackContext context);
+        void OnNextItem(InputAction.CallbackContext context);
     }
 }
