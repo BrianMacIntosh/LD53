@@ -11,6 +11,10 @@ GameObject:
   - component: {fileID: 8829589165033591293}
   - component: {fileID: 5559371605504171608}
   - component: {fileID: 7692759821961456274}
+  - component: {fileID: 4299442565892534973}
+  - component: {fileID: 3147606043280390389}
+  - component: {fileID: 8897293402075753741}
+  - component: {fileID: 1313540040276869230}
   m_Layer: 0
   m_Name: LoungeChair
   m_TagString: Untagged
@@ -85,3 +89,55 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4299442565892534973
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8197343231722605383}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.67, y: 1.0779926, z: 1.9589726}
+  m_Center: {x: 1.2250004, y: 0.5389963, z: 2.109616}
+--- !u!65 &3147606043280390389
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8197343231722605383}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0424461, y: 2.0790722, z: 0.40791664}
+  m_Center: {x: 1.2470719, y: 2.110466, z: 3.0769715}
+--- !u!65 &8897293402075753741
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8197343231722605383}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.37095386, y: 2.39015, z: 2.0363274}
+  m_Center: {x: 2.2645261, y: 1.195075, z: 2.072565}
+--- !u!65 &1313540040276869230
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8197343231722605383}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.37095386, y: 2.39015, z: 2.0363274}
+  m_Center: {x: 0.18, y: 1.195075, z: 2.072565}

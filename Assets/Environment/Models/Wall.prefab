@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2844234762641709450}
   - component: {fileID: 1213469304542762543}
   - component: {fileID: 3977783131473994469}
+  - component: {fileID: -3599966583666953435}
   m_Layer: 0
   m_Name: Wall
   m_TagString: Untagged
@@ -26,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3184907911036126000}
   m_LocalRotation: {x: -0.50000006, y: -0.5, z: -0.49999997, w: 0.49999997}
-  m_LocalPosition: {x: 0.00000011920929, y: 0.00000023841858, z: 2}
-  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_LocalPosition: {x: 0, y: 0, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -40,7 +41,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3184907911036126000}
-  m_Mesh: {fileID: 8733429697405204941, guid: d8bc7ee9074c8b54783fcf0ebc6af87a, type: 3}
+  m_Mesh: {fileID: 8733429697405204941, guid: fcfd3294412458d4f8336e2ab353ed25, type: 3}
 --- !u!23 &3977783131473994469
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -61,9 +62,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -4867356154671430265, guid: d8bc7ee9074c8b54783fcf0ebc6af87a, type: 3}
-  - {fileID: 8404340687093482930, guid: d8bc7ee9074c8b54783fcf0ebc6af87a, type: 3}
-  - {fileID: -2743037396201982568, guid: d8bc7ee9074c8b54783fcf0ebc6af87a, type: 3}
+  - {fileID: 2100000, guid: 770563638a355744aa33e71cb9feb24f, type: 2}
+  - {fileID: 2100000, guid: cdce1216a9029a44d8738e6a7d377f56, type: 2}
+  - {fileID: 2100000, guid: 17bf264c38257414989d6c62dce16681, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -85,3 +86,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &-3599966583666953435
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3184907911036126000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5000001, y: 3.0000002, z: 5.5}
+  m_Center: {x: 0, y: 0.000000081956394, z: 2.75}
