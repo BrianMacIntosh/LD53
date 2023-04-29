@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 
 /// <summary>
@@ -22,17 +23,37 @@ public class ProgressionManager : MonoBehaviour
 	/// </summary>
 	private bool[] m_eventsTriggered;
 
+	private bool[] m_eventsExecuted;
+
 	private void Awake()
 	{
 		Instance = this;
 
 		m_eventsTriggered = new bool[m_events.Length];
+		m_eventsExecuted = new bool[m_events.Length];
 	}
 
 	private void Update()
 	{
+#if UNITY_EDITOR
+		Array.Resize(ref m_eventsTriggered, m_events.Length);
+		Array.Resize(ref m_eventsExecuted, m_events.Length);
+#endif
+
 		//TODO: event-drive
 		CheckFireEvents();
+	}
+
+	public bool HasEventExecuted(BaseProgressionEvent evt)
+	{
+		for (int index = 0; index < m_events.Length; index++)
+		{
+			if (m_events[index] == evt)
+			{
+				return m_eventsExecuted[index];
+			}
+		}
+		return false;
 	}
 
 	private void CheckFireEvents()
@@ -53,6 +74,7 @@ public class ProgressionManager : MonoBehaviour
 
 		yield return new WaitForSeconds(progEvent.Delay);
 
+		m_eventsExecuted[index] = true;
 		progEvent.Execute();
 	}
 }

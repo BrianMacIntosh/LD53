@@ -142,4 +142,34 @@ MonoBehaviour:
   m_maxPoppedCorns: 3
   m_popTime: 30
   m_bodiesPerCorn: 60
+  m_popVelocity: 3
   m_bodyOrigin: {fileID: 8648555974940272744}
+  m_depositEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  m_depositFailEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  m_cornPopEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: bfee3fc48aa1b164092756e421861383,
+      type: 2}
+  m_cornReadyEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  m_cornReadyOverflowEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  m_withdrawSuccessEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  m_withdrawFailEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
