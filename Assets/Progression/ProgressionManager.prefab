@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5737391268710997873}
   - component: {fileID: 5737391268710997872}
+  - component: {fileID: 5202220177983664643}
   m_Layer: 0
   m_Name: ProgressionManager
   m_TagString: Untagged
@@ -45,6 +46,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_events:
+  - Note: Intro Narration
+    Event: {fileID: 11400000, guid: b9af212859198374690ec15668e102ae, type: 2}
+    Condition: {fileID: 0}
   - Note: Test Popcorn
     Event: {fileID: 11400000, guid: 74c7ca44223301e408a4ec984a587890, type: 2}
     Condition: {fileID: 11400000, guid: d9d24ead1294d344eb640aca4ad06b85, type: 2}
+--- !u!114 &5202220177983664643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5737391268710997875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b618852b3eaaf3469008b5d39c02b21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

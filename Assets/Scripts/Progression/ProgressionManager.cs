@@ -17,7 +17,7 @@ public class ProgressionManager : MonoBehaviour
 
 		public bool CanTrigger()
 		{
-			return Condition.Evaluate();
+			return !Condition || Condition.Evaluate();
 		}
 
 		public void Trigger()
