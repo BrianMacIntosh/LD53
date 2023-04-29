@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 namespace PlayerControl
 {
@@ -10,35 +9,43 @@ namespace PlayerControl
 
         private float xRotation = 0f;
         private float yRotation = 0f;
-        private Vector2 mouseMovement;
+        private Vector2 mousePos;
         private float cameraY;
-        private Vector3 pos;
 
         private void Start()
         {
             cameraY = transform.position.y - player.transform.position.y;
             Cursor.lockState = CursorLockMode.Locked;
+
+            FPSMovement.NewMousePos += NewMousePos;
         }
 
         private void Update()
         {
-            UpdateMousePosition();
+            UpdateCameraPosition();
+            UpgradeCameraRotation();
+        }
 
-            xRotation -= mouseMovement.y * Time.deltaTime * mouseSensitivity;
+        private void UpdateCameraPosition()
+        {
+            var pos = player.transform.position;
+            pos.y += cameraY;
+            transform.position = pos;
+        }
+
+        private void UpgradeCameraRotation()
+        {
+            xRotation -= mousePos.y * Time.deltaTime * mouseSensitivity;
             xRotation = Mathf.Clamp(xRotation, -90, 90);
-            yRotation += mouseMovement.x * Time.deltaTime * mouseSensitivity;
+            yRotation += mousePos.x * Time.deltaTime * mouseSensitivity;
             transform.rotation = Quaternion.Euler(xRotation, yRotation, 0);
-
             player.transform.localRotation = Quaternion.Euler(0, yRotation, 0);
         }
 
-        private void UpdateMousePosition()
+        private void NewMousePos(Vector2 pos)
         {
-            pos = player.transform.position;
-            pos.y += cameraY;
-            transform.position = pos;
-
-            mouseMovement = Mouse.current.delta.ReadValue();
+            Debug.Log(pos);
+            mousePos = pos;
         }
     }
 }

@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -12,9 +13,12 @@ namespace PlayerControl
         private Vector2 moveInput;
         private bool jumpInput;
 
+        public static event Action<Vector2> NewMousePos; 
+
         private void Start()
         {
             controller = GetComponent<CharacterController>();
+            FPSLook look = GetComponent<FPSLook>();
         }
 
         private void Update()
@@ -41,6 +45,12 @@ namespace PlayerControl
         public void OnJump(InputValue value)
         {
             jumpInput = value.Get<float>() > 0.5f;
+        }
+
+        public void OnMousePos(InputValue value)
+        {
+            var pos = value.Get<Vector2>();
+            NewMousePos?.Invoke(pos);
         }
     }
 }
