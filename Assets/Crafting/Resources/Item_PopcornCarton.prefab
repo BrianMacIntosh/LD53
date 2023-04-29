@@ -7,6 +7,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5057105337779408933, guid: 07356d4d52ead1e4c968831fd1f0c487,
+        type: 3}
+      propertyPath: m_tag
+      value: carton-popcorn
+      objectReference: {fileID: 0}
+    - target: {fileID: -5057105337779408933, guid: 07356d4d52ead1e4c968831fd1f0c487,
+        type: 3}
+      propertyPath: m_itemTag
+      value: PopcornCarton
+      objectReference: {fileID: 0}
     - target: {fileID: -2061653707383167130, guid: 07356d4d52ead1e4c968831fd1f0c487,
         type: 3}
       propertyPath: m_Mesh
