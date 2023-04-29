@@ -46,6 +46,30 @@ public class PopcornMachine : CraftingMachine
 
 	private GameObject m_poppedCornPrefab;
 
+	[Header("WWise")]
+
+	[SerializeField]
+	private AK.Wwise.Event m_depositEvent;
+
+	[Tooltip("Event fired when the player attempts to deposit a corn but it didn't fit.")]
+	[SerializeField]
+	private AK.Wwise.Event m_depositFailEvent;
+
+	[SerializeField]
+	private AK.Wwise.Event m_cornPopEvent;
+
+	[SerializeField]
+	private AK.Wwise.Event m_cornReadyEvent;
+
+	[SerializeField]
+	private AK.Wwise.Event m_cornReadyOverflowEvent;
+
+	[SerializeField]
+	private AK.Wwise.Event m_withdrawSuccessEvent;
+
+	[SerializeField]
+	private AK.Wwise.Event m_withdrawFailEvent;
+
 	private void Awake()
 	{
 		m_poppedCornPrefab = Resources.Load<GameObject>("PoppedCorn");
@@ -62,10 +86,12 @@ public class PopcornMachine : CraftingMachine
 				if (m_poppedCorns < m_maxPoppedCorns)
 				{
 					m_poppedCorns++;
+					m_cornReadyEvent.Post(gameObject);
 				}
 				else
 				{
 					//TODO: overflow machine
+					m_cornReadyOverflowEvent.Post(gameObject);
 				}
 
 				// schedule next pop
@@ -108,6 +134,8 @@ public class PopcornMachine : CraftingMachine
 		rigid.velocity = random * m_popVelocity;
 
 		m_bodies.Add(newBody);
+
+		m_cornPopEvent.Post(gameObject);
 	}
 
 	protected override void ItemInteract(CraftingItem sourceItem)
@@ -126,6 +154,12 @@ public class PopcornMachine : CraftingMachine
 				{
 					m_nextPopTime = Time.time + m_popTime;
 				}
+
+				m_depositEvent.Post(gameObject);
+			}
+			else
+			{
+				m_depositFailEvent.Post(gameObject);
 			}
 		}
 		else if (sourceItem.ItemData.name == "ID_EmptyCarton")
@@ -137,6 +171,12 @@ public class PopcornMachine : CraftingMachine
 				CraftingItem filledCarton = Instantiate(filledCartonPrefab);
 				sourceItem.MachineReplace(filledCarton);
 				m_poppedCorns--;
+
+				m_withdrawSuccessEvent.Post(gameObject);
+			}
+			else
+			{
+				m_withdrawFailEvent.Post(gameObject);
 			}
 		}
 	}

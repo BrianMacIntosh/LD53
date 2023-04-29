@@ -13,6 +13,17 @@ public class CraftingItem : Interactable
 		get { return m_itemData; }
 	}
 
+	[Header("WWise")]
+
+	[SerializeField]
+	private AK.Wwise.Event m_pickUpSuccessEvent;
+
+	[SerializeField]
+	private AK.Wwise.Event m_pickUpFailEvent;
+
+	[SerializeField]
+	private AK.Wwise.Event m_dropEvent;
+
 	public override void Interact(PlayerInteractor interactor)
 	{
 		PlayerInventory inventory = interactor.GetComponent<PlayerInventory>();
@@ -25,7 +36,14 @@ public class CraftingItem : Interactable
 		}
 
 		// try to pick up the item
-		inventory.PushItem(this);
+		if (inventory.PushItem(this))
+		{
+			m_pickUpSuccessEvent.Post(gameObject);
+		}
+		else
+		{
+			m_pickUpFailEvent.Post(gameObject);
+		}
 	}
 
 	/// <summary>
@@ -42,6 +60,14 @@ public class CraftingItem : Interactable
 	public void CustomerEat()
 	{
 		Destroy(gameObject);
+	}
+
+	/// <summary>
+	/// The player has tossed this item.
+	/// </summary>
+	public void NotifyDropped()
+	{
+		m_dropEvent.Post(gameObject);
 	}
 
 	/// <summary>

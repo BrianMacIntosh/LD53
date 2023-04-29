@@ -31,6 +31,23 @@ public class PlayerInventory : MonoBehaviour
 	[SerializeField]
 	private Transform m_itemTray;
 
+	[Header("WWise")]
+
+	[SerializeField]
+	private AK.Wwise.Event m_changeToValidItemEvent;
+
+	[SerializeField]
+	private AK.Wwise.Event m_changeToEmptyItemEvent;
+
+	[SerializeField]
+	private AK.Wwise.Event m_pickupAnyItemSuccessEvent;
+
+	[SerializeField]
+	private AK.Wwise.Event m_pickupAnyItemFailEvent;
+
+	[SerializeField]
+	private AK.Wwise.Event m_dropAnyItemEvent;
+
 	private void Awake()
 	{
 		m_items = new CraftingItem[m_heldItemCount];
@@ -51,6 +68,15 @@ public class PlayerInventory : MonoBehaviour
 	public void OnPrevItem(InputValue value)
 	{
 		m_selectedItem = (m_selectedItem - 1 + m_items.Length) % m_items.Length;
+
+		if (m_items[m_selectedItem])
+		{
+			m_changeToValidItemEvent.Post(gameObject);
+		}
+		else
+		{
+			m_changeToEmptyItemEvent.Post(gameObject);
+		}
 	}
 
 	/// <summary>
@@ -59,6 +85,15 @@ public class PlayerInventory : MonoBehaviour
 	public void OnNextItem(InputValue value)
 	{
 		m_selectedItem = (m_selectedItem + 1) % m_items.Length;
+
+		if (m_items[m_selectedItem])
+		{
+			m_changeToValidItemEvent.Post(gameObject);
+		}
+		else
+		{
+			m_changeToEmptyItemEvent.Post(gameObject);
+		}
 	}
 
 	/// <summary>
@@ -79,6 +114,9 @@ public class PlayerInventory : MonoBehaviour
 				Vector3 dropVelocity = (transform.forward + Vector3.up).normalized * m_dropVelocity;
 				rigidbody.velocity = dropVelocity;
 			}
+
+			dropItem.NotifyDropped();
+			m_dropAnyItemEvent.Post(gameObject);
 		}
 	}
 
@@ -90,6 +128,7 @@ public class PlayerInventory : MonoBehaviour
 			{
 				m_items[i] = newItem;
 				AttachItemToSlot(newItem, i);
+				m_pickupAnyItemSuccessEvent.Post(gameObject);
 			}
 		}
 	}
@@ -104,11 +143,13 @@ public class PlayerInventory : MonoBehaviour
 		{
 			m_items[m_selectedItem] = item;
 			AttachItemToSlot(item, m_selectedItem);
+			m_pickupAnyItemSuccessEvent.Post(gameObject);
 			return true;
 		}
 		else
 		{
 			//TODO: picking up items when current slot is not free
+			m_pickupAnyItemFailEvent.Post(gameObject);
 			return false;
 		}
 	}

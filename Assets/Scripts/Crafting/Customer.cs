@@ -8,6 +8,11 @@ public class Customer : Interactable
 
 	private List<Order> m_orderBuffer = new List<Order>();
 
+	[Header("Wwise")]
+
+	[SerializeField]
+	private AK.Wwise.Event m_orderFilledEvent;
+
 	public override void Interact(PlayerInteractor interactor)
 	{
 		// fetch this customer's order(s)
@@ -22,6 +27,7 @@ public class Customer : Interactable
 			{
 				OrderManager.Instance.FillOrder(order.Id);
 				currentItem.CustomerEat();
+				m_orderFilledEvent.Post(gameObject);
 				break;
 			}
 		}
