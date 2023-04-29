@@ -115,9 +115,8 @@ public class PlayerInventory : MonoBehaviour
 
 	private void AttachItemToSlot(CraftingItem item, int slot)
 	{
-		item.transform.SetParent(m_itemSlots[slot]);
+		item.transform.SetParent(m_itemSlots[slot], false);
 		item.transform.localPosition = Vector3.zero;
 		item.transform.localRotation = Quaternion.identity;
-		item.transform.localScale = Vector3.one;
 	}
 }

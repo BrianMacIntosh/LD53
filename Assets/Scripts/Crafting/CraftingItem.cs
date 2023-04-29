@@ -44,10 +44,9 @@ public class CraftingItem : Interactable
 	/// </summary>
 	public void MachineReplace(CraftingItem other)
 	{
-		other.transform.SetParent(transform.parent);
+		other.transform.SetParent(transform.parent, false);
 		other.transform.localPosition = transform.localPosition;
 		other.transform.localRotation = transform.localRotation;
-		other.transform.localScale = transform.localScale;
 
 		PlayerInventory containingInventory = GetComponentInParent<PlayerInventory>();
 		if (containingInventory)

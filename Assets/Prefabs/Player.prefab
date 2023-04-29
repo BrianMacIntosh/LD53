@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2406549622549186751}
   - component: {fileID: 2406549622549186745}
   - component: {fileID: 2406549622549186750}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -121,6 +121,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   jumpForce: 5
+  groundCheckDistance: 0.1
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &2406549622549186745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,7 +198,7 @@ GameObject:
   - component: {fileID: 2406549623446467663}
   - component: {fileID: 2406549623446467656}
   - component: {fileID: 2406549623446467657}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: PlayerBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
