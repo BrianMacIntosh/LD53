@@ -13,6 +13,9 @@ public class CraftingItem : Interactable
 		get { return m_itemData; }
 	}
 
+	public delegate void CraftingItemDelegate(CraftingItem sender);
+	public event CraftingItemDelegate OnCraftingItemPickedUp;
+
 	[Header("WWise")]
 
 	[SerializeField]
@@ -39,6 +42,11 @@ public class CraftingItem : Interactable
 		if (inventory.PushItem(this))
 		{
 			m_pickUpSuccessEvent.Post(gameObject);
+
+			if (OnCraftingItemPickedUp != null)
+			{
+				OnCraftingItemPickedUp(this);
+			}
 		}
 		else
 		{
