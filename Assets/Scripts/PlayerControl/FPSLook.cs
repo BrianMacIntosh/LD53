@@ -20,7 +20,8 @@ namespace PlayerControl
             FPSMovement.NewMousePos += NewMousePos;
         }
 
-        private void Update()
+
+        private void LateUpdate()
         {
             UpdateCameraPosition();
             UpgradeCameraRotation();
