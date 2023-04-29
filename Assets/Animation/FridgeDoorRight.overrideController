@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FridgeDoorRight
+  m_Controller: {fileID: 9100000, guid: 64b6b8e87c9db1c4cb58e1376c6310b4, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 7cea8f76c87f2d2478f7af56837ee333, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 23bd38cc3012490449ac6d46819081d2, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 8339592d4520aa548a5ef9a10c17ecac, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 34532017a21d32945bb77549b4082f30, type: 2}
