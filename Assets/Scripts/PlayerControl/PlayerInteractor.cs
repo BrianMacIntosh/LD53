@@ -32,13 +32,15 @@ public class PlayerInteractor : MonoBehaviour
     /// </summary>
     public void OnInteract(InputValue value)
     {
-        if (value.Get<float>() > 0.5f)
-		{
-            Interactable target = GetInteractTarget();
-            if (target)
-            {
-                target.Interact(this);
-            }
+        Interactable target = GetInteractTarget();
+        if (target)
+        {
+            target.Interact(this);
         }
     }
+
+    public void OnDialogueSkip(InputValue value)
+	{
+        NarrationManager.Instance.Skip();
+	}
 }

@@ -15,6 +15,8 @@ public class NarrationManager : MonoBehaviour
 	public delegate void CaptionChangedDelegate(NarrationManager sender, string caption);
 	public static event CaptionChangedDelegate OnCaptionChanged;
 
+	private Coroutine m_fallbackCoroutine;
+
 	private void Awake()
 	{
 		Instance = this;
@@ -25,6 +27,13 @@ public class NarrationManager : MonoBehaviour
 		Debug.Log("Start narration set '" + narration.name + "'");
 		m_activeSet = narration;
 		m_activeSetIndex = -1;
+		PostNextLine();
+	}
+
+	public void Skip()
+	{
+		//TODO: cancel wwise playback
+		StopCoroutine(m_fallbackCoroutine);
 		PostNextLine();
 	}
 
@@ -79,7 +88,7 @@ public class NarrationManager : MonoBehaviour
 		if (result == 0)
 		{
 			// fallback: no audio line
-			StartCoroutine(FallbackWait());
+			m_fallbackCoroutine = StartCoroutine(FallbackWait());
 		}
 	}
 }
