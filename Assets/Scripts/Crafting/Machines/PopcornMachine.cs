@@ -84,9 +84,9 @@ public class PopcornMachine : CraftingMachine
 		float partialCorn = 0f;
 		if (m_nextPopTime > 0f)
 		{
-			partialCorn = Mathf.Clamp01(1f - (m_nextPopTime - Time.time) / m_popTime);
+			partialCorn = Mathf.Pow(Mathf.Clamp01(1f - (m_nextPopTime - Time.time) / m_popTime), 3f);
 		}
-		int desiredBodies = Mathf.CeilToInt(m_bodiesPerCorn * (m_poppedCorns + partialCorn));
+		int desiredBodies = Mathf.FloorToInt(m_bodiesPerCorn * (m_poppedCorns + partialCorn));
 		while (m_bodies.Count < desiredBodies)
 		{
 			SpawnBody();
