@@ -19,7 +19,8 @@ MonoBehaviour:
       type: 2}
   PlayMode: 0
   Priority: 0
+  Recorded: 1
   Lines:
-  - Caption: 'When people first started coming here again, they started asking for
-      these popped corns. '
+  - Caption: 'When people first started coming here, they were asking for these popped
+      corns. '
   - Caption: 'They just ate. Ate popped corns and stared at the walls. '

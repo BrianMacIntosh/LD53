@@ -17,6 +17,8 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
   PlayMode: 0
+  Priority: 0
+  Recorded: 1
   Lines:
   - Caption: 'Oh well there you go I guess. Another mooch needs their munchies.
 

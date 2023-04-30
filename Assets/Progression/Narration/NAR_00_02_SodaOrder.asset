@@ -19,6 +19,7 @@ MonoBehaviour:
       type: 2}
   PlayMode: 0
   Priority: 0
+  Recorded: 1
   Lines:
   - Caption: Oh, jolly day, an order!
   - Caption: Apparently floating over here is too tiring for some people.

@@ -16,6 +16,10 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
+  PlayMode: 0
+  Priority: 0
   Lines:
-  - Caption: "Can you at least put the popcorn in a bag or box or something? It\u2019s
-      bad enough these disgusting plebians eating it with their hands. [shudder]"
+  - Caption: 'Can you at least put the popcorn in a bag or box or something? '
+  - Caption: "A box, please! It\u2019s bad enough these disgusting plebians are eating
+      it with their hands. (shudder)"
+  - Caption: 'You might want a box for that. '

@@ -19,6 +19,7 @@ MonoBehaviour:
       type: 2}
   PlayMode: 0
   Priority: 0
+  Recorded: 1
   Lines:
   - Caption: "Oh, hello. Welcome to Sir Quacky Quack\u2019s Luxury Theatre for the
       Dead, Dying, and Undead. "

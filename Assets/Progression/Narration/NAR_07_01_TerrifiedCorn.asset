@@ -18,4 +18,5 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 0}
   PlayMode: 0
   Priority: 0
-  Lines: []
+  Lines:
+  - Caption: 

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b580463c563951b459b06ff63109d045, type: 3}
+  m_Name: NAR_X_WrongOrder
+  m_EditorClassIdentifier: 
+  WwiseEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayMode: 2
+  Priority: 2
+  Lines:
+  - Caption: Well you know what they say, everyone makes mistakes. Might as well
+      make them now.
+  - Caption: "Sometimes, we know better what people need, not what they want. But
+      if they won\u2019t accept our generous help, then all we can do it turn away."
+  - Caption: "Oh mark my words, one day you\u2019ll want this concession and there
+      shall be none left!"
+  - Caption: "Oh I\u2019m sorry, why don\u2019t you just get your own snacks? "
+  - Caption: 'Well I never, Not paying for snacks, not getting snacks on your own,
+      not accepting a different order. Pay them no heed! '
+  - Caption: Leave them, Employee. You are absolutely darling the way you are.
+  - Caption: "If I rejected every poster people offered me just because it was slightly
+      wrong, my walls would be bare as\u2026well as they are. Because I did."
+  - Caption: 'Desist this delivery of undesirable delectables!
+
+'

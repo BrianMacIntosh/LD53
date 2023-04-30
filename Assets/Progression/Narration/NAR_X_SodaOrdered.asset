@@ -16,9 +16,10 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
-  PlayMode: 2
+  PlayMode: 0
   Priority: 2
+  Recorded: 1
   Lines:
-  - Caption: Why would humans drink during a movie? Like ghosts I get. But humans
-      have to go to the bathroom and then they miss the movie and it's not like they
-      can just rewind.
+  - Caption: Why would humans drink during a movie?
+  - Caption: Like ghosts I get. But humans have to go to the bathroom and then they
+      miss the movie and it's not like they can just rewind.

@@ -18,5 +18,6 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 0}
   PlayMode: 0
   Priority: 2
+  Recorded: 1
   Lines:
   - Caption: Ah yes. Water with enough sugar to raise the dead.

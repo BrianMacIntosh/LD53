@@ -16,10 +16,10 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
-  PlayMode: 0
+  PlayMode: 2
   Priority: 0
+  Recorded: 1
   Lines:
-  - Caption: 'This is the hot dog machine. Obviously. '
-  - Caption: The newly dead ghostie poked the machine, curious to its mysteries.
-      //spooky noises.
+  - Caption: This is the hot dog machine. Obviously.
+  - Caption: That's why it contains nowhere at all to put a hot dog.
   - Caption: Oh mysterious machine! Reveal your secrets.

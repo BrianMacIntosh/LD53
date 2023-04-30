@@ -17,6 +17,8 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
   PlayMode: 0
+  Priority: 0
+  Recorded: 1
   Lines:
   - Caption: "What, you\u2019re back? "
   - Caption: " You\u2026do know you\u2019re not getting paid for this, right? \r\n"

@@ -16,6 +16,5 @@ MonoBehaviour:
   DefaultCookedState: 0
   CookTime: 15
   Combinations: []
-  AcceptsModifiers: 4
+  AcceptsModifiers: 7
   PickUpEvent: {fileID: 0}
-  WhileOrderedEvent: {fileID: 0}
