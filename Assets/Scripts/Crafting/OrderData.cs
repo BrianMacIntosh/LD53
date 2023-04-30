@@ -10,11 +10,14 @@ public class OrderData : ScriptableObject
 
 	public ItemModifiers Modifiers;
 
+	public ItemCookedState CookedState;
+
 	public string DisplayString;
 
 	public bool AcceptsItem(CraftingItem item)
 	{
 		return item.ItemData == Item
-			&& (item.Modifiers & Modifiers) == Modifiers;
+			&& (item.Modifiers & Modifiers) == Modifiers
+			&& item.CookedState == CookedState;
 	}
 }

@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: ORD_TerrifiedCorn
   m_EditorClassIdentifier: 
   Item: {fileID: 11400000, guid: dab90a0c8f4a7a94793061af9c292de0, type: 2}
-  Modifiers: 4
+  Modifiers: 12
+  CookedState: 0
   DisplayString: Popcorn

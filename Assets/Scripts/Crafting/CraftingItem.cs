@@ -14,7 +14,8 @@ public enum ItemModifiers
 {
 	Ketchup = 1 << 0,
 	Mustard = 1 << 1,
-	Popcorn = 1 << 2
+	Popcorn = 1 << 2,
+	Terrified = 1 << 3,
 }
 
 /// <summary>
