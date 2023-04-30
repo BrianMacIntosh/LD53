@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: ORD_CornDog
   m_EditorClassIdentifier: 
   Item: {fileID: 11400000, guid: e0e009819bf5a524b8f772c32b48dff3, type: 2}
+  Modifiers: 4
   DisplayString: Hot Dog w/ Popcorn

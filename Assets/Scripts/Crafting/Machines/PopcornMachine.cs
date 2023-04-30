@@ -179,6 +179,25 @@ public class PopcornMachine : CraftingMachine
 				m_withdrawFailEvent.Post(gameObject);
 			}
 		}
+		else
+		{
+			// attempt to apply popcorn modifier
+			if (m_poppedCorns > 0)
+			{
+				if ((sourceItem.ItemData.AcceptsModifiers & ItemModifiers.Popcorn) != 0
+					&& (sourceItem.Modifiers & ItemModifiers.Popcorn) == 0)
+				{
+					sourceItem.AddModifier(ItemModifiers.Popcorn);
+					m_poppedCorns--;
+
+					m_withdrawSuccessEvent.Post(gameObject);
+				}
+			}
+			else
+			{
+				m_withdrawFailEvent.Post(gameObject);
+			}
+		}
 	}
 
 	public override void DebugSkip()

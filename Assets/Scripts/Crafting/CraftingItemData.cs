@@ -24,6 +24,8 @@ public class CraftingItemData : ScriptableObject
 
 	public ItemCombination[] Combinations;
 
+	public ItemModifiers AcceptsModifiers;
+
 	public BaseProgressionEvent PickUpEvent;
 
 	/// <summary>

@@ -44,6 +44,24 @@ public class CraftingItem : Interactable
 
 	private ItemModifiers m_modifiers = 0;
 
+	public ItemModifiers Modifiers
+	{
+		get { return m_modifiers; }
+		set
+		{
+			if (m_modifiers != value)
+			{
+				m_modifiers = value;
+				UpdateVisualState();
+			}
+		}
+	}
+
+	public void AddModifier(ItemModifiers mod)
+	{
+		Modifiers = Modifiers | mod;
+	}
+
 	public delegate void CraftingItemDelegate(CraftingItem sender);
 	public event CraftingItemDelegate OnCraftingItemPickedUp;
 
@@ -95,6 +113,9 @@ public class CraftingItem : Interactable
 				CombineEat();
 				return;
 			}
+
+			// attempt to transfer modifiers between the items
+			//TODO:
 		}
 
 		// try to pick up the item
@@ -137,7 +158,11 @@ public class CraftingItem : Interactable
 	{
 		m_cookedState = state;
 
-		// update visuals
+		UpdateVisualState();
+	}
+
+	private void UpdateVisualState()
+	{
 		foreach (ItemVisualStateComponent stateComponent in GetComponentsInChildren<ItemVisualStateComponent>())
 		{
 			stateComponent.UpdateVisualState(this);

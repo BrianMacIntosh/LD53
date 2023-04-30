@@ -8,10 +8,13 @@ public class OrderData : ScriptableObject
 {
 	public CraftingItemData Item;
 
+	public ItemModifiers Modifiers;
+
 	public string DisplayString;
 
 	public bool AcceptsItem(CraftingItem item)
 	{
-		return item.ItemData == Item;
+		return item.ItemData == Item
+			&& (item.Modifiers & Modifiers) == Modifiers;
 	}
 }

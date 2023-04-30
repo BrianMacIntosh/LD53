@@ -12,3 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 557fee967921f8c468404c789ec43ef7, type: 3}
   m_Name: ID_HotDog_Assembled
   m_EditorClassIdentifier: 
+  CookResult: {fileID: 0}
+  DefaultCookedState: 0
+  CookTime: 15
+  Combinations: []
+  AcceptsModifiers: 4
+  PickUpEvent: {fileID: 0}
+  WhileOrderedEvent: {fileID: 0}

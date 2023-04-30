@@ -14,11 +14,15 @@ public class ItemVisualStateComponent : MonoBehaviour
 	[SerializeField]
 	private Material m_burntMaterial;
 
+	[SerializeField]
+	private ItemModifiers m_requireModifiers;
+
 	public void UpdateVisualState(CraftingItem parent)
 	{
+		MeshRenderer renderer = GetComponent<MeshRenderer>();
+
 		if (m_cookedMaterialSlot >= 0)
 		{
-			MeshRenderer renderer = GetComponent<MeshRenderer>();
 			Material[] mats = renderer.sharedMaterials;
 			switch (parent.CookedState)
 			{
@@ -33,6 +37,11 @@ public class ItemVisualStateComponent : MonoBehaviour
 					break;
 			}
 			renderer.sharedMaterials = mats;
+		}
+
+		if (m_requireModifiers != 0)
+		{
+			renderer.enabled = (parent.Modifiers & m_requireModifiers) == m_requireModifiers;
 		}
 	}
 }
