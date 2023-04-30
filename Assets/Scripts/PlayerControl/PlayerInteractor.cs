@@ -15,7 +15,9 @@ public class PlayerInteractor : MonoBehaviour
 
         RaycastHit hit;
         //TODO: raycast against an interact channel?
-        int layerMask = 0x7fffffff & ~(1 << LayerMask.NameToLayer("Player"));
+        int layerMask = 0x7fffffff
+            & ~(1 << LayerMask.NameToLayer("Player"))
+            & ~(1 << LayerMask.NameToLayer("Trigger"));
         if (Physics.Raycast(mainCamera.transform.position, mainCamera.transform.forward, out hit, m_interactRange, layerMask))
 		{
             Interactable interactable = hit.collider.GetComponent<Interactable>();
