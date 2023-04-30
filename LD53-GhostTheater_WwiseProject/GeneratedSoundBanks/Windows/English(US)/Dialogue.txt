@@ -5,6 +5,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	932918847	Voice_3_1			\Default Work Unit\Voice_3_1	
 	2102032462	Sequence2_Voices			\Default Work Unit\Sequence2_Voices	
 
+Effect plug-ins	ID	Name	Type				Notes
+	701863527	Inside_My_Head	Wwise RoomVerb			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	40595667	voice_2_2	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\Voices\English(US)\voice_2_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequence2_Voice\voice_2_2		959772
 	412659066	voice_3_1	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\Voices\English(US)\voice_3_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\voice_3_1		2027040

@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F00DDC0A-6FCA-164C-8269-90DDCB445F85}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{E9D9B0B6-9444-91D2-95D3-1905ADA99517}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -25,7 +25,7 @@
 				<GameParameter Id="240153585" Name="Test_Parameter"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3930136735" Type="User" Language="English(US)" Hash="{8ABF0CDC-504F-1DF4-3248-C1D515E1B89C}">
+		<SoundBank Id="3930136735" Type="User" Language="English(US)" Hash="{486F11C0-76E4-AB6C-4BDD-5900A088EA27}">
 			<ShortName>Dialogue</ShortName>
 			<Path>English(US)/Dialogue.bnk</Path>
 			<Media>
@@ -66,12 +66,22 @@
 					<CachePath>Voices/English(US)/voice_2_1_10C4C929.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="701863527" Name="Inside_My_Head" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
 			<Events>
 				<Event Id="88281251" Name="Sequence1_Voices" DurationType="OneShot" DurationMin="7.170396" DurationMax="9.037292">
 					<MediaRefs>
 						<MediaRef Id="702158308"/>
 						<MediaRef Id="856661052"/>
 					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="701863527"/>
+						</ShareSets>
+					</PluginRefs>
 				</Event>
 				<Event Id="2102032462" Name="Sequence2_Voices" DurationType="OneShot" DurationMin="4.3099375" DurationMax="4.9983125">
 					<MediaRefs>
@@ -79,22 +89,42 @@
 						<MediaRef Id="955443258"/>
 						<MediaRef Id="1000649313"/>
 					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="701863527"/>
+						</ShareSets>
+					</PluginRefs>
 				</Event>
 				<Event Id="513774604" Name="Sequence4_Voices" DurationType="OneShot" DurationMin="2.96175" DurationMax="4.503375">
 					<MediaRefs>
 						<MediaRef Id="604820586"/>
 						<MediaRef Id="838162831"/>
 					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="701863527"/>
+						</ShareSets>
+					</PluginRefs>
 				</Event>
 				<Event Id="932918847" Name="Voice_3_1" DurationType="OneShot" DurationMin="10.557" DurationMax="10.557">
 					<MediaRefs>
 						<MediaRef Id="412659066"/>
 					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="701863527"/>
+						</ShareSets>
+					</PluginRefs>
 				</Event>
 				<Event Id="931933109" Name="Voice_5_1" DurationType="OneShot" DurationMin="5.251125" DurationMax="5.251125">
 					<MediaRefs>
 						<MediaRef Id="617751221"/>
 					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="701863527"/>
+						</ShareSets>
+					</PluginRefs>
 				</Event>
 			</Events>
 		</SoundBank>
@@ -196,5 +226,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AEDCDC7A-81CD-773D-F052-377A511E256E}</FileHash>
+	<FileHash>{107C4FC9-0620-819A-EE05-9A47A7DE736E}</FileHash>
 </SoundBanksInfo>
