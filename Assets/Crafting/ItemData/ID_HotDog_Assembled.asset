@@ -10,5 +10,5 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 557fee967921f8c468404c789ec43ef7, type: 3}
-  m_Name: ID_HotDog_Burnt
+  m_Name: ID_HotDog_Assembled
   m_EditorClassIdentifier: 
