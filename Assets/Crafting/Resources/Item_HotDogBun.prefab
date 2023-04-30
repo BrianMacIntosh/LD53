@@ -7,11 +7,23 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5057105337779408933, guid: 07356d4d52ead1e4c968831fd1f0c487,
+        type: 3}
+      propertyPath: m_itemData
+      value: 
+      objectReference: {fileID: 11400000, guid: d0d1d772a7e93ef42bb6b37dc8f97149,
+        type: 2}
     - target: {fileID: 101935324790074051, guid: 07356d4d52ead1e4c968831fd1f0c487,
         type: 3}
       propertyPath: m_Name
-      value: _BaseCraftingItem
+      value: Item_HotDogBun
       objectReference: {fileID: 0}
+    - target: {fileID: 3926304666522619026, guid: 07356d4d52ead1e4c968831fd1f0c487,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 4310586713465477566, guid: a3c2b42de4a270b4296e062b0c9aa3af,
+        type: 3}
     - target: {fileID: 7578939992139013115, guid: 07356d4d52ead1e4c968831fd1f0c487,
         type: 3}
       propertyPath: m_RootOrder
@@ -67,5 +79,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9007689797672916000, guid: 07356d4d52ead1e4c968831fd1f0c487,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -5867953634609108417, guid: a3c2b42de4a270b4296e062b0c9aa3af,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07356d4d52ead1e4c968831fd1f0c487, type: 3}
