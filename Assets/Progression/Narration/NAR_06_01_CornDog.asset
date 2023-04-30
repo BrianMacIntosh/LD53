@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b580463c563951b459b06ff63109d045, type: 3}
-  m_Name: NAR_PopcornMachine
+  m_Name: NAR_06_01_CornDog
   m_EditorClassIdentifier: 
   WwiseEvent:
     idInternal: 0
@@ -19,7 +19,6 @@ MonoBehaviour:
   PlayMode: 0
   Priority: 0
   Lines:
-  - Caption: 'This is the hot dog machine. Obviously. '
-  - Caption: The newly dead ghostie poked the machine, curious to its mysteries.
-      //spooky noises.
-  - Caption: Oh mysterious machine! Reveal your secrets.
+  - Caption: Well, we've got a bit of a weird one here.
+  - Caption: You're our number one employee, though, so I'm sure you can figure it
+      out!

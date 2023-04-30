@@ -44,7 +44,7 @@ public class NarrationSetData : ScriptableObject
 
 	private void OnEnable()
 	{
-		m_linesPlayed = new bool[Lines.Length];
+		m_linesPlayed = new bool[Lines != null ? Lines.Length : 0];
 	}
 
 	public bool HasLinePlayed(int index)
