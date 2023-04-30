@@ -32,6 +32,8 @@ public class NarrationSetData : ScriptableObject
 
 	public NarrationSetPriority Priority;
 
+	public bool Recorded;
+
 	public NarrationLine[] Lines;
 
 	//HACK: storing data on this scriptable object, ick

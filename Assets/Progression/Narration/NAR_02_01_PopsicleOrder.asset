@@ -17,6 +17,8 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
   PlayMode: 0
+  Priority: 0
+  Recorded: 1
   Lines:
   - Caption: 'Apparently humans will pay for pieces of flavored ice on sticks. '
   - Caption: "Ghosts don\u2019t pay for them, but they still like them. "

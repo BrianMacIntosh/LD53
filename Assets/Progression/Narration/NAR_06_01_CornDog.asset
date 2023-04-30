@@ -18,6 +18,7 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 0}
   PlayMode: 0
   Priority: 0
+  Recorded: 1
   Lines:
   - Caption: Well, we've got a bit of a weird one here.
   - Caption: You're our number one employee, though, so I'm sure you can figure it
