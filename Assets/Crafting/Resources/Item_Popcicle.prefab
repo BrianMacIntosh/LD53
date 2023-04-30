@@ -16,7 +16,7 @@ PrefabInstance:
     - target: {fileID: 101935324790074051, guid: 07356d4d52ead1e4c968831fd1f0c487,
         type: 3}
       propertyPath: m_Name
-      value: _BaseCraftingItem Variant
+      value: Item_Popcicle
       objectReference: {fileID: 0}
     - target: {fileID: 3926304666522619026, guid: 07356d4d52ead1e4c968831fd1f0c487,
         type: 3}
@@ -104,3 +104,22 @@ PrefabInstance:
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07356d4d52ead1e4c968831fd1f0c487, type: 3}
+--- !u!1 &1766551046208548027 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 101935324790074051, guid: 07356d4d52ead1e4c968831fd1f0c487,
+    type: 3}
+  m_PrefabInstance: {fileID: 1868476466802968184}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1105504131148372850
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766551046208548027}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.049999997, y: 0.48999998, z: 0.17999998}
+  m_Center: {x: 0, y: 0.24499999, z: 0}

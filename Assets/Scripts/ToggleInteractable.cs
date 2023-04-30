@@ -6,6 +6,11 @@ public class ToggleInteractable : Interactable
 
 	private bool m_toggleState = false;
 
+	public bool ToggleState
+	{
+		get { return m_toggleState; }
+	}
+
 	private void Awake()
 	{
 		m_animator = GetComponent<Animator>();
