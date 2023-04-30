@@ -177,6 +177,9 @@
 					</TransitionList>
 					<Playlist>
 						<MusicPlaylistItem Name="" ID="{46BAB226-EA8A-45AD-A5F2-EA355C6DE99A}" ShortID="406112189">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
 							<ChildrenList>
 								<MusicPlaylistItem Name="" ID="{A110623A-5F0B-4421-84E7-2875A218A82E}" ShortID="675795314">
 									<PropertyList>

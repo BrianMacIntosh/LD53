@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="63796330" Type="User" Language="SFX" Hash="{CC45A5C2-4F6E-2D1D-C980-CB8957F6975A}">
+		<SoundBank Id="63796330" Type="User" Language="SFX" Hash="{30D8C6AB-B392-F7EE-8538-7200D1E872DD}">
 			<ShortName>Main_Music</ShortName>
 			<Path>Main_Music.bnk</Path>
 			<Media>
@@ -22,6 +22,23 @@
 				<Event Id="3991942870" Name="Music" DurationType="OneShot" DurationMin="255.98053" DurationMax="255.98053">
 					<MediaRefs>
 						<MediaRef Id="231788945"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1165005940" Type="User" Language="SFX" Hash="{E4465F0D-747F-54CF-4A28-54743DCB6DAD}">
+			<ShortName>Drop_Item</ShortName>
+			<Path>Drop_Item.bnk</Path>
+			<Media>
+				<File Id="520517200" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Drop_Item.wav</ShortName>
+					<CachePath>SFX/Drop_Item_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1165005940" Name="Drop_Item" DurationType="OneShot" DurationMin="1.3793873" DurationMax="1.5936788">
+					<MediaRefs>
+						<MediaRef Id="520517200"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -57,5 +74,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CD4BD3DE-4EFE-0455-CFF3-E7A896F15AAA}</FileHash>
+	<FileHash>{582410A9-8CDF-DAEB-4D0B-9F35EFA55507}</FileHash>
 </SoundBanksInfo>

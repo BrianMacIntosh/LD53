@@ -33,9 +33,6 @@ namespace RoomShifting
             transform.rotation = roomLocation.rotation;
 
             // Enable and Disable Necessary Objects
-            enableObjects.ForEach(x => x.gameObject.SetActive(true));
-            disableObjects.ForEach(x => x.gameObject.SetActive(false));
-
             for (int i = 0; i < Wrapper.Count; i++)
             {
                 if (i == roomIndex)
@@ -44,6 +41,9 @@ namespace RoomShifting
                 Wrapper[i].enableObjects.ForEach(x => x.gameObject.SetActive(false));
                 Wrapper[i].disableObjects.ForEach(x => x.gameObject.SetActive(true));
             }
+
+            enableObjects.ForEach(x => x.gameObject.SetActive(true));
+            disableObjects.ForEach(x => x.gameObject.SetActive(false));
         }
 
         private void Start()
