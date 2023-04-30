@@ -18,8 +18,9 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 0}
   PlayMode: 0
   Priority: 0
+  Recorded: 1
   Lines:
-  - Caption: "I might tease, but you know the person\u2013sorry, ghost\u2013who last
+  - Caption: "I tease, but you know, the person \u2013 err, ghost \u2013 who last
       had this job wasn\u2019t nearly so competent. "
-  - Caption: "Not that you\u2019re competent. You\u2019re\u2026mediocre at best. "
-  - Caption: "It's not so terrible that you\u2019re here. "
+  - Caption: "Not that you\u2019re competent. You\u2019re mediocre at best. "
+  - Caption: It's more a reflection on them than you.
