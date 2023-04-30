@@ -556,11 +556,13 @@ MonoBehaviour:
   m_toggleOnOpenEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 51a617234f53aea418bfb426e9efc8ff,
+      type: 2}
   m_toggleOffClosedEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1747b6e0ec95cd44a9f581ed5d16c2e4,
+      type: 2}
 --- !u!114 &2033541478649027849
 MonoBehaviour:
   m_ObjectHideFlags: 0

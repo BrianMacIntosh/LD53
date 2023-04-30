@@ -392,6 +392,159 @@
 						<ActiveSource Name="voice_5_1" ID="{6B429AE7-5372-47FD-BA5F-FB776166051B}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Deposit_Corn" ID="{236376EF-F432-4D92-A21E-680508EBC34C}" ShortID="1049452936">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80B8C6FB-FAD1-422B-A20C-0B74A41AB906}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F376297D-AB07-4958-BBDC-FB26A5AD928C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Deposit_Corn" ID="{EF66BE0A-252C-4B27-BA12-9A227D5FC1DA}">
+							<Language>SFX</Language>
+							<AudioFile>Deposit_Corn.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="458379797"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Deposit_Corn" ID="{EF66BE0A-252C-4B27-BA12-9A227D5FC1DA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Deposit_Corn_Failed" ID="{0205477F-AB67-45C0-BD70-F021707C68A9}" ShortID="301887745">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80B8C6FB-FAD1-422B-A20C-0B74A41AB906}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F376297D-AB07-4958-BBDC-FB26A5AD928C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Deposit_Corn_Failed" ID="{250E430D-0F9E-490C-999A-1F91950DC111}">
+							<Language>SFX</Language>
+							<AudioFile>Deposit_Corn_Failed.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="10362093"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Deposit_Corn_Failed" ID="{250E430D-0F9E-490C-999A-1F91950DC111}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Stove_On" ID="{20604B16-67D8-44C8-BDA3-8BC37F0F8356}" ShortID="611370697">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80B8C6FB-FAD1-422B-A20C-0B74A41AB906}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F376297D-AB07-4958-BBDC-FB26A5AD928C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Stove_On" ID="{A0F05ABB-A30C-458C-91A4-227B2E5F6655}">
+							<Language>SFX</Language>
+							<AudioFile>Stove_On.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="615389882"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Stove_On" ID="{A0F05ABB-A30C-458C-91A4-227B2E5F6655}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Stove_Off" ID="{18773528-6FB2-4EF7-9241-FD2E2CA2E751}" ShortID="102347262">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80B8C6FB-FAD1-422B-A20C-0B74A41AB906}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F376297D-AB07-4958-BBDC-FB26A5AD928C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Stove_Off" ID="{631DFC54-4628-4002-91B8-1AA23FF332B5}">
+							<Language>SFX</Language>
+							<AudioFile>Stove_Off.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="799261458"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Stove_Off" ID="{631DFC54-4628-4002-91B8-1AA23FF332B5}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Open_Fridge" ID="{065CCF30-0D48-4F79-9FB3-E8EE34B207DE}" ShortID="60255790">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80B8C6FB-FAD1-422B-A20C-0B74A41AB906}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F376297D-AB07-4958-BBDC-FB26A5AD928C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Open_Fridge" ID="{1C88D0ED-CC83-4389-9D9A-E4D3C2B8CCFC}">
+							<Language>SFX</Language>
+							<AudioFile>Open_Fridge.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="254986937"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Open_Fridge" ID="{1C88D0ED-CC83-4389-9D9A-E4D3C2B8CCFC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Close_Fridge" ID="{260D5463-A981-439D-821C-474A43044DDF}" ShortID="228745058">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80B8C6FB-FAD1-422B-A20C-0B74A41AB906}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F376297D-AB07-4958-BBDC-FB26A5AD928C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Close_Fridge" ID="{FF5FE5A0-36A3-4F14-90E1-48BA6991DBA9}">
+							<Language>SFX</Language>
+							<AudioFile>Close_Fridge.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="609448200"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Close_Fridge" ID="{FF5FE5A0-36A3-4F14-90E1-48BA6991DBA9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

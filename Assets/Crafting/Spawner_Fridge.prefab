@@ -474,11 +474,13 @@ MonoBehaviour:
   m_toggleOnOpenEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 617187ed66d0e644490e3a8b24df9b14,
+      type: 2}
   m_toggleOffClosedEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 29534133d4b11e74184e6a7cdba4f67b,
+      type: 2}
 --- !u!4 &2440704982624474928 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6fa8c9cbfa84fce4aaae0689a8fda122,
@@ -579,8 +581,10 @@ MonoBehaviour:
   m_toggleOnOpenEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 617187ed66d0e644490e3a8b24df9b14,
+      type: 2}
   m_toggleOffClosedEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 29534133d4b11e74184e6a7cdba4f67b,
+      type: 2}

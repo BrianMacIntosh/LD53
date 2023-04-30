@@ -147,11 +147,13 @@ MonoBehaviour:
   m_depositEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 38a04f26e3da6cb4990819b87dc6a733,
+      type: 2}
   m_depositFailEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 4549dbef29eaae34b8de9d663219c8d0,
+      type: 2}
   m_cornPopEvent:
     idInternal: 0
     valueGuidInternal: 

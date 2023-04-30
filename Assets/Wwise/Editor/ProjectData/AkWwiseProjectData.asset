@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 86cbe3bee8f5bd4b93a9a7458f1813c0
     GuidInternal: 
-    m_lastTime: -8585187157190134982
+    m_lastTime: -8585187120732091850
     List:
     - name: Dialogue
       guid: 4c332a67021f484fb4823dad1abcf7a3
@@ -122,8 +122,59 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 9c97b72c09ae8745b1a025dae613e011
     GuidInternal: 
-    m_lastTime: -8585187169451987657
+    m_lastTime: -8585187120731936829
     List:
+    - name: Close_Fridge
+      guid: 1a90a0777eea5545be9a9f78f842c70f
+      id: 4149631081
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9c97b72c09ae8745b1a025dae613e011
+      - ElementName: Close_Fridge
+        ObjectType: 3
+        guid: 1a90a0777eea5545be9a9f78f842c70f
+      Path: Events\Default Work Unit\Close_Fridge
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Deposit_Corn
+      guid: d3f4f3b0a36302459189541a9d28b1b2
+      id: 3682162402
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9c97b72c09ae8745b1a025dae613e011
+      - ElementName: Deposit_Corn
+        ObjectType: 3
+        guid: d3f4f3b0a36302459189541a9d28b1b2
+      Path: Events\Default Work Unit\Deposit_Corn
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Deposit_Corn_Failed
+      guid: 739ca0557c327448a70a6525777ff6fc
+      id: 435981810
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9c97b72c09ae8745b1a025dae613e011
+      - ElementName: Deposit_Corn_Failed
+        ObjectType: 3
+        guid: 739ca0557c327448a70a6525777ff6fc
+      Path: Events\Default Work Unit\Deposit_Corn_Failed
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Drop_Item
       guid: d5c0d1b949d2354d8dc3e6668e6c38f4
       id: 1165005940
@@ -138,6 +189,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: d5c0d1b949d2354d8dc3e6668e6c38f4
       Path: Events\Default Work Unit\Drop_Item
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Open_Fridge
+      guid: d5f85df8ceb9c846973b4626a3831bd6
+      id: 1027365271
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9c97b72c09ae8745b1a025dae613e011
+      - ElementName: Open_Fridge
+        ObjectType: 3
+        guid: d5f85df8ceb9c846973b4626a3831bd6
+      Path: Events\Default Work Unit\Open_Fridge
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -206,6 +274,40 @@ MonoBehaviour:
         ObjectType: 3
         guid: c839661873c30544a5d7580b6b9ce619
       Path: Events\Default Work Unit\Sequence4_Voices
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stove_Off
+      guid: 7728822abca5914fb0201d1d302b75c1
+      id: 1902865914
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9c97b72c09ae8745b1a025dae613e011
+      - ElementName: Stove_Off
+        ObjectType: 3
+        guid: 7728822abca5914fb0201d1d302b75c1
+      Path: Events\Default Work Unit\Stove_Off
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stove_On
+      guid: 217550a8c2ef6240b9e64153add5acb3
+      id: 1278791036
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9c97b72c09ae8745b1a025dae613e011
+      - ElementName: Stove_On
+        ObjectType: 3
+        guid: 217550a8c2ef6240b9e64153add5acb3
+      Path: Events\Default Work Unit\Stove_On
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1

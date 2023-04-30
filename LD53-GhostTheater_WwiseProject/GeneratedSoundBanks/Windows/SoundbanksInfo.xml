@@ -115,23 +115,67 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="4275143406" Type="User" Language="SFX" Hash="{49CBDBE3-5469-3CD0-8C00-5B77A8E92D96}">
+		<SoundBank Id="4275143406" Type="User" Language="SFX" Hash="{2AD5DF60-9945-2477-5109-AA8D74497772}">
 			<ShortName>Game_Sounds</ShortName>
 			<Path>Game_Sounds.bnk</Path>
 			<Media>
+				<File Id="10362093" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Deposit_Corn_Failed.wav</ShortName>
+					<CachePath>SFX/Deposit_Corn_Failed_10C4C929.wem</CachePath>
+				</File>
+				<File Id="254986937" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Open_Fridge.wav</ShortName>
+					<CachePath>SFX/Open_Fridge_10C4C929.wem</CachePath>
+				</File>
+				<File Id="458379797" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Deposit_Corn.wav</ShortName>
+					<CachePath>SFX/Deposit_Corn_10C4C929.wem</CachePath>
+				</File>
 				<File Id="520517200" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Drop_Item.wav</ShortName>
 					<CachePath>SFX/Drop_Item_10C4C929.wem</CachePath>
+				</File>
+				<File Id="609448200" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Close_Fridge.wav</ShortName>
+					<CachePath>SFX/Close_Fridge_10C4C929.wem</CachePath>
+				</File>
+				<File Id="615389882" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stove_On.wav</ShortName>
+					<CachePath>SFX/Stove_On_10C4C929.wem</CachePath>
 				</File>
 				<File Id="681923240" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>room_random.wav</ShortName>
 					<CachePath>SFX/room_random_109F2CD6.wem</CachePath>
 				</File>
+				<File Id="799261458" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Stove_Off.wav</ShortName>
+					<CachePath>SFX/Stove_Off_10C4C929.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
+				<Event Id="4149631081" Name="Close_Fridge" DurationType="OneShot" DurationMin="2.1236668" DurationMax="2.1236668">
+					<MediaRefs>
+						<MediaRef Id="609448200"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3682162402" Name="Deposit_Corn" DurationType="OneShot" DurationMin="0.8099375" DurationMax="0.8099375">
+					<MediaRefs>
+						<MediaRef Id="458379797"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="435981810" Name="Deposit_Corn_Failed" DurationType="OneShot" DurationMin="0.76445836" DurationMax="0.76445836">
+					<MediaRefs>
+						<MediaRef Id="10362093"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1165005940" Name="Drop_Item" DurationType="OneShot" DurationMin="1.3793873" DurationMax="1.5936788">
 					<MediaRefs>
 						<MediaRef Id="520517200"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1027365271" Name="Open_Fridge" DurationType="OneShot" DurationMin="2" DurationMax="2">
+					<MediaRefs>
+						<MediaRef Id="254986937"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2482000886" Name="Room_Random" DurationType="OneShot" DurationMin="3.8304133" DurationMax="4.177095">
@@ -139,8 +183,18 @@
 						<MediaRef Id="681923240"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1902865914" Name="Stove_Off" DurationType="OneShot" DurationMin="1.4895" DurationMax="1.4895">
+					<MediaRefs>
+						<MediaRef Id="799261458"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1278791036" Name="Stove_On" DurationType="OneShot" DurationMin="3.008" DurationMax="3.008">
+					<MediaRefs>
+						<MediaRef Id="615389882"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{FB8188C3-7867-1DEF-27BB-67C203D475CE}</FileHash>
+	<FileHash>{71ACC72C-19B7-E524-3725-5824882FCE7B}</FileHash>
 </SoundBanksInfo>

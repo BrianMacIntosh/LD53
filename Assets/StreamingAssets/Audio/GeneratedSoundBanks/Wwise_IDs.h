@@ -13,12 +13,18 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID CLOSE_FRIDGE = 4149631081U;
+        static const AkUniqueID DEPOSIT_CORN = 3682162402U;
+        static const AkUniqueID DEPOSIT_CORN_FAILED = 435981810U;
         static const AkUniqueID DROP_ITEM = 1165005940U;
         static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID OPEN_FRIDGE = 1027365271U;
         static const AkUniqueID ROOM_RANDOM = 2482000886U;
         static const AkUniqueID SEQUENCE1_VOICES = 88281251U;
         static const AkUniqueID SEQUENCE2_VOICES = 2102032462U;
         static const AkUniqueID SEQUENCE4_VOICES = 513774604U;
+        static const AkUniqueID STOVE_OFF = 1902865914U;
+        static const AkUniqueID STOVE_ON = 1278791036U;
         static const AkUniqueID VOICE_3_1 = 932918847U;
         static const AkUniqueID VOICE_5_1 = 931933109U;
     } // namespace EVENTS

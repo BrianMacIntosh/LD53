@@ -80,6 +80,72 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Deposit_Corn" ID="{B0F3F4D3-63A3-4502-9189-541A9D28B1B2}">
+					<ChildrenList>
+						<Action Name="" ID="{4FC04D4F-CF0B-4A8E-A2CF-2B845E1B39AD}" ShortID="211582021">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Deposit_Corn" ID="{236376EF-F432-4D92-A21E-680508EBC34C}" WorkUnitID="{AFA54749-B2B2-492E-A0D0-6C99A3CA1D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Deposit_Corn_Failed" ID="{55A09C73-327C-4874-A70A-6525777FF6FC}">
+					<ChildrenList>
+						<Action Name="" ID="{D1E05868-04E9-452E-A7C2-4B491D7A9415}" ShortID="788729324">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Deposit_Corn_Failed" ID="{0205477F-AB67-45C0-BD70-F021707C68A9}" WorkUnitID="{AFA54749-B2B2-492E-A0D0-6C99A3CA1D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stove_On" ID="{A8507521-EFC2-4062-B9E6-4153ADD5ACB3}">
+					<ChildrenList>
+						<Action Name="" ID="{540FA193-DD17-4BA5-9A87-7A199054E0A6}" ShortID="265187059">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stove_On" ID="{20604B16-67D8-44C8-BDA3-8BC37F0F8356}" WorkUnitID="{AFA54749-B2B2-492E-A0D0-6C99A3CA1D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stove_Off" ID="{2A822877-A5BC-4F91-B020-1D1D302B75C1}">
+					<ChildrenList>
+						<Action Name="" ID="{E01DB41D-BEEF-420B-A7D6-D62AA516D8A3}" ShortID="920823872">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stove_Off" ID="{18773528-6FB2-4EF7-9241-FD2E2CA2E751}" WorkUnitID="{AFA54749-B2B2-492E-A0D0-6C99A3CA1D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Open_Fridge" ID="{F85DF8D5-B9CE-46C8-973B-4626A3831BD6}">
+					<ChildrenList>
+						<Action Name="" ID="{57B3B53D-033E-4B88-9D98-361D6A00001A}" ShortID="885035566">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Open_Fridge" ID="{065CCF30-0D48-4F79-9FB3-E8EE34B207DE}" WorkUnitID="{AFA54749-B2B2-492E-A0D0-6C99A3CA1D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Close_Fridge" ID="{77A0901A-EA7E-4555-BE9A-9F78F842C70F}">
+					<ChildrenList>
+						<Action Name="" ID="{1F1CF22A-C79F-49CF-AC74-52B0DB27A097}" ShortID="431631461">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Close_Fridge" ID="{260D5463-A981-439D-821C-474A43044DDF}" WorkUnitID="{AFA54749-B2B2-492E-A0D0-6C99A3CA1D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

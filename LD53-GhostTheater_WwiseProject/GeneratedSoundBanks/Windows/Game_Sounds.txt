@@ -1,8 +1,20 @@
 Event	ID	Name			Wwise Object Path	Notes
+	435981810	Deposit_Corn_Failed			\Default Work Unit\Deposit_Corn_Failed	
+	1027365271	Open_Fridge			\Default Work Unit\Open_Fridge	
 	1165005940	Drop_Item			\Default Work Unit\Drop_Item	
+	1278791036	Stove_On			\Default Work Unit\Stove_On	
+	1902865914	Stove_Off			\Default Work Unit\Stove_Off	
 	2482000886	Room_Random			\Default Work Unit\Room_Random	
+	3682162402	Deposit_Corn			\Default Work Unit\Deposit_Corn	
+	4149631081	Close_Fridge			\Default Work Unit\Close_Fridge	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	10362093	Deposit_Corn_Failed	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\SFX\Deposit_Corn_Failed_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Deposit_Corn_Failed		146872
+	254986937	Open_Fridge	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\SFX\Open_Fridge_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Open_Fridge		384096
+	458379797	Deposit_Corn	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\SFX\Deposit_Corn_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Deposit_Corn		155604
 	520517200	Drop Item	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\SFX\Drop_Item_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drop Item		284768
+	609448200	Close_Fridge	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\SFX\Close_Fridge_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Close_Fridge		407840
+	615389882	Stove_On	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\SFX\Stove_On_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stove_On		577632
 	681923240	Room_Random	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\SFX\room_random_109F2CD6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Room_Random		768096
+	799261458	Stove_Off	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\SFX\Stove_Off_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stove_Off		286080
 
