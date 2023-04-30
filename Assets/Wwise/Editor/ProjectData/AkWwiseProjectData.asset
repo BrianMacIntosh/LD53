@@ -66,8 +66,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 86cbe3bee8f5bd4b93a9a7458f1813c0
     GuidInternal: 
-    m_lastTime: -8585187973789197006
-    List: []
+    m_lastTime: -8585187906980481327
+    List:
+    - name: Main_Music
+      guid: 31dad41685a2e946a9a68130f5c75081
+      id: 63796330
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 86cbe3bee8f5bd4b93a9a7458f1813c0
+      - ElementName: Main_Music
+        ObjectType: 7
+        guid: 31dad41685a2e946a9a68130f5c75081
+      Path: SoundBanks\Default Work Unit\Main_Music
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -80,8 +94,44 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 9c97b72c09ae8745b1a025dae613e011
     GuidInternal: 
-    m_lastTime: -8585187973789632081
+    m_lastTime: -8585187908892805493
     List: []
+  - PhysicalPath: Events\Music.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 9c97b72c09ae8745b1a025dae613e011
+    - ElementName: Music
+      ObjectType: 12
+      guid: 2e88fc6044ca8f4589a53c1e4ea4e79b
+    ParentPath: Events\Default Work Unit\Music
+    guid: 2e88fc6044ca8f4589a53c1e4ea4e79b
+    GuidInternal: 
+    m_lastTime: -8585187908892620460
+    List:
+    - name: Music
+      guid: 87db08c42b86784d931f18996b033b8d
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9c97b72c09ae8745b1a025dae613e011
+      - ElementName: Music
+        ObjectType: 12
+        guid: 2e88fc6044ca8f4589a53c1e4ea4e79b
+      - ElementName: Music
+        ObjectType: 3
+        guid: 87db08c42b86784d931f18996b033b8d
+      Path: Events\Default Work Unit\Music\Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
