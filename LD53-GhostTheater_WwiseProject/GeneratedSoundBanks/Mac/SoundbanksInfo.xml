@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="63796330" Type="User" Language="SFX" Hash="{3DEBE6E0-C504-9961-A872-8D791A4E3B52}">
+		<SoundBank Id="63796330" Type="User" Language="SFX" Hash="{CC45A5C2-4F6E-2D1D-C980-CB8957F6975A}">
 			<ShortName>Main_Music</ShortName>
 			<Path>Main_Music.bnk</Path>
 			<Media>
@@ -19,7 +19,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3991942870" Name="Music" DurationType="OneShot" DurationMin="259.35483" DurationMax="259.35483">
+				<Event Id="3991942870" Name="Music" DurationType="OneShot" DurationMin="255.98053" DurationMax="255.98053">
 					<MediaRefs>
 						<MediaRef Id="231788945"/>
 					</MediaRefs>
@@ -39,6 +39,23 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
+		<SoundBank Id="2482000886" Type="User" Language="SFX" Hash="{EBBB5BE4-EE1B-8C2C-137E-AEBB97FAB1B8}">
+			<ShortName>Room_Random</ShortName>
+			<Path>Room_Random.bnk</Path>
+			<Media>
+				<File Id="681923240" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>room_random.wav</ShortName>
+					<CachePath>SFX/room_random_A42E65CA.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2482000886" Name="Room_Random" DurationType="OneShot" DurationMin="3.8304133" DurationMax="4.177095">
+					<MediaRefs>
+						<MediaRef Id="681923240"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8DB6EE98-242E-D864-4312-2547BE32E820}</FileHash>
+	<FileHash>{CD4BD3DE-4EFE-0455-CFF3-E7A896F15AAA}</FileHash>
 </SoundBanksInfo>

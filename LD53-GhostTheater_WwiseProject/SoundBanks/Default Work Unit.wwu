@@ -10,6 +10,14 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Room_Random" ID="{91CCC3D6-4752-4963-91DD-0D8F9C227EA6}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Room_Random" ID="{DBD7CCE6-3FE6-448D-9D42-BC0C7B8D4F0A}" WorkUnitID="{AFA54749-B2B2-492E-A0D0-6C99A3CA1D89}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Room_Random" ID="{76AC827E-E872-4C19-823A-EB3D8EF6C825}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
