@@ -37,11 +37,15 @@ public class Stove : ToggleInteractable
 		for (int index = m_items.Count - 1; index >= 0; --index)
 		{
 			StoveItem item = m_items[index];
+			if (item.Item == null)
+			{
+				m_items.RemoveAt(index);
+				continue;
+			}
 			item.CookCountdown -= Time.deltaTime;
 			if (item.CookCountdown <= 0f)
 			{
 				item.Item.Cook();
-				m_items.RemoveAt(index);
 			}
 			else
 			{
@@ -92,7 +96,6 @@ public class Stove : ToggleInteractable
 		{
 			StoveItem item = m_items[index];
 			item.Item.Cook();
-			m_items.RemoveAt(index);
 		}
 	}
 }
