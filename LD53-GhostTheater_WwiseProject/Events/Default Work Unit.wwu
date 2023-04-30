@@ -15,6 +15,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Drop_Item" ID="{B9D1C0D5-D249-4D35-8DC3-E6668E6C38F4}">
+					<ChildrenList>
+						<Action Name="" ID="{A15615EF-17A6-4506-A878-3E7F63212C06}" ShortID="691889139">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Drop_Item" ID="{09DE7EFF-C421-41FE-8270-0266E848AE93}" WorkUnitID="{AFA54749-B2B2-492E-A0D0-6C99A3CA1D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -18,6 +18,13 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Drop_Item" ID="{DA80EFDE-0311-4664-B4F2-FA7ACE91F54D}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Drop_Item" ID="{B9D1C0D5-D249-4D35-8DC3-E6668E6C38F4}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
