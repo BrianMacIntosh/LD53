@@ -88,4 +88,14 @@ public class Stove : ToggleInteractable
 			}
 		}
 	}
+
+	public override void DebugSkip()
+	{
+		for (int index = m_items.Count - 1; index >= 0; --index)
+		{
+			StoveItem item = m_items[index];
+			item.Item.MachineReplace(Instantiate(item.ResultPrefab));
+			m_items.RemoveAt(index);
+		}
+	}
 }

@@ -42,5 +42,11 @@ public class PlayerInteractor : MonoBehaviour
     public void OnDialogueSkip(InputValue value)
 	{
         NarrationManager.Instance.Skip();
-	}
+
+        Interactable target = GetInteractTarget();
+        if (target)
+        {
+            target.DebugSkip();
+        }
+    }
 }
