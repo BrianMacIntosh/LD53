@@ -22,11 +22,16 @@ public class PlayerInventory : MonoBehaviour
 	/// </summary>
 	private int m_selectedItem = 0;
 
+	public int SelectedItem
+	{
+		get { return m_selectedItem; }
+	}
+
 	/// <summary>
 	/// Slots held items can be attached to.
 	/// </summary>
 	[SerializeField]
-	private Transform[] m_itemSlots;
+	private HeldItemSlot[] m_itemSlots;
 
 	[SerializeField]
 	private Transform m_itemTray;
@@ -105,7 +110,7 @@ public class PlayerInventory : MonoBehaviour
 		if (dropItem)
 		{
 			m_items[m_selectedItem] = null;
-			dropItem.transform.SetParent(null, true);
+			m_itemSlots[m_selectedItem].DropItem(dropItem);
 
 			Rigidbody rigidbody = dropItem.GetComponent<Rigidbody>();
 			if (rigidbody)
@@ -180,9 +185,7 @@ public class PlayerInventory : MonoBehaviour
 
 	private void AttachItemToSlot(CraftingItem item, int slot)
 	{
-		item.transform.SetParent(m_itemSlots[slot], false);
-		item.transform.localPosition = Vector3.zero;
-		item.transform.localRotation = Quaternion.identity;
+		m_itemSlots[slot].AttachItem(item);
 
 		Rigidbody rigidbody = item.GetComponent<Rigidbody>();
 		if (rigidbody)
