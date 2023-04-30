@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5f6b0011962f854095d8a7ef7aef723, type: 3}
+  m_Name: Event_00_02_Narr_Ordered
+  m_EditorClassIdentifier: 
+  Comment: 
+  Conditions:
+  - {fileID: 11400000, guid: 5b23a58123824344981a9a3aa9055825, type: 2}
+  ConditionOperator: 0
+  Delay: 4
+  m_narrationSet: {fileID: 11400000, guid: 97744ad821508264abcadad6b497fc4b, type: 2}

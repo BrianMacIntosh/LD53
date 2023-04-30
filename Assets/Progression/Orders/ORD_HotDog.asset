@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e633113dc5e389944a770ecaaccdadef, type: 3}
   m_Name: ORD_HotDog
   m_EditorClassIdentifier: 
-  Item: {fileID: 0}
+  Item: {fileID: 11400000, guid: e0e009819bf5a524b8f772c32b48dff3, type: 2}
+  Modifiers: 0
+  CookedState: 2
+  DisplayString: Hot Dog

@@ -12,3 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6e4b81f2b2314d48842269a751c9ff2, type: 3}
   m_Name: CID_TestCustomer
   m_EditorClassIdentifier: 
+  <MyRoom>k__BackingField: 2

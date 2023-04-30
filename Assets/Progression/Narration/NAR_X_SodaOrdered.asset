@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b580463c563951b459b06ff63109d045, type: 3}
+  m_Name: NAR_X_SodaOrdered
+  m_EditorClassIdentifier: 
+  WwiseEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayMode: 2
+  Priority: 2
+  Lines:
+  - Caption: Why would humans drink during a movie? Like ghosts I get. But humans
+      have to go to the bathroom and then they miss the movie and it's not like they
+      can just rewind.

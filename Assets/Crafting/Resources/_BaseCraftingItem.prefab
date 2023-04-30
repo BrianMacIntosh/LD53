@@ -59,6 +59,11 @@ MonoBehaviour:
   m_dropEvent:
     idInternal: 0
     valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8bdc9e44b064bac489a8f3a6c13814fb,
+      type: 2}
+  m_impactEvent:
+    idInternal: 0
+    valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
 --- !u!23 &3926304666522619026
 MeshRenderer:

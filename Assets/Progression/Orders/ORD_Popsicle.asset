@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e633113dc5e389944a770ecaaccdadef, type: 3}
   m_Name: ORD_Popsicle
   m_EditorClassIdentifier: 
-  Item: {fileID: 0}
+  Item: {fileID: 11400000, guid: 29ddb9a769030d9428803a68542c530b, type: 2}
+  DisplayString: Popsicle

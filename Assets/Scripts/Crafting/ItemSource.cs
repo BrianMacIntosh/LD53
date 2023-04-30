@@ -36,7 +36,7 @@ public class ItemSource : MonoBehaviour
 
 	private void Spawn()
 	{
-		m_spawnedObject = Instantiate(m_prefab, transform);
+		m_spawnedObject = Instantiate(m_prefab, transform.position, transform.rotation);
 		CraftingItem spawnedItem = m_spawnedObject.GetComponent<CraftingItem>();
 		if (spawnedItem)
 		{

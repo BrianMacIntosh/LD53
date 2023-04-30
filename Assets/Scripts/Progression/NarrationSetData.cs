@@ -16,12 +16,21 @@ public enum NarrationSetPlayMode
 	RandomNoRepeat,
 }
 
+public enum NarrationSetPriority
+{
+	Critical,
+	Medium,
+	Low
+}
+
 [CreateAssetMenu(menuName = "Narration Set")]
 public class NarrationSetData : ScriptableObject
 {
 	public AK.Wwise.Event WwiseEvent;
 
 	public NarrationSetPlayMode PlayMode;
+
+	public NarrationSetPriority Priority;
 
 	public NarrationLine[] Lines;
 

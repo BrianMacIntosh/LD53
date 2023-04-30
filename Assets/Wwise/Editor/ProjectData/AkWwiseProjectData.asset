@@ -66,11 +66,11 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 86cbe3bee8f5bd4b93a9a7458f1813c0
     GuidInternal: 
-    m_lastTime: -8585187759945334613
+    m_lastTime: -8585187335172449128
     List:
-    - name: Main_Music
-      guid: 31dad41685a2e946a9a68130f5c75081
-      id: 63796330
+    - name: Game_Sounds
+      guid: 8d48d66743bbf44e90e6dd20705d2a9b
+      id: 4275143406
       PathAndIcons:
       - ElementName: SoundBanks
         ObjectType: 5
@@ -78,13 +78,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 86cbe3bee8f5bd4b93a9a7458f1813c0
-      - ElementName: Main_Music
+      - ElementName: Game_Sounds
         ObjectType: 7
-        guid: 31dad41685a2e946a9a68130f5c75081
-      Path: SoundBanks\Default Work Unit\Main_Music
-    - name: Room_Random
-      guid: d6c3cc915247634991dd0d8f9c227ea6
-      id: 2482000886
+        guid: 8d48d66743bbf44e90e6dd20705d2a9b
+      Path: SoundBanks\Default Work Unit\Game_Sounds
+    - name: Music
+      guid: 74615be96bc051449744914a54409b5e
+      id: 3991942870
       PathAndIcons:
       - ElementName: SoundBanks
         ObjectType: 5
@@ -92,10 +92,10 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 86cbe3bee8f5bd4b93a9a7458f1813c0
-      - ElementName: Room_Random
+      - ElementName: Music
         ObjectType: 7
-        guid: d6c3cc915247634991dd0d8f9c227ea6
-      Path: SoundBanks\Default Work Unit\Room_Random
+        guid: 74615be96bc051449744914a54409b5e
+      Path: SoundBanks\Default Work Unit\Music
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -108,8 +108,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 9c97b72c09ae8745b1a025dae613e011
     GuidInternal: 
-    m_lastTime: -8585187759952406876
+    m_lastTime: -8585187335179392717
     List:
+    - name: Drop_Item
+      guid: d5c0d1b949d2354d8dc3e6668e6c38f4
+      id: 1165005940
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9c97b72c09ae8745b1a025dae613e011
+      - ElementName: Drop_Item
+        ObjectType: 3
+        guid: d5c0d1b949d2354d8dc3e6668e6c38f4
+      Path: Events\Default Work Unit\Drop_Item
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Room_Random
       guid: 7e82ac7672e8194c823aeb3d8ef6c825
       id: 2482000886
@@ -132,16 +149,13 @@ MonoBehaviour:
     - ElementName: Events
       ObjectType: 5
       guid: 00000000000000000000000000000000
-    - ElementName: Default Work Unit
-      ObjectType: 12
-      guid: 9c97b72c09ae8745b1a025dae613e011
     - ElementName: Music
       ObjectType: 12
       guid: 2e88fc6044ca8f4589a53c1e4ea4e79b
-    ParentPath: Events\Default Work Unit\Music
+    ParentPath: Events\Music
     guid: 2e88fc6044ca8f4589a53c1e4ea4e79b
     GuidInternal: 
-    m_lastTime: -8585187858775415696
+    m_lastTime: -8585187335179382745
     List:
     - name: Music
       guid: 87db08c42b86784d931f18996b033b8d
@@ -150,16 +164,13 @@ MonoBehaviour:
       - ElementName: Events
         ObjectType: 5
         guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 9c97b72c09ae8745b1a025dae613e011
       - ElementName: Music
         ObjectType: 12
         guid: 2e88fc6044ca8f4589a53c1e4ea4e79b
       - ElementName: Music
         ObjectType: 3
         guid: 87db08c42b86784d931f18996b033b8d
-      Path: Events\Default Work Unit\Music\Music
+      Path: Events\Music\Music
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -175,8 +186,22 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 0a3380a1fbc6044ea956eb6d9192c707
     GuidInternal: 
-    m_lastTime: -8585188512244714253
-    List: []
+    m_lastTime: -8585187335179382745
+    List:
+    - name: Test_Parameter
+      guid: fff9c2d0bde8a549a30f3b0a11595f81
+      id: 240153585
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0a3380a1fbc6044ea956eb6d9192c707
+      - ElementName: Test_Parameter
+        ObjectType: 13
+        guid: fff9c2d0bde8a549a30f3b0a11595f81
+      Path: Game Parameters\Default Work Unit\Test_Parameter
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:

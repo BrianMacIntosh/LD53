@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e633113dc5e389944a770ecaaccdadef, type: 3}
   m_Name: ORD_PopsicleStick
   m_EditorClassIdentifier: 
-  Item: {fileID: 0}
+  Item: {fileID: 11400000, guid: fb5e6f37f9fb03c4da66f978c893020b, type: 2}
+  DisplayString: Popsicle Stick

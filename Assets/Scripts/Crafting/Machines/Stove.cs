@@ -7,14 +7,11 @@ public class Stove : ToggleInteractable
 	{
 		public CraftingItem Item;
 
-		public CraftingItem ResultPrefab;
-
 		public float CookCountdown;
 
-		public StoveItem(CraftingItem item, CraftingItem resultPrefab, float cookDuration)
+		public StoveItem(CraftingItem item, float cookDuration)
 		{
 			Item = item;
-			ResultPrefab = resultPrefab;
 			CookCountdown = cookDuration;
 		}
 	}
@@ -40,11 +37,15 @@ public class Stove : ToggleInteractable
 		for (int index = m_items.Count - 1; index >= 0; --index)
 		{
 			StoveItem item = m_items[index];
+			if (item.Item == null)
+			{
+				m_items.RemoveAt(index);
+				continue;
+			}
 			item.CookCountdown -= Time.deltaTime;
 			if (item.CookCountdown <= 0f)
 			{
-				item.Item.MachineReplace(Instantiate(item.ResultPrefab));
-				m_items.RemoveAt(index);
+				item.Item.Cook();
 			}
 			else
 			{
@@ -69,9 +70,9 @@ public class Stove : ToggleInteractable
 		//TODO: does not handle overlappng subtriggers
 
 		CraftingItem otherItem = other.GetComponentInParent<CraftingItem>();
-		if (otherItem.ItemData.CookResult)
+		if (otherItem.ItemData.CookResult || otherItem.ItemData.DefaultCookedState != ItemCookedState.None)
 		{
-			m_items.Add(new StoveItem(otherItem, otherItem.ItemData.CookResult, otherItem.ItemData.CookTime));
+			m_items.Add(new StoveItem(otherItem, otherItem.ItemData.CookTime));
 		}
 	}
 
@@ -94,8 +95,7 @@ public class Stove : ToggleInteractable
 		for (int index = m_items.Count - 1; index >= 0; --index)
 		{
 			StoveItem item = m_items[index];
-			item.Item.MachineReplace(Instantiate(item.ResultPrefab));
-			m_items.RemoveAt(index);
+			item.Item.Cook();
 		}
 	}
 }

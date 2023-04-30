@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public struct OrderId
@@ -56,6 +57,16 @@ public class OrderManager : MonoBehaviour
 	public delegate void OrdersChangedDelegate(OrderManager sender);
 	public static event OrdersChangedDelegate OnOrdersChanged;
 
+	[Header("WWise")]
+
+	[SerializeField]
+	private AK.Wwise.Event m_orderReceivedEvent;
+
+	[SerializeField]
+	private AK.Wwise.Event m_orderFilledEvent;
+
+	//public event Action<CustomerId> New
+
 	/// <summary>
 	/// Adds a new order to the system.
 	/// </summary>
@@ -68,6 +79,8 @@ public class OrderManager : MonoBehaviour
 		{
 			OnOrdersChanged(this);
 		}
+
+		m_orderReceivedEvent.Post(gameObject);
 	}
 
 	/// <summary>
@@ -81,6 +94,8 @@ public class OrderManager : MonoBehaviour
 		{
 			OnOrdersChanged(this);
 		}
+
+		m_orderFilledEvent.Post(gameObject);
 	}
 
 	/// <summary>
