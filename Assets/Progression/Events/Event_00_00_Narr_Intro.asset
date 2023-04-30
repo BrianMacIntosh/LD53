@@ -9,8 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e633113dc5e389944a770ecaaccdadef, type: 3}
-  m_Name: ORD_EmptyCarton
+  m_Script: {fileID: 11500000, guid: f5f6b0011962f854095d8a7ef7aef723, type: 3}
+  m_Name: Event_00_00_Narr_Intro
   m_EditorClassIdentifier: 
-  Item: {fileID: 11400000, guid: dab90a0c8f4a7a94793061af9c292de0, type: 2}
-  DisplayString: Empty Carton
+  Comment: Plays introductory narration.
+  Condition: {fileID: 0}
+  Delay: 3
+  m_narrationSet: {fileID: 11400000, guid: c8b3e9afd37c8ef4e969c028bc3e75f4, type: 2}

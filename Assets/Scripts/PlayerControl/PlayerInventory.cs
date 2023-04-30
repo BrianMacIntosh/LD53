@@ -3,6 +3,11 @@ using UnityEngine.InputSystem;
 
 public class PlayerInventory : MonoBehaviour
 {
+	public static PlayerInventory Instance
+	{
+		get; private set;
+	}
+
 	/// <summary>
 	/// The max number of items the player can hold.
 	/// </summary>
@@ -64,6 +69,8 @@ public class PlayerInventory : MonoBehaviour
 
 	private void Awake()
 	{
+		Instance = this;
+
 		m_items = new CraftingItem[m_heldItemCount];
 		Debug.Assert(m_itemSlots.Length == m_heldItemCount);
 	}
@@ -153,7 +160,6 @@ public class PlayerInventory : MonoBehaviour
 			{
 				m_items[i] = newItem;
 				AttachItemToSlot(newItem, i);
-				m_pickupAnyItemSuccessEvent.Post(gameObject);
 			}
 		}
 	}
@@ -168,7 +174,6 @@ public class PlayerInventory : MonoBehaviour
 		{
 			m_items[m_selectedItem] = item;
 			AttachItemToSlot(item, m_selectedItem);
-			m_pickupAnyItemSuccessEvent.Post(gameObject);
 			UpdateItemPointerMat();
 			return true;
 		}
@@ -204,6 +209,18 @@ public class PlayerInventory : MonoBehaviour
 		return m_items[m_selectedItem];
 	}
 
+	public bool HasItem(CraftingItemData data)
+	{
+		foreach (CraftingItem item in m_items)
+		{
+			if (item && item.ItemData == data)
+			{
+				return true;
+			}
+		}
+		return false;
+	}
+
 	private void AttachItemToSlot(CraftingItem item, int slot)
 	{
 		m_itemSlots[slot].AttachItem(item);
@@ -213,6 +230,13 @@ public class PlayerInventory : MonoBehaviour
 		{
 			rigidbody.isKinematic = true;
 		}
+
+		if (item.ItemData.PickUpEvent)
+		{
+			ProgressionManager.Instance.TriggerEvent(item.ItemData.PickUpEvent);
+		}
+
+		m_pickupAnyItemSuccessEvent.Post(gameObject);
 	}
 
 	private void UpdateItemPointerMat()

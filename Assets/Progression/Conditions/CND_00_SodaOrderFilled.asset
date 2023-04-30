@@ -9,8 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e633113dc5e389944a770ecaaccdadef, type: 3}
-  m_Name: ORD_EmptyCarton
+  m_Script: {fileID: 11500000, guid: 3d8c78b0a5e3aaf4cb96bd1cfadf4f0d, type: 3}
+  m_Name: CND_00_SodaOrderFilled
   m_EditorClassIdentifier: 
-  Item: {fileID: 11400000, guid: dab90a0c8f4a7a94793061af9c292de0, type: 2}
-  DisplayString: Empty Carton
+  m_ordersEvent: {fileID: 11400000, guid: 603cdd28b4fa93e4baa305a77df87500, type: 2}

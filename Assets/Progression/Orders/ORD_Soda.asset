@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e633113dc5e389944a770ecaaccdadef, type: 3}
   m_Name: ORD_Soda
   m_EditorClassIdentifier: 
-  Item: {fileID: 0}
+  Item: {fileID: 11400000, guid: a74ee979d2aea1a48b9f133b6beb40a2, type: 2}
+  DisplayString: Soda

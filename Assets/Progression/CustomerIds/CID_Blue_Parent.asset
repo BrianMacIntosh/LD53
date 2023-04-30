@@ -9,11 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5f6b0011962f854095d8a7ef7aef723, type: 3}
-  m_Name: Event_Test3
+  m_Script: {fileID: 11500000, guid: d6e4b81f2b2314d48842269a751c9ff2, type: 3}
+  m_Name: CID_Blue_Parent
   m_EditorClassIdentifier: 
-  Comment: 
-  Conditions: []
-  ConditionOperator: 0
-  Delay: 2
-  m_narrationSet: {fileID: 11400000, guid: ea688011817214e49b92b501d9a2c9d9, type: 2}
+  <MyRoom>k__BackingField: 0

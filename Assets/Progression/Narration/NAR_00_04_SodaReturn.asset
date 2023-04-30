@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b580463c563951b459b06ff63109d045, type: 3}
-  m_Name: NAR_Corn
+  m_Name: NAR_00_04_SodaReturn
   m_EditorClassIdentifier: 
   WwiseEvent:
     idInternal: 0
@@ -18,6 +18,5 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 0}
   PlayMode: 0
   Lines:
-  - Caption: 'When people first started coming here again, they started asking for
-      these popped corn. '
-  - Caption: 'They just ate. Ate popped corns and stared at the walls. '
+  - Caption: "What, you\u2019re back? "
+  - Caption: " You\u2026do know you\u2019re not getting paid for this, right? \r\n"

@@ -9,6 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6e4b81f2b2314d48842269a751c9ff2, type: 3}
-  m_Name: ID_HotDogPopcorn
+  m_Script: {fileID: 11500000, guid: b580463c563951b459b06ff63109d045, type: 3}
+  m_Name: NAR_X_GetSoda
   m_EditorClassIdentifier: 
+  WwiseEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  PlayMode: 0
+  Lines:
+  - Caption: Ah yes. Water with enough sugar to raise the dead.
