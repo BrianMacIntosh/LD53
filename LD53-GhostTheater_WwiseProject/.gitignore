@@ -1,0 +1,8 @@
+IncrementalSoundBankData.xml
+.cache/
+.backup/
+*.akd
+*.akpk
+*.prof
+*.validationcache
+*.wsettings
