@@ -17,6 +17,7 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
   PlayMode: 2
+  Priority: 2
   Lines:
   - Caption: Why would humans drink during a movie? Like ghosts I get. But humans
       have to go to the bathroom and then they miss the movie and it's not like they

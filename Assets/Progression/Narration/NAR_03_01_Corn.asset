@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b580463c563951b459b06ff63109d045, type: 3}
-  m_Name: NAR_Corn
+  m_Name: NAR_03_01_Corn
   m_EditorClassIdentifier: 
   WwiseEvent:
     idInternal: 0
@@ -19,5 +19,5 @@ MonoBehaviour:
   PlayMode: 0
   Lines:
   - Caption: 'When people first started coming here again, they started asking for
-      these popped corn. '
+      these popped corns. '
   - Caption: 'They just ate. Ate popped corns and stared at the walls. '
