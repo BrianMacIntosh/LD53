@@ -18,6 +18,17 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Dialogue" ID="{672A334C-1F02-4F48-B482-3DAD1ABCF7A3}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Sequence4_Voices" ID="{186639C8-C373-4405-A5D7-580B6B9CE619}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Voice_3_1" ID="{CD8F38BE-0216-4744-928E-0739FAFE2B50}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Voice_5_1" ID="{D6650A66-BFCD-4776-A97C-34EBDBE11BC6}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Sequence1_Voices" ID="{5B267994-E16B-4A64-BE58-4390BC087A9B}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Sequence2_Voices" ID="{11424117-35BC-4D10-B9FC-16D562758FDD}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

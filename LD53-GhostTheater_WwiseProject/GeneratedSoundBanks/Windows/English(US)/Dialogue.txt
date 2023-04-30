@@ -1,0 +1,18 @@
+Event	ID	Name			Wwise Object Path	Notes
+	88281251	Sequence1_Voices			\Default Work Unit\Sequence1_Voices	
+	513774604	Sequence4_Voices			\Default Work Unit\Sequence4_Voices	
+	931933109	Voice_5_1			\Default Work Unit\Voice_5_1	
+	932918847	Voice_3_1			\Default Work Unit\Voice_3_1	
+	2102032462	Sequence2_Voices			\Default Work Unit\Sequence2_Voices	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	40595667	voice_2_2	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\Voices\English(US)\voice_2_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequence2_Voice\voice_2_2		959772
+	412659066	voice_3_1	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\Voices\English(US)\voice_3_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\voice_3_1		2027040
+	604820586	voice_4_1	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\Voices\English(US)\voice_4_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequence4_Voice\voice_4_1		568752
+	617751221	voice_5_1	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\Voices\English(US)\voice_5_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\voice_5_1		1008312
+	702158308	Voice_1_2	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\Voices\English(US)\voice_1_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequence1_Voice\Voice_1_2		1376812
+	838162831	voice_4_2	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\Voices\English(US)\voice_4_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequence4_Voice\voice_4_2		864744
+	856661052	Voice_1_1	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\Voices\English(US)\voice_1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequence1_Voice\Voice_1_1		1735256
+	955443258	voice_2_3	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\Voices\English(US)\voice_2_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequence2_Voice\voice_2_3		959772
+	1000649313	voice_2_1	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\Voices\English(US)\voice_2_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequence2_Voice\voice_2_1		827604
+

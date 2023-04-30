@@ -28,11 +28,6 @@ public class CraftingItemData : ScriptableObject
 
 	public BaseProgressionEvent PickUpEvent;
 
-	/// <summary>
-	/// Event fired randomly while there is an order for this item.
-	/// </summary>
-	public BaseProgressionEvent WhileOrderedEvent; //TODO:
-
 	public ItemCombination GetCombinationWith(CraftingItemData other)
 	{
 		foreach (ItemCombination combo in Combinations)

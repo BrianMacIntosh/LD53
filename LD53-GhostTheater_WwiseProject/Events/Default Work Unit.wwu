@@ -25,6 +25,61 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Sequence1_Voices" ID="{5B267994-E16B-4A64-BE58-4390BC087A9B}">
+					<ChildrenList>
+						<Action Name="" ID="{BAE79071-21E0-466B-AC0B-A3D924E9C3E9}" ShortID="794685829">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sequence1_Voice" ID="{CB2A2638-CF78-4A2E-9AF9-01AB2277D6F4}" WorkUnitID="{AFA54749-B2B2-492E-A0D0-6C99A3CA1D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Sequence2_Voices" ID="{11424117-35BC-4D10-B9FC-16D562758FDD}">
+					<ChildrenList>
+						<Action Name="" ID="{832C4C6B-0427-424F-8672-E03CB9AA8E2C}" ShortID="1029468347">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sequence2_Voice" ID="{9D56B077-B388-4075-A310-79AA315BDD61}" WorkUnitID="{AFA54749-B2B2-492E-A0D0-6C99A3CA1D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Voice_3_1" ID="{CD8F38BE-0216-4744-928E-0739FAFE2B50}">
+					<ChildrenList>
+						<Action Name="" ID="{4F23BC81-38D7-4714-8B19-BE62CC0E883B}" ShortID="1031459151">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="voice_3_1" ID="{D778C224-D7DE-489D-A0CA-55EB5B4D33FE}" WorkUnitID="{AFA54749-B2B2-492E-A0D0-6C99A3CA1D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Sequence4_Voices" ID="{186639C8-C373-4405-A5D7-580B6B9CE619}">
+					<ChildrenList>
+						<Action Name="" ID="{9B996C8B-1667-45AA-B25D-FF27467E15ED}" ShortID="533886812">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sequence4_Voice" ID="{8888D7B7-0737-421A-AC5E-95FDCC8E8E71}" WorkUnitID="{AFA54749-B2B2-492E-A0D0-6C99A3CA1D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Voice_5_1" ID="{D6650A66-BFCD-4776-A97C-34EBDBE11BC6}">
+					<ChildrenList>
+						<Action Name="" ID="{5F072731-0809-460C-8391-F6138A06743F}" ShortID="1040849941">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="voice_5_1" ID="{2FF9794B-EDAA-4DB1-AA9B-8F6DA2B48214}" WorkUnitID="{AFA54749-B2B2-492E-A0D0-6C99A3CA1D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
