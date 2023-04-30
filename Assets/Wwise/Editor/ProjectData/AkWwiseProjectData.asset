@@ -66,8 +66,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 86cbe3bee8f5bd4b93a9a7458f1813c0
     GuidInternal: 
-    m_lastTime: -8585187759945334613
+    m_lastTime: -8585187726296544009
     List:
+    - name: Drop_Item
+      guid: deef80da11036446b4f2fa7ace91f54d
+      id: 1165005940
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 86cbe3bee8f5bd4b93a9a7458f1813c0
+      - ElementName: Drop_Item
+        ObjectType: 7
+        guid: deef80da11036446b4f2fa7ace91f54d
+      Path: SoundBanks\Default Work Unit\Drop_Item
     - name: Main_Music
       guid: 31dad41685a2e946a9a68130f5c75081
       id: 63796330
@@ -108,8 +122,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 9c97b72c09ae8745b1a025dae613e011
     GuidInternal: 
-    m_lastTime: -8585187759952406876
+    m_lastTime: -8585187726303602496
     List:
+    - name: Drop_Item
+      guid: d5c0d1b949d2354d8dc3e6668e6c38f4
+      id: 1165005940
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9c97b72c09ae8745b1a025dae613e011
+      - ElementName: Drop_Item
+        ObjectType: 3
+        guid: d5c0d1b949d2354d8dc3e6668e6c38f4
+      Path: Events\Default Work Unit\Drop_Item
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Room_Random
       guid: 7e82ac7672e8194c823aeb3d8ef6c825
       id: 2482000886
