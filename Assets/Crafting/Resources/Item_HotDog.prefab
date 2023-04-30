@@ -9793,6 +9793,24 @@ MonoBehaviour:
   m_rawMaterial: {fileID: 2100000, guid: 5708ecd41da43df4e816daaebd2ae3f1, type: 2}
   m_cookedMaterial: {fileID: 2100000, guid: f71592883fbd9e54b94c4581f41ff062, type: 2}
   m_burntMaterial: {fileID: 2100000, guid: 63e281cfc0356d543afef1ceca5ef65a, type: 2}
+--- !u!114 &2908410313674783722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327813095887369511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cce8e10640508a4c9574a26107d3f58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 10
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!4 &7839438886165660703 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7578939992139013115, guid: 07356d4d52ead1e4c968831fd1f0c487,
