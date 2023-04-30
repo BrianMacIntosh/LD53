@@ -9,6 +9,23 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
+		<SoundBank Id="63796330" Type="User" Language="SFX" Hash="{9529E947-5A33-4C20-EA43-966F4E43938F}">
+			<ShortName>Main_Music</ShortName>
+			<Path>Main_Music.bnk</Path>
+			<Media>
+				<File Id="231788945" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spoopy_Theater.wav</ShortName>
+					<CachePath>SFX/Spoopy_Theater_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3991942870" Name="Music" DurationType="OneShot" DurationMin="259.35483" DurationMax="259.35483">
+					<MediaRefs>
+						<MediaRef Id="231788945"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F56A610C-C7C4-F874-B68B-7ADDF94EBB7A}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -23,5 +40,5 @@
 			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{85FB997E-979E-429B-B6F1-CF88BB808457}</FileHash>
+	<FileHash>{FB8A98E1-A070-F81A-FEF2-561D029FB63D}</FileHash>
 </SoundBanksInfo>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{60FC882E-CA44-458F-89A5-3C1E4EA4E79B}" SchemaVersion="110" RootDocumentID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" ParentDocumentID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}">
+	<Events>
+		<WorkUnit Name="Music" ID="{60FC882E-CA44-458F-89A5-3C1E4EA4E79B}" OwnerID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Music" ID="{C408DB87-862B-4D78-931F-18996B033B8D}">
+					<ChildrenList>
+						<Action Name="" ID="{890F2464-83FE-43A2-AB6D-C130A1AD759E}" ShortID="462416272">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spoopy_Theater" ID="{C8E770FE-2CAD-4D42-B564-2DE53007A88B}" WorkUnitID="{6DC8D3A7-4FE9-411C-B7F1-BA967CF3E6CC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
