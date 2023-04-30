@@ -9,7 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e633113dc5e389944a770ecaaccdadef, type: 3}
-  m_Name: ORD_PopcicleStick
+  m_Script: {fileID: 11500000, guid: 557fee967921f8c468404c789ec43ef7, type: 3}
+  m_Name: ID_IceCream
   m_EditorClassIdentifier: 
-  Item: {fileID: 0}
+  CookResult: {fileID: 0}
+  CookTime: 15
