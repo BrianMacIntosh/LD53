@@ -18,12 +18,16 @@ namespace AK
         static const AkUniqueID ROOM_RANDOM = 2482000886U;
     } // namespace EVENTS
 
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID TEST_PARAMETER = 240153585U;
+    } // namespace GAME_PARAMETERS
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
-        static const AkUniqueID DROP_ITEM = 1165005940U;
+        static const AkUniqueID GAME_SOUNDS = 4275143406U;
         static const AkUniqueID MAIN_MUSIC = 63796330U;
-        static const AkUniqueID ROOM_RANDOM = 2482000886U;
     } // namespace BANKS
 
     namespace BUSSES

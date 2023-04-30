@@ -27,6 +27,9 @@ public class CraftingItem : Interactable
 	[SerializeField]
 	private AK.Wwise.Event m_dropEvent;
 
+	[SerializeField]
+	private AK.Wwise.Event m_impactEvent;
+
 	public override void Interact(PlayerInteractor interactor)
 	{
 		PlayerInventory inventory = interactor.GetComponent<PlayerInventory>();
@@ -93,5 +96,11 @@ public class CraftingItem : Interactable
 			containingInventory.ReplaceItem(this, other);
 		}
 		Destroy(gameObject);
+	}
+
+	private void OnCollisionEnter(Collision collision)
+	{
+		//TODO: send force
+		m_impactEvent.Post(gameObject);
 	}
 }
