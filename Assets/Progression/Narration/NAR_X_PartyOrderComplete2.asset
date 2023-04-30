@@ -10,16 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b580463c563951b459b06ff63109d045, type: 3}
-  m_Name: NAR_PopcornMachine
+  m_Name: NAR_X_PartyOrderComplete2
   m_EditorClassIdentifier: 
   WwiseEvent:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
-  PlayMode: 2
+  PlayMode: 0
   Priority: 0
-  Recorded: 1
   Lines:
-  - Caption: This is the hot dog machine. Obviously.
-  - Caption: That's why it contains nowhere at all to put a hot dog.
-  - Caption: Oh mysterious machine! Reveal your secrets.
+  - Caption: 'A birth! '
+  - Caption: 'Something about watching new life really tickles the undead. '
+  - Caption: 'Some ghosts like to watch their friends get reborn. '
+  - Caption: 'Whyever is birth a delivery? '
+  - Caption: "Should it not more properly be takeout? \r"

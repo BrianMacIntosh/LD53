@@ -13,4 +13,8 @@ MonoBehaviour:
   m_Name: ID_TerrifiedCorn
   m_EditorClassIdentifier: 
   CookResult: {fileID: 0}
+  DefaultCookedState: 0
   CookTime: 15
+  Combinations: []
+  AcceptsModifiers: 8
+  PickUpEvent: {fileID: 11400000, guid: 613fc71b9619a0e4a96d238c8951c81c, type: 2}

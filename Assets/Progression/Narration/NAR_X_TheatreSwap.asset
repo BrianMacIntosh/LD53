@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b580463c563951b459b06ff63109d045, type: 3}
-  m_Name: NAR_PopcornMachine
+  m_Name: NAR_X_TheatreSwap
   m_EditorClassIdentifier: 
   WwiseEvent:
     idInternal: 0
@@ -18,8 +18,9 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 0}
   PlayMode: 2
   Priority: 0
-  Recorded: 1
   Lines:
-  - Caption: This is the hot dog machine. Obviously.
-  - Caption: That's why it contains nowhere at all to put a hot dog.
-  - Caption: Oh mysterious machine! Reveal your secrets.
+  - Caption: '[giggling] Whaaaa This was totally always the same theatre right? '
+  - Caption: 'Theatres moving around? What an absolutely ridiculous notion. '
+  - Caption: 'Me, changing the layout of the cinema? Amusing, but whyever would I
+      do such a prank? '
+  - Caption: Nope! Other way!

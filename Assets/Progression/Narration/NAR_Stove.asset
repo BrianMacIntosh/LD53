@@ -16,12 +16,11 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
-  PlayMode: 0
-  Priority: 0
-  Recorded: 1
+  PlayMode: 2
+  Priority: 2
   Lines:
   - Caption: Fire! Fwoosh!
   - Caption: Stovetops make excellent counterspace when there is no fire.
-  - Caption: 'The stove is an ancient apparatus for cooking or heating that operates
-      by burning the dead bodies of any zombie patrons who make the mistake of wandering
-      in. '
+  - Caption: '(nasally stuck up voice) The stove is an ancient apparatus for cooking
+      or heating that operates by burning the dead bodies of any zombie patrons who
+      make the mistake of wandering in. '

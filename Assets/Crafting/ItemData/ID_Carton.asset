@@ -17,5 +17,4 @@ MonoBehaviour:
   CookTime: 15
   Combinations: []
   AcceptsModifiers: 4
-  PickUpEvent: {fileID: 0}
-  WhileOrderedEvent: {fileID: 0}
+  PickUpEvent: {fileID: 11400000, guid: 5bf9b6f8ddc89844182030efa1d92018, type: 2}

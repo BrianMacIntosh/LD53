@@ -10,16 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b580463c563951b459b06ff63109d045, type: 3}
-  m_Name: NAR_PopcornMachine
+  m_Name: NAR_X_PartyOrderComplete0
   m_EditorClassIdentifier: 
   WwiseEvent:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
-  PlayMode: 2
+  PlayMode: 0
   Priority: 0
-  Recorded: 1
   Lines:
-  - Caption: This is the hot dog machine. Obviously.
-  - Caption: That's why it contains nowhere at all to put a hot dog.
-  - Caption: Oh mysterious machine! Reveal your secrets.
+  - Caption: "Oh The party room. They\u2019re always celebrating something interesting. "
+  - Caption: 'I have no idea why some of these things are celebrated, but you know
+      how it is. '
+  - Caption: Celebrating your Birth Day or Death Day gets old after a hundred or
+      so times,
+  - Caption: 'Not that anyone has celebrated my founding day in a while. [sniff]
+
+'

@@ -9,12 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 557fee967921f8c468404c789ec43ef7, type: 3}
-  m_Name: ID_HotDog_Assembled
+  m_Script: {fileID: 11500000, guid: f5f6b0011962f854095d8a7ef7aef723, type: 3}
+  m_Name: Event_X_TheatreSwapFirst
   m_EditorClassIdentifier: 
-  CookResult: {fileID: 0}
-  DefaultCookedState: 0
-  CookTime: 15
-  Combinations: []
-  AcceptsModifiers: 7
-  PickUpEvent: {fileID: 0}
+  Comment: 
+  Conditions: []
+  ConditionOperator: 0
+  Delay: 0
+  m_narrationSet: {fileID: 11400000, guid: 322b310c7339d2a4fac89d57148b915d, type: 2}

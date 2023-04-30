@@ -10,16 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b580463c563951b459b06ff63109d045, type: 3}
-  m_Name: NAR_PopcornMachine
+  m_Name: NAR_X_PartyOrderComplete5End
   m_EditorClassIdentifier: 
   WwiseEvent:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
-  PlayMode: 2
+  PlayMode: 0
   Priority: 0
-  Recorded: 1
   Lines:
-  - Caption: This is the hot dog machine. Obviously.
-  - Caption: That's why it contains nowhere at all to put a hot dog.
-  - Caption: Oh mysterious machine! Reveal your secrets.
+  - Caption: "What\u2019s this? A Founding Day party? For moi?"
+  - Caption: "Was. Was this your doing? This\u2026this is\u2026so sentimental! "
+  - Caption: "Disgusting. You may just be the best employee at Sir Quacky\u2019s.
+      [tearful sniff]\r"
+  - Caption: "You\u2019re still not getting paid though."
