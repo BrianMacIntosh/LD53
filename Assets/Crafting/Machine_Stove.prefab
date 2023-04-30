@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 743750943277955149}
   - component: {fileID: 1406020306762562417}
   - component: {fileID: 5143376240352465023}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: HotTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -520,18 +520,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -3638994958435691078, guid: c69d0eaf4e5c9ef458578271323939e0, type: 3}
---- !u!114 &-5181774718789414837
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 908749407167047756}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63190179d12362e44ac8e6d9a4070f4e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &4334900199127100352
 Animator:
   serializedVersion: 5
@@ -553,3 +541,15 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-5181774718789414837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908749407167047756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63190179d12362e44ac8e6d9a4070f4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

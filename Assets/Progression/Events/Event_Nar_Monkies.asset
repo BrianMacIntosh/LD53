@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c3e15b00e7dce24eaefd29e45958344, type: 3}
+  m_Name: Event_Nar_Monkies
+  m_EditorClassIdentifier: 
+  Comment: 
+  Condition: {fileID: 11400000, guid: 5b23a58123824344981a9a3aa9055825, type: 2}
+  Delay: 0
+  m_orders:
+  - Data: {fileID: 11400000, guid: 83971ca282d018249a0f583aa3c212c6, type: 2}
+    Customer: {fileID: 11400000, guid: ee71f45a97462984cb1767921f042f14, type: 2}

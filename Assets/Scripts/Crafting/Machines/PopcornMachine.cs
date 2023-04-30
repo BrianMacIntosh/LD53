@@ -180,4 +180,9 @@ public class PopcornMachine : CraftingMachine
 			}
 		}
 	}
+
+	public override void DebugSkip()
+	{
+		m_nextPopTime = Time.time;
+	}
 }

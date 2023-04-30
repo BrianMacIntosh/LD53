@@ -64,7 +64,37 @@ public class NarrationManager : MonoBehaviour
 		{
 			m_activeSet.MarkLinePlayed(m_activeSetIndex);
 		}
-		m_activeSetIndex++;
+
+		switch (m_activeSet.PlayMode)
+		{
+			case NarrationSetPlayMode.Sequential:
+				m_activeSetIndex++;
+				break;
+
+			case NarrationSetPlayMode.RandomRepeat:
+				if (m_activeSetIndex < 0)
+				{
+					m_activeSetIndex = Random.Range(0, m_activeSet.LineCount);
+				}
+				else
+				{
+					// only play one line
+					m_activeSetIndex = int.MaxValue;
+				}
+				break;
+
+			case NarrationSetPlayMode.RandomNoRepeat:
+				if (m_activeSetIndex < 0)
+				{
+					m_activeSetIndex = m_activeSet.GetRandomUnplayedLine();
+				}
+				else
+				{
+					// only play one line
+					m_activeSetIndex = int.MaxValue;
+				}
+				break;
+		}
 
 		if (m_activeSetIndex >= m_activeSet.Lines.Length)
 		{
