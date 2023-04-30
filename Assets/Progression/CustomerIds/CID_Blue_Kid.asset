@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6e4b81f2b2314d48842269a751c9ff2, type: 3}
   m_Name: CID_Blue_Kid
   m_EditorClassIdentifier: 
-  <MyRoom>k__BackingField: 0
+  <MyRoom>k__BackingField: 1
