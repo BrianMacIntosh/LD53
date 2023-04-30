@@ -42,6 +42,11 @@ public class ProgressionManager : MonoBehaviour
 		return m_eventsExecuted.Contains(evt);
 	}
 
+	public bool HasEventTriggered(BaseProgressionEvent evt)
+	{
+		return m_eventsTriggered.Contains(evt);
+	}
+
 	private void CheckFireEvents()
 	{
 		for (int index = 0; index < m_events.Length; index++)
