@@ -20,5 +20,6 @@ MonoBehaviour:
   PlayMode: 0
   Priority: 0
   Lines:
-  - Caption: "Just the sticks? Are you sure they don\u2019t mean popsicles?"
+  - Caption: Just the sticks? Are you sure they don't want the ice.
   - Caption: No, no, this is the party room. Perhaps they are building something.
+  - Caption: You'll just have to find a way to do away with the frozen bits.
