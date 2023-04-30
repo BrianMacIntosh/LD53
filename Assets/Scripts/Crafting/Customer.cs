@@ -31,6 +31,8 @@ public class Customer : Interactable
         OrderManager.OnOrdersChanged -= OnOrdersChanged;
     }
 
+	// Right now everytime an order is changed, every customer runs this. 
+	// This is inefficient but fine for Game Jam
 	public void OnOrdersChanged(OrderManager sender)
 	{
 		sender.GetOrdersForCustomer(m_customerId, m_orderBuffer);
