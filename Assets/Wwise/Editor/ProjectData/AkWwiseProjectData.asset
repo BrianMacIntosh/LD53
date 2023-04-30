@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 86cbe3bee8f5bd4b93a9a7458f1813c0
     GuidInternal: 
-    m_lastTime: -8585187157190134982
+    m_lastTime: -8585187154031161673
     List:
     - name: Dialogue
       guid: 4c332a67021f484fb4823dad1abcf7a3
@@ -122,7 +122,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 9c97b72c09ae8745b1a025dae613e011
     GuidInternal: 
-    m_lastTime: -8585187169451987657
+    m_lastTime: -8585187167297550830
     List:
     - name: Drop_Item
       guid: d5c0d1b949d2354d8dc3e6668e6c38f4
