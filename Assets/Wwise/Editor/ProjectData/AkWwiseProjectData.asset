@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 86cbe3bee8f5bd4b93a9a7458f1813c0
     GuidInternal: 
-    m_lastTime: -8585187858765672653
+    m_lastTime: -8585187759945334613
     List:
     - name: Main_Music
       guid: 31dad41685a2e946a9a68130f5c75081
@@ -82,6 +82,20 @@ MonoBehaviour:
         ObjectType: 7
         guid: 31dad41685a2e946a9a68130f5c75081
       Path: SoundBanks\Default Work Unit\Main_Music
+    - name: Room_Random
+      guid: d6c3cc915247634991dd0d8f9c227ea6
+      id: 2482000886
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 86cbe3bee8f5bd4b93a9a7458f1813c0
+      - ElementName: Room_Random
+        ObjectType: 7
+        guid: d6c3cc915247634991dd0d8f9c227ea6
+      Path: SoundBanks\Default Work Unit\Room_Random
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -94,8 +108,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 9c97b72c09ae8745b1a025dae613e011
     GuidInternal: 
-    m_lastTime: -8585187858775415696
-    List: []
+    m_lastTime: -8585187759952406876
+    List:
+    - name: Room_Random
+      guid: 7e82ac7672e8194c823aeb3d8ef6c825
+      id: 2482000886
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9c97b72c09ae8745b1a025dae613e011
+      - ElementName: Room_Random
+        ObjectType: 3
+        guid: 7e82ac7672e8194c823aeb3d8ef6c825
+      Path: Events\Default Work Unit\Room_Random
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\Music.wwu
     PathAndIcons:
     - ElementName: Events
