@@ -15,8 +15,10 @@ MonoBehaviour:
   WwiseEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 22392f74c524b054c88832aae7091c6f,
+      type: 2}
   PlayMode: 0
+  Priority: 0
   Lines:
   - Caption: 'When people first started coming here again, they started asking for
       these popped corns. '

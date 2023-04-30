@@ -15,8 +15,10 @@ MonoBehaviour:
   WwiseEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: f6d71dc9777e73f41a2991f87f54dcef,
+      type: 2}
   PlayMode: 0
+  Priority: 0
   Lines:
   - Caption: "Oh, hello. Welcome to Sir Quacky Quack\u2019s Luxury Theatre for the
       Dead, Dying, and Undead. "

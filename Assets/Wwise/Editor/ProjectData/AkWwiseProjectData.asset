@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 8c58ee9a3270514bb57f25ff9969795b
     GuidInternal: 
-    m_lastTime: -8585188512244649206
+    m_lastTime: -8585187973789076987
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 7d2976f307ab5849bbdcfb26a5ad928c
     GuidInternal: 
-    m_lastTime: -8585188512244689275
+    m_lastTime: -8585187973789392045
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,8 +66,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 86cbe3bee8f5bd4b93a9a7458f1813c0
     GuidInternal: 
-    m_lastTime: -8585187335172449128
+    m_lastTime: -8585187157190134982
     List:
+    - name: Dialogue
+      guid: 4c332a67021f484fb4823dad1abcf7a3
+      id: 3930136735
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 86cbe3bee8f5bd4b93a9a7458f1813c0
+      - ElementName: Dialogue
+        ObjectType: 7
+        guid: 4c332a67021f484fb4823dad1abcf7a3
+      Path: SoundBanks\Default Work Unit\Dialogue
     - name: Game_Sounds
       guid: 8d48d66743bbf44e90e6dd20705d2a9b
       id: 4275143406
@@ -108,7 +122,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 9c97b72c09ae8745b1a025dae613e011
     GuidInternal: 
-    m_lastTime: -8585187335179392717
+    m_lastTime: -8585187169451987657
     List:
     - name: Drop_Item
       guid: d5c0d1b949d2354d8dc3e6668e6c38f4
@@ -144,6 +158,91 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Sequence1_Voices
+      guid: 9479265b6be1644abe584390bc087a9b
+      id: 88281251
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9c97b72c09ae8745b1a025dae613e011
+      - ElementName: Sequence1_Voices
+        ObjectType: 3
+        guid: 9479265b6be1644abe584390bc087a9b
+      Path: Events\Default Work Unit\Sequence1_Voices
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Sequence2_Voices
+      guid: 17414211bc35104db9fc16d562758fdd
+      id: 2102032462
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9c97b72c09ae8745b1a025dae613e011
+      - ElementName: Sequence2_Voices
+        ObjectType: 3
+        guid: 17414211bc35104db9fc16d562758fdd
+      Path: Events\Default Work Unit\Sequence2_Voices
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Sequence4_Voices
+      guid: c839661873c30544a5d7580b6b9ce619
+      id: 513774604
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9c97b72c09ae8745b1a025dae613e011
+      - ElementName: Sequence4_Voices
+        ObjectType: 3
+        guid: c839661873c30544a5d7580b6b9ce619
+      Path: Events\Default Work Unit\Sequence4_Voices
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Voice_3_1
+      guid: be388fcd16024447928e0739fafe2b50
+      id: 932918847
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9c97b72c09ae8745b1a025dae613e011
+      - ElementName: Voice_3_1
+        ObjectType: 3
+        guid: be388fcd16024447928e0739fafe2b50
+      Path: Events\Default Work Unit\Voice_3_1
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Voice_5_1
+      guid: 660a65d6cdbf7647a97c34ebdbe11bc6
+      id: 931933109
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9c97b72c09ae8745b1a025dae613e011
+      - ElementName: Voice_5_1
+        ObjectType: 3
+        guid: 660a65d6cdbf7647a97c34ebdbe11bc6
+      Path: Events\Default Work Unit\Voice_5_1
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\Music.wwu
     PathAndIcons:
     - ElementName: Events
@@ -155,7 +254,7 @@ MonoBehaviour:
     ParentPath: Events\Music
     guid: 2e88fc6044ca8f4589a53c1e4ea4e79b
     GuidInternal: 
-    m_lastTime: -8585187335179382745
+    m_lastTime: -8585187169477877173
     List:
     - name: Music
       guid: 87db08c42b86784d931f18996b033b8d
@@ -186,7 +285,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 0a3380a1fbc6044ea956eb6d9192c707
     GuidInternal: 
-    m_lastTime: -8585187335179382745
+    m_lastTime: -8585187169477847166
     List:
     - name: Test_Parameter
       guid: fff9c2d0bde8a549a30f3b0a11595f81
@@ -214,7 +313,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 353ea7683e85d24aa6c8c0ae49b94d81
     GuidInternal: 
-    m_lastTime: -8585188512244659191
+    m_lastTime: -8585187973789152007
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -228,7 +327,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: c2044dcb63130d4695c9b8acdaeb783b
     GuidInternal: 
-    m_lastTime: -8585188512244659191
+    m_lastTime: -8585187973789126996
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -242,10 +341,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 3c6f04ca3732b14dbbae0a06632e7c29
     GuidInternal: 
-    m_lastTime: -8585188512244649206
+    m_lastTime: -8585187973789101992
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000007000000090000000a0000000b0000000c0000000d0000000e000000
+  ExpandedWaapiItemIds: 0500000006000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
