@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 86cbe3bee8f5bd4b93a9a7458f1813c0
     GuidInternal: 
-    m_lastTime: -8585187358713792376
+    m_lastTime: -8585187335172449128
     List:
     - name: Game_Sounds
       guid: 8d48d66743bbf44e90e6dd20705d2a9b
@@ -108,7 +108,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 9c97b72c09ae8745b1a025dae613e011
     GuidInternal: 
-    m_lastTime: -8585187358666166408
+    m_lastTime: -8585187335179392717
     List:
     - name: Drop_Item
       guid: d5c0d1b949d2354d8dc3e6668e6c38f4
@@ -155,7 +155,7 @@ MonoBehaviour:
     ParentPath: Events\Music
     guid: 2e88fc6044ca8f4589a53c1e4ea4e79b
     GuidInternal: 
-    m_lastTime: -8585187358571222322
+    m_lastTime: -8585187335179382745
     List:
     - name: Music
       guid: 87db08c42b86784d931f18996b033b8d
@@ -186,7 +186,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 0a3380a1fbc6044ea956eb6d9192c707
     GuidInternal: 
-    m_lastTime: -8585187358713892351
+    m_lastTime: -8585187335179382745
     List:
     - name: Test_Parameter
       guid: fff9c2d0bde8a549a30f3b0a11595f81
@@ -245,7 +245,7 @@ MonoBehaviour:
     m_lastTime: -8585188512244649206
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000007000000090000000a0000000b0000000c0000000d0000000e000000
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

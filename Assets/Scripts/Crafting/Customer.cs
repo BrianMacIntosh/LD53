@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class Customer : Interactable
@@ -13,7 +14,40 @@ public class Customer : Interactable
 	[SerializeField]
 	private AK.Wwise.Event m_orderFilledEvent;
 
-	public override void Interact(PlayerInteractor interactor)
+	[SerializeField] CustomerBubble bubble;
+
+    private void Start()
+    {
+        bubble.DisableBubble();
+    }
+
+    private void OnEnable()
+    {
+		OrderManager.OnOrdersChanged += OnOrdersChanged;
+    }
+
+    private void OnDisable()
+    {
+        OrderManager.OnOrdersChanged -= OnOrdersChanged;
+    }
+
+	public void OnOrdersChanged(OrderManager sender)
+	{
+		sender.GetOrdersForCustomer(m_customerId, m_orderBuffer);
+
+		if (m_orderBuffer.Count > 0)
+		{
+			var order = m_orderBuffer[0];
+			bubble.EnableBubble();
+			bubble.SetText(order.Data.DisplayString);
+        }
+		else
+		{
+            bubble.DisableBubble();
+        }
+    }
+
+    public override void Interact(PlayerInteractor interactor)
 	{
 		// fetch this customer's order(s)
 		OrderManager.Instance.GetOrdersForCustomer(m_customerId, m_orderBuffer);

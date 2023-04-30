@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public struct OrderId
@@ -63,6 +64,8 @@ public class OrderManager : MonoBehaviour
 
 	[SerializeField]
 	private AK.Wwise.Event m_orderFilledEvent;
+
+	//public event Action<CustomerId> New
 
 	/// <summary>
 	/// Adds a new order to the system.

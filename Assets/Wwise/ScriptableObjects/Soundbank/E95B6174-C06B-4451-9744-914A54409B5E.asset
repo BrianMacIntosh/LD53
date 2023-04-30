@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b542ab3be245144d8504d655b6a8ce9, type: 3}
   m_Name: E95B6174-C06B-4451-9744-914A54409B5E
   m_EditorClassIdentifier: 
-  objectName: Main_Music
-  id: 63796330
+  objectName: Music
+  id: 3991942870
   guid: E95B6174-C06B-4451-9744-914A54409B5E
