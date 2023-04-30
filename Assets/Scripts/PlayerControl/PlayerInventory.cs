@@ -36,6 +36,15 @@ public class PlayerInventory : MonoBehaviour
 	[SerializeField]
 	private Transform m_itemTray;
 
+	[SerializeField]
+	private MeshRenderer m_itemPointer;
+
+	[SerializeField]
+	private Material m_itemPointerActiveMat;
+
+	[SerializeField]
+	private Material m_itemPointerEmptyMat;
+
 	[Header("WWise")]
 
 	[SerializeField]
@@ -57,6 +66,11 @@ public class PlayerInventory : MonoBehaviour
 	{
 		m_items = new CraftingItem[m_heldItemCount];
 		Debug.Assert(m_itemSlots.Length == m_heldItemCount);
+	}
+
+	private void Start()
+	{
+		UpdateItemPointerMat();
 	}
 
 	private void Update()
@@ -82,6 +96,8 @@ public class PlayerInventory : MonoBehaviour
 		{
 			m_changeToEmptyItemEvent.Post(gameObject);
 		}
+
+		UpdateItemPointerMat();
 	}
 
 	/// <summary>
@@ -99,6 +115,8 @@ public class PlayerInventory : MonoBehaviour
 		{
 			m_changeToEmptyItemEvent.Post(gameObject);
 		}
+
+		UpdateItemPointerMat();
 	}
 
 	/// <summary>
@@ -122,6 +140,8 @@ public class PlayerInventory : MonoBehaviour
 
 			dropItem.NotifyDropped();
 			m_dropAnyItemEvent.Post(gameObject);
+
+			UpdateItemPointerMat();
 		}
 	}
 
@@ -149,6 +169,7 @@ public class PlayerInventory : MonoBehaviour
 			m_items[m_selectedItem] = item;
 			AttachItemToSlot(item, m_selectedItem);
 			m_pickupAnyItemSuccessEvent.Post(gameObject);
+			UpdateItemPointerMat();
 			return true;
 		}
 		else
@@ -192,5 +213,10 @@ public class PlayerInventory : MonoBehaviour
 		{
 			rigidbody.isKinematic = true;
 		}
+	}
+
+	private void UpdateItemPointerMat()
+	{
+		m_itemPointer.sharedMaterial = m_items[m_selectedItem] ? m_itemPointerActiveMat : m_itemPointerEmptyMat;
 	}
 }
