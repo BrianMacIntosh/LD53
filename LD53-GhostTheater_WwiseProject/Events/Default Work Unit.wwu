@@ -3,7 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" PersistMode="Standalone">
 			<ChildrenList>
-				<WorkUnit Name="Music" ID="{60FC882E-CA44-458F-89A5-3C1E4EA4E79B}" PersistMode="Reference"/>
 				<Event Name="Room_Random" ID="{76AC827E-E872-4C19-823A-EB3D8EF6C825}">
 					<ChildrenList>
 						<Action Name="" ID="{84E08D6D-0343-4EAD-BD56-06E4F58D15FF}" ShortID="200649601">
@@ -20,7 +19,7 @@
 						<Action Name="" ID="{A15615EF-17A6-4506-A878-3E7F63212C06}" ShortID="691889139">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Drop_Item" ID="{09DE7EFF-C421-41FE-8270-0266E848AE93}" WorkUnitID="{AFA54749-B2B2-492E-A0D0-6C99A3CA1D89}"/>
+									<ObjectRef Name="Drop Item" ID="{09DE7EFF-C421-41FE-8270-0266E848AE93}" WorkUnitID="{AFA54749-B2B2-492E-A0D0-6C99A3CA1D89}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

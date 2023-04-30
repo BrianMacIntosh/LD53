@@ -60,7 +60,7 @@
 						<ActiveSource Name="room_random" ID="{B7620276-BD17-41E4-A467-97D927B3EFC6}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="Drop_Item" ID="{09DE7EFF-C421-41FE-8270-0266E848AE93}" ShortID="690420327">
+				<Sound Name="Drop Item" ID="{09DE7EFF-C421-41FE-8270-0266E848AE93}" ShortID="690420327">
 					<PropertyList>
 						<Property Name="Pitch" Type="int32">
 							<ModifierList>

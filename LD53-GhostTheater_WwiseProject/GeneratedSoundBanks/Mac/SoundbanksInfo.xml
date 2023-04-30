@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="63796330" Type="User" Language="SFX" Hash="{30D8C6AB-B392-F7EE-8538-7200D1E872DD}">
+		<SoundBank Id="63796330" Type="User" Language="SFX" Hash="{B7FBAF8F-BABA-04F0-6E96-F078977CCF47}">
 			<ShortName>Main_Music</ShortName>
 			<Path>Main_Music.bnk</Path>
 			<Media>
@@ -26,24 +26,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1165005940" Type="User" Language="SFX" Hash="{E4465F0D-747F-54CF-4A28-54743DCB6DAD}">
-			<ShortName>Drop_Item</ShortName>
-			<Path>Drop_Item.bnk</Path>
-			<Media>
-				<File Id="520517200" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Drop_Item.wav</ShortName>
-					<CachePath>SFX/Drop_Item_10C4C929.wem</CachePath>
-				</File>
-			</Media>
-			<Events>
-				<Event Id="1165005940" Name="Drop_Item" DurationType="OneShot" DurationMin="1.3793873" DurationMax="1.5936788">
-					<MediaRefs>
-						<MediaRef Id="520517200"/>
-					</MediaRefs>
-				</Event>
-			</Events>
-		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F56A610C-C7C4-F874-B68B-7ADDF94EBB7A}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F00DDC0A-6FCA-164C-8269-90DDCB445F85}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -55,24 +38,39 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<GameParameters>
+				<GameParameter Id="240153585" Name="Test_Parameter"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="2482000886" Type="User" Language="SFX" Hash="{EBBB5BE4-EE1B-8C2C-137E-AEBB97FAB1B8}">
-			<ShortName>Room_Random</ShortName>
-			<Path>Room_Random.bnk</Path>
+		<SoundBank Id="4275143406" Type="User" Language="SFX" Hash="{3AA96270-1B4A-4FFE-E35E-013253ED86A1}">
+			<ShortName>Game_Sounds</ShortName>
+			<Path>Game_Sounds.bnk</Path>
 			<Media>
+				<File Id="520517200" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Drop_Item.wav</ShortName>
+					<CachePath>SFX/Drop_Item_10C4C929.wem</CachePath>
+				</File>
 				<File Id="681923240" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>room_random.wav</ShortName>
-					<CachePath>SFX/room_random_A42E65CA.wem</CachePath>
+					<CachePath>SFX/room_random_109F2CD6.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
+				<Event Id="1165005940" Name="Drop_Item" DurationType="OneShot" DurationMin="1.3793873" DurationMax="1.5936788">
+					<MediaRefs>
+						<MediaRef Id="520517200"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2482000886" Name="Room_Random" DurationType="OneShot" DurationMin="3.8304133" DurationMax="4.177095">
 					<MediaRefs>
 						<MediaRef Id="681923240"/>
 					</MediaRefs>
 				</Event>
 			</Events>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{582410A9-8CDF-DAEB-4D0B-9F35EFA55507}</FileHash>
+	<FileHash>{079C6C67-DFFA-E70C-0B67-50C12F04CAE4}</FileHash>
 </SoundBanksInfo>
