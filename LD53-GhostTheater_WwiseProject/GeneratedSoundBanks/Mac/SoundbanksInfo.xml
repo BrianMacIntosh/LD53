@@ -9,41 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="63796330" Type="User" Language="SFX" Hash="{F88AD6AD-AF46-A6F4-2436-C32D46D75EB2}">
-			<ShortName>Main_Music</ShortName>
-			<Path>Main_Music.bnk</Path>
-			<Media>
-				<File Id="231788945" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Spoopy_Theater.wav</ShortName>
-					<CachePath>SFX/Spoopy_Theater_D79FB2B7.wem</CachePath>
-				</File>
-			</Media>
-			<Events>
-				<Event Id="3991942870" Name="Music" DurationType="OneShot" DurationMin="255.98053" DurationMax="255.98053">
-					<MediaRefs>
-						<MediaRef Id="231788945"/>
-					</MediaRefs>
-				</Event>
-			</Events>
-		</SoundBank>
-		<SoundBank Id="1165005940" Type="User" Language="SFX" Hash="{E4465F0D-747F-54CF-4A28-54743DCB6DAD}">
-			<ShortName>Drop_Item</ShortName>
-			<Path>Drop_Item.bnk</Path>
-			<Media>
-				<File Id="520517200" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Drop_Item.wav</ShortName>
-					<CachePath>SFX/Drop_Item_10C4C929.wem</CachePath>
-				</File>
-			</Media>
-			<Events>
-				<Event Id="1165005940" Name="Drop_Item" DurationType="OneShot" DurationMin="1.3793873" DurationMax="1.5936788">
-					<MediaRefs>
-						<MediaRef Id="520517200"/>
-					</MediaRefs>
-				</Event>
-			</Events>
-		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F56A610C-C7C4-F874-B68B-7ADDF94EBB7A}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F00DDC0A-6FCA-164C-8269-90DDCB445F85}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -55,23 +21,9 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
-		</SoundBank>
-		<SoundBank Id="2482000886" Type="User" Language="SFX" Hash="{91BA0D57-7E9B-373B-E73B-A0BE0872A14A}">
-			<ShortName>Room_Random</ShortName>
-			<Path>Room_Random.bnk</Path>
-			<Media>
-				<File Id="681923240" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>room_random.wav</ShortName>
-					<CachePath>SFX/room_random_109F2CD6.wem</CachePath>
-				</File>
-			</Media>
-			<Events>
-				<Event Id="2482000886" Name="Room_Random" DurationType="OneShot" DurationMin="3.8304133" DurationMax="4.177095">
-					<MediaRefs>
-						<MediaRef Id="681923240"/>
-					</MediaRefs>
-				</Event>
-			</Events>
+			<GameParameters>
+				<GameParameter Id="240153585" Name="Test_Parameter"/>
+			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="3930136735" Type="User" Language="English(US)" Hash="{8ABF0CDC-504F-1DF4-3248-C1D515E1B89C}">
 			<ShortName>Dialogue</ShortName>
@@ -146,6 +98,49 @@
 				</Event>
 			</Events>
 		</SoundBank>
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{09E469F9-566B-E246-A966-F5AA6C5B9517}">
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<Media>
+				<File Id="231788945" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spoopy_Theater.wav</ShortName>
+					<CachePath>SFX/Spoopy_Theater_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3991942870" Name="Music" DurationType="OneShot" DurationMin="255.98053" DurationMax="255.98053">
+					<MediaRefs>
+						<MediaRef Id="231788945"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="4275143406" Type="User" Language="SFX" Hash="{49CBDBE3-5469-3CD0-8C00-5B77A8E92D96}">
+			<ShortName>Game_Sounds</ShortName>
+			<Path>Game_Sounds.bnk</Path>
+			<Media>
+				<File Id="520517200" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Drop_Item.wav</ShortName>
+					<CachePath>SFX/Drop_Item_10C4C929.wem</CachePath>
+				</File>
+				<File Id="681923240" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>room_random.wav</ShortName>
+					<CachePath>SFX/room_random_109F2CD6.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1165005940" Name="Drop_Item" DurationType="OneShot" DurationMin="1.3793873" DurationMax="1.5936788">
+					<MediaRefs>
+						<MediaRef Id="520517200"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2482000886" Name="Room_Random" DurationType="OneShot" DurationMin="3.8304133" DurationMax="4.177095">
+					<MediaRefs>
+						<MediaRef Id="681923240"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{46406118-6B2E-E08A-B0C6-57817091A3B6}</FileHash>
+	<FileHash>{263B4B28-A95A-77C6-0ECB-AF754CB53DFC}</FileHash>
 </SoundBanksInfo>

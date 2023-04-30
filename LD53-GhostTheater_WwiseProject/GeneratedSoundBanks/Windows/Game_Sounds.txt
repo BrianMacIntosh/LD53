@@ -2,10 +2,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1165005940	Drop_Item			\Default Work Unit\Drop_Item	
 	2482000886	Room_Random			\Default Work Unit\Room_Random	
 
-Audio Bus	ID	Name			Wwise Object Path	Notes
-	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
-
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	520517200	Drop Item	E:\Projects\LD53-GhostTheater\LD53-GhostTheater_WwiseProject\.cache\Windows\SFX\Drop_Item_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drop Item		284768
-	681923240	Room_Random	E:\Projects\LD53-GhostTheater\LD53-GhostTheater_WwiseProject\.cache\Windows\SFX\room_random_109F2CD6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Room_Random		768096
+	520517200	Drop Item	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\SFX\Drop_Item_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drop Item		284768
+	681923240	Room_Random	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\SFX\room_random_109F2CD6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Room_Random		768096
 

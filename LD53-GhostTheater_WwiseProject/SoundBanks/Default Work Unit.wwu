@@ -5,16 +5,16 @@
 			<ChildrenList>
 				<SoundBank Name="Game_Sounds" ID="{67D6488D-BB43-4EF4-90E6-DD20705D2A9B}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Default Work Unit" ID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Default Work Unit" ID="{AFA54749-B2B2-492E-A0D0-6C99A3CA1D89}" WorkUnitID="{AFA54749-B2B2-492E-A0D0-6C99A3CA1D89}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Default Work Unit" ID="{F376297D-AB07-4958-BBDC-FB26A5AD928C}" WorkUnitID="{F376297D-AB07-4958-BBDC-FB26A5AD928C}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Default Work Unit" ID="{E775AA29-63E4-4CF3-8FA4-14FC43EB0946}" WorkUnitID="{E775AA29-63E4-4CF3-8FA4-14FC43EB0946}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Room_Random" ID="{76AC827E-E872-4C19-823A-EB3D8EF6C825}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Drop_Item" ID="{B9D1C0D5-D249-4D35-8DC3-E6668E6C38F4}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Music" ID="{E95B6174-C06B-4451-9744-914A54409B5E}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Music" ID="{C408DB87-862B-4D78-931F-18996B033B8D}" WorkUnitID="{60FC882E-CA44-458F-89A5-3C1E4EA4E79B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
