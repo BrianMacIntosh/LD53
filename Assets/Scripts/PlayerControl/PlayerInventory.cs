@@ -140,21 +140,26 @@ public class PlayerInventory : MonoBehaviour
 	/// </summary>
 	public void OnDropItem(InputValue value)
 	{
-		CraftingItem dropItem = m_items[m_selectedItem];
-		if (dropItem)
+		CraftingItem item = m_items[m_selectedItem];
+		if (item)
 		{
 			m_items[m_selectedItem] = null;
-			m_itemSlots[m_selectedItem].DropItem(dropItem);
+			m_itemSlots[m_selectedItem].DropItem(item);
 
-			Rigidbody rigidbody = dropItem.GetComponent<Rigidbody>();
+			Rigidbody rigidbody = item.GetComponent<Rigidbody>();
 			if (rigidbody)
 			{
 				rigidbody.isKinematic = false;
 				Vector3 dropVelocity = (transform.forward + Vector3.up).normalized * m_dropVelocity;
 				rigidbody.velocity = dropVelocity;
 			}
+			Collider collider = item.GetComponent<Collider>();
+			if (collider)
+			{
+				collider.enabled = true;
+			}
 
-			dropItem.NotifyDropped();
+			item.NotifyDropped();
 			m_dropAnyItemEvent.Post(gameObject);
 
 			UpdateItemPointerMat();
@@ -238,6 +243,11 @@ public class PlayerInventory : MonoBehaviour
 		if (rigidbody)
 		{
 			rigidbody.isKinematic = true;
+		}
+		Collider collider = item.GetComponent<Collider>();
+		if (collider)
+		{
+			collider.enabled = false;
 		}
 
 		if (item.ItemData.PickUpEvent)
