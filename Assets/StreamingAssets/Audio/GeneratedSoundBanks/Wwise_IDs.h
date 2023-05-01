@@ -13,7 +13,9 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID CLOSE_FREEZER = 3612216855U;
         static const AkUniqueID CLOSE_FRIDGE = 4149631081U;
+        static const AkUniqueID COMBINE_HOTDOG = 2552711898U;
         static const AkUniqueID CORN_SEQUENCE = 1506259429U;
         static const AkUniqueID DEPOSIT_CORN = 3682162402U;
         static const AkUniqueID DEPOSIT_CORN_FAILED = 435981810U;
@@ -21,11 +23,13 @@ namespace AK
         static const AkUniqueID GET_SODA = 2324752241U;
         static const AkUniqueID GET_STICKS = 2360116985U;
         static const AkUniqueID GETHOTDOGPOPCORN_SEQUENCE = 2627373943U;
+        static const AkUniqueID GETPOPCORN_SEQUENCE = 3520966566U;
         static const AkUniqueID MUSIC = 3991942870U;
         static const AkUniqueID NARRATION_02_01_SEQUENCE = 954364540U;
         static const AkUniqueID NARRATION_03_01_SEQUENCE = 3132980017U;
         static const AkUniqueID NARRATION_05_01_SEQUENCE = 3714960967U;
         static const AkUniqueID NARRATION_06_01_SEQUENCE = 3166432864U;
+        static const AkUniqueID OPEN_FREEZER = 374342109U;
         static const AkUniqueID OPEN_FRIDGE = 1027365271U;
         static const AkUniqueID ORDERCOMPLETEAPOLOGY_SEQUENCE = 1923862681U;
         static const AkUniqueID ORDERCOMPLETENOTTHEWORST_SEQUENCE = 1524787101U;
@@ -36,8 +40,13 @@ namespace AK
         static const AkUniqueID PARTYORDERCOMPLETE4_SEQUENCE = 2202236252U;
         static const AkUniqueID PARTYORDERCOMPLETE5_SEQUENCE = 898156511U;
         static const AkUniqueID PLATTER_TUTORIAL_SEQUENCE = 645192540U;
+        static const AkUniqueID POPCORN_DONE_OVERFLOWED = 2962880407U;
+        static const AkUniqueID POPCORN_FILLED_CARTON = 367907887U;
         static const AkUniqueID POPCORN_MACHINE_SEQUENCE = 4096944978U;
+        static const AkUniqueID POPCORN_READY = 641532120U;
+        static const AkUniqueID POPCORN_WITHDRAW_NOCARTON = 416986624U;
         static const AkUniqueID POPCORNNOCARTON_SEQUENCE = 1519229424U;
+        static const AkUniqueID POPPING_CORN = 3293062167U;
         static const AkUniqueID RAND_STOVE_SEQUENCE = 167085234U;
         static const AkUniqueID RAND_THROW_SEQUENCE = 2758822327U;
         static const AkUniqueID ROOM_RANDOM = 2482000886U;

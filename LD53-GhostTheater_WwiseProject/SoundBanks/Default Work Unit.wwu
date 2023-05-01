@@ -6,11 +6,19 @@
 				<SoundBank Name="Game_Sounds" ID="{67D6488D-BB43-4EF4-90E6-DD20705D2A9B}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Stove_On" ID="{A8507521-EFC2-4062-B9E6-4153ADD5ACB3}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Popcorn_Filled_Carton" ID="{A1878183-D739-413E-AB4F-7516207A29CD}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Popcorn_Ready" ID="{38583A67-E8C8-4447-86E0-AC0FBBD82564}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Deposit_Corn" ID="{B0F3F4D3-63A3-4502-9189-541A9D28B1B2}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Popcorn_Done_Overflowed" ID="{09BB4211-69E5-454D-86CC-9B013B8762E8}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Close_Fridge" ID="{77A0901A-EA7E-4555-BE9A-9F78F842C70F}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Popping_Corn" ID="{0BE65C76-4A38-45C6-BEEA-94D82434B830}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Open_Fridge" ID="{F85DF8D5-B9CE-46C8-973B-4626A3831BD6}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Combine_Hotdog" ID="{E32B49DD-0D23-4830-91B5-E5E94DF3F9F1}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Deposit_Corn_Failed" ID="{55A09C73-327C-4874-A70A-6525777FF6FC}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Popcorn_Withdraw_NoCarton" ID="{1F2B8981-BE4D-48E6-A0B9-F9AD18C1ED88}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Open_Freezer" ID="{1353C3C8-3C36-4C04-904D-74E3A4B7F023}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Room_Random" ID="{76AC827E-E872-4C19-823A-EB3D8EF6C825}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Close_Freezer" ID="{7CFCAA96-A9DE-4C83-A291-D79950A471B8}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Drop_Item" ID="{B9D1C0D5-D249-4D35-8DC3-E6668E6C38F4}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stove_Off" ID="{2A822877-A5BC-4F91-B020-1D1D302B75C1}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
@@ -33,6 +41,7 @@
 						<ObjectRef Name="PartyOrderComplete0_Sequence" ID="{6616C8AA-0128-449C-BFDB-B16B23F484C9}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="OrderCompleteApology_Sequence" ID="{9F0BB485-3003-452B-836E-71C9F63983D1}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stove_Tutorial" ID="{5DC31597-0BA6-4537-9B32-027F7F8BCEF3}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GetPopcorn_Sequence" ID="{B67B8504-F107-4583-B5B1-105CEDA41AF4}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Soda_Ordered_Sequence" ID="{ECD2E957-42C4-4685-8B39-DDBDF2F8E5DB}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PartyOrderComplete1_Sequence" ID="{0DE0CC77-7032-473B-9D98-74CDBEAFC502}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Voice_3_1" ID="{CD8F38BE-0216-4744-928E-0739FAFE2B50}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>

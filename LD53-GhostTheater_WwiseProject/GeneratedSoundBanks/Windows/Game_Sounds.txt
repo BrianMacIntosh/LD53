@@ -1,20 +1,39 @@
 Event	ID	Name			Wwise Object Path	Notes
+	367907887	Popcorn_Filled_Carton			\Default Work Unit\Popcorn_Filled_Carton	
+	374342109	Open_Freezer			\Default Work Unit\Open_Freezer	
+	416986624	Popcorn_Withdraw_NoCarton			\Default Work Unit\Popcorn_Withdraw_NoCarton	
 	435981810	Deposit_Corn_Failed			\Default Work Unit\Deposit_Corn_Failed	
+	641532120	Popcorn_Ready			\Default Work Unit\Popcorn_Ready	
 	1027365271	Open_Fridge			\Default Work Unit\Open_Fridge	
 	1165005940	Drop_Item			\Default Work Unit\Drop_Item	
 	1278791036	Stove_On			\Default Work Unit\Stove_On	
 	1902865914	Stove_Off			\Default Work Unit\Stove_Off	
 	2482000886	Room_Random			\Default Work Unit\Room_Random	
+	2552711898	Combine_Hotdog			\Default Work Unit\Combine_Hotdog	
+	2962880407	Popcorn_Done_Overflowed			\Default Work Unit\Popcorn_Done_Overflowed	
+	3293062167	Popping_Corn			\Default Work Unit\Popping_Corn	
+	3612216855	Close_Freezer			\Default Work Unit\Close_Freezer	
 	3682162402	Deposit_Corn			\Default Work Unit\Deposit_Corn	
 	4149631081	Close_Fridge			\Default Work Unit\Close_Fridge	
 
+Effect plug-ins	ID	Name	Type				Notes
+	3604890626	High_Pass_60Hz	Wwise Parametric EQ			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	10362093	Deposit_Corn_Failed	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\SFX\Deposit_Corn_Failed_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Deposit_Corn_Failed		146872
+	113344117	Popcorn_Withdraw_NoCarton	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\SFX\Popcorn_Withdraw_NoCarton_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Popcorn_Withdraw_NoCarton		333884
+	208716685	Popping_Corn	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\SFX\Popping_Corn_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Popping_Corn		188440
+	239186557	Hotdog	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\SFX\Hotdog_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hotdog		324872
 	254986937	Open_Fridge	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\SFX\Open_Fridge_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Open_Fridge		384096
 	458379797	Deposit_Corn	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\SFX\Deposit_Corn_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Deposit_Corn		155604
+	476000979	Open_Freezer	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\SFX\Open_Freezer_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Open_Freezer		384096
+	480115235	Popcorn_Done_Overflowed	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\SFX\Popcorn_Done_Overflowed_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Popcorn_Done_Overflowed		333884
 	520517200	Drop Item	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\SFX\Drop_Item_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Drop Item		284768
 	609448200	Close_Fridge	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\SFX\Close_Fridge_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Close_Fridge		407840
 	615389882	Stove_On	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\SFX\Stove_On_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stove_On		577632
 	681923240	Room_Random	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\SFX\room_random_109F2CD6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Room_Random		768096
 	799261458	Stove_Off	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\SFX\Stove_Off_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Stove_Off		286080
+	838077759	Popcorn_Filled_Carton	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\SFX\Popcorn_Filled_Carton_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Popcorn_Filled_Carton		333884
+	845272214	Close_Freezer	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\SFX\Close_Freezer_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Close_Freezer		384096
+	1018794257	Popcorn_Ready	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Windows\SFX\Popcorn_Ready_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Popcorn_Ready		384096
 

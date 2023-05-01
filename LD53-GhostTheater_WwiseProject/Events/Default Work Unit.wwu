@@ -443,6 +443,94 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Open_Freezer" ID="{1353C3C8-3C36-4C04-904D-74E3A4B7F023}">
+					<ChildrenList>
+						<Action Name="" ID="{F62AF730-9148-46D5-9E66-A2C6857AA091}" ShortID="740005391">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Open_Freezer" ID="{D192B58E-457E-4539-8FE3-F702C0F2D668}" WorkUnitID="{AFA54749-B2B2-492E-A0D0-6C99A3CA1D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Close_Freezer" ID="{7CFCAA96-A9DE-4C83-A291-D79950A471B8}">
+					<ChildrenList>
+						<Action Name="" ID="{D98935A5-5991-41B1-A3F5-6910972A9A05}" ShortID="803558033">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Close_Freezer" ID="{F5CB0F07-E53C-47C7-9289-F8E291102072}" WorkUnitID="{AFA54749-B2B2-492E-A0D0-6C99A3CA1D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Combine_Hotdog" ID="{E32B49DD-0D23-4830-91B5-E5E94DF3F9F1}">
+					<ChildrenList>
+						<Action Name="" ID="{9C144731-7E4C-455B-BBA7-D2E39D470753}" ShortID="1012845346">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hotdog" ID="{F1D7FB2D-1811-4803-AA03-98B75A51E67E}" WorkUnitID="{AFA54749-B2B2-492E-A0D0-6C99A3CA1D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Popcorn_Done_Overflowed" ID="{09BB4211-69E5-454D-86CC-9B013B8762E8}">
+					<ChildrenList>
+						<Action Name="" ID="{70C7CF04-F801-4EB2-A5BD-2DD92D088CCA}" ShortID="423713887">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Popcorn_Done_Overflowed" ID="{553ACD62-8FB6-4FD9-A4C0-4B78F95A699D}" WorkUnitID="{AFA54749-B2B2-492E-A0D0-6C99A3CA1D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Popcorn_Filled_Carton" ID="{A1878183-D739-413E-AB4F-7516207A29CD}">
+					<ChildrenList>
+						<Action Name="" ID="{DCC09B8B-3ED4-4F8C-8340-C1935532DAD8}" ShortID="61599239">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Popcorn_Filled_Carton" ID="{87C0E019-E410-4B22-944D-368B816556F8}" WorkUnitID="{AFA54749-B2B2-492E-A0D0-6C99A3CA1D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Popcorn_Ready" ID="{38583A67-E8C8-4447-86E0-AC0FBBD82564}">
+					<ChildrenList>
+						<Action Name="" ID="{5BCF348D-E2B6-4C8D-A8B2-3EEC8FC4E097}" ShortID="100779457">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Popcorn_Ready" ID="{1E7F5994-D410-4498-868F-E67ED6D6F871}" WorkUnitID="{AFA54749-B2B2-492E-A0D0-6C99A3CA1D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Popcorn_Withdraw_NoCarton" ID="{1F2B8981-BE4D-48E6-A0B9-F9AD18C1ED88}">
+					<ChildrenList>
+						<Action Name="" ID="{183C21EB-EA9E-4F77-8F93-91D3D4D05DCF}" ShortID="648736600">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Popcorn_Withdraw_NoCarton" ID="{E5A3171C-1BC8-451A-A3D6-18874F6C0DD4}" WorkUnitID="{AFA54749-B2B2-492E-A0D0-6C99A3CA1D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Popping_Corn" ID="{0BE65C76-4A38-45C6-BEEA-94D82434B830}">
+					<ChildrenList>
+						<Action Name="" ID="{AD11BD5E-2486-4773-84E6-FF211A40405C}" ShortID="822488944">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Popping_Corn" ID="{F43AEBD6-64B7-4447-9ACB-45C05AC23657}" WorkUnitID="{AFA54749-B2B2-492E-A0D0-6C99A3CA1D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

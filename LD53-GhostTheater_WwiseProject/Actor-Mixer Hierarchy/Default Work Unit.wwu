@@ -111,6 +111,8 @@
 				</Sound>
 				<RandomSequenceContainer Name="Sequence1_Voice" ID="{CB2A2638-CF78-4A2E-9AF9-01AB2277D6F4}" ShortID="133435039">
 					<PropertyList>
+						<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -188,6 +190,8 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="Sequence2_Voice" ID="{9D56B077-B388-4075-A310-79AA315BDD61}" ShortID="727253380">
 					<PropertyList>
+						<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -292,6 +296,11 @@
 				<Sound Name="voice_3_1" ID="{D778C224-D7DE-489D-A0CA-55EB5B4D33FE}" ShortID="458887253">
 					<PropertyList>
 						<Property Name="IsVoice" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -319,6 +328,8 @@
 				</Sound>
 				<RandomSequenceContainer Name="Sequence4_Voice" ID="{8888D7B7-0737-421A-AC5E-95FDCC8E8E71}" ShortID="223274294">
 					<PropertyList>
+						<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -397,6 +408,11 @@
 				<Sound Name="voice_5_1" ID="{2FF9794B-EDAA-4DB1-AA9B-8F6DA2B48214}" ShortID="208736572">
 					<PropertyList>
 						<Property Name="IsVoice" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>5</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -423,6 +439,26 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Deposit_Corn" ID="{236376EF-F432-4D92-A21E-680508EBC34C}" ShortID="1049452936">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{C16AFE73-1D73-47C8-B551-6522651CFC55}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="100"/>
+											<Property Name="Min" Type="Real64" Value="-100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80B8C6FB-FAD1-422B-A20C-0B74A41AB906}"/>
@@ -445,6 +481,26 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Deposit_Corn_Failed" ID="{0205477F-AB67-45C0-BD70-F021707C68A9}" ShortID="301887745">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{67B1656B-9037-4385-A4BE-1585AC5F78B3}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="100"/>
+											<Property Name="Min" Type="Real64" Value="-100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80B8C6FB-FAD1-422B-A20C-0B74A41AB906}"/>
@@ -467,6 +523,21 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="Stove_On" ID="{20604B16-67D8-44C8-BDA3-8BC37F0F8356}" ShortID="611370697">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{118908C6-3DF9-4A8F-8697-7D909547D00B}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="100"/>
+											<Property Name="Min" Type="Real64" Value="-100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80B8C6FB-FAD1-422B-A20C-0B74A41AB906}"/>
@@ -490,6 +561,19 @@
 				</Sound>
 				<Sound Name="Stove_Off" ID="{18773528-6FB2-4EF7-9241-FD2E2CA2E751}" ShortID="102347262">
 					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{B4A6E74E-3E2C-4BFF-BF0B-1F2B2181076E}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="100"/>
+											<Property Name="Min" Type="Real64" Value="-100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-1</Value>
@@ -519,15 +603,38 @@
 				</Sound>
 				<Sound Name="Open_Fridge" ID="{065CCF30-0D48-4F79-9FB3-E8EE34B207DE}" ShortID="60255790">
 					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{A7B1929C-2E60-4D1C-B419-7189BBA31659}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{C8ABAA69-8F34-49DC-93BD-DA565DB00CD9}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="100"/>
+											<Property Name="Min" Type="Real64" Value="-100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-3</Value>
+								<Value>-4</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80B8C6FB-FAD1-422B-A20C-0B74A41AB906}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+							<ObjectRef Name="High_Pass_60Hz" ID="{F9627628-0B10-4272-BC30-D4C20423CB38}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F376297D-AB07-4958-BBDC-FB26A5AD928C}"/>
@@ -548,15 +655,31 @@
 				</Sound>
 				<Sound Name="Close_Fridge" ID="{260D5463-A981-439D-821C-474A43044DDF}" ShortID="228745058">
 					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{1FDFB179-7CAF-4CF2-8CBE-B803E9649AEB}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="100"/>
+											<Property Name="Min" Type="Real64" Value="-100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-3</Value>
+								<Value>-5</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80B8C6FB-FAD1-422B-A20C-0B74A41AB906}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+							<ObjectRef Name="High_Pass_60Hz" ID="{F9627628-0B10-4272-BC30-D4C20423CB38}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F376297D-AB07-4958-BBDC-FB26A5AD928C}"/>
@@ -577,6 +700,16 @@
 				</Sound>
 				<RandomSequenceContainer Name="coin_tutorial" ID="{12397406-9F6F-478B-8870-097729DAF78E}" ShortID="199453494">
 					<PropertyList>
+						<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{FC77C7EC-33DB-4DB8-8DCA-96033617CD47}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -654,6 +787,16 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="GetHotDogPopcorn_Group" ID="{F3CBA7B0-8339-45A0-B3E3-E16A4ADDB6F1}" ShortID="185482214">
 					<PropertyList>
+						<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{661C2631-B7BC-44E1-AB46-65DC18C6E77C}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -731,6 +874,10 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="GetPopcorn_Group" ID="{BEDB9641-81DD-4652-8857-C5C314DAD670}" ShortID="477556290">
 					<PropertyList>
+						<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -808,6 +955,10 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="OrderComplete_NottheWorst" ID="{3A3E42D7-74E6-4F7F-9CF7-F4B5534C0B3D}" ShortID="1067384662">
 					<PropertyList>
+						<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -911,6 +1062,10 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="OrderCompleteApology" ID="{2DE7F0C5-B0EB-46C6-8F20-4EDF5E92A57E}" ShortID="1025291868">
 					<PropertyList>
+						<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -1014,6 +1169,8 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="PartyOrderComplete0_Group" ID="{AF2BC6DE-6925-445E-8798-D36216787578}" ShortID="134639418">
 					<PropertyList>
+						<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -1143,6 +1300,8 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="PartyOrderComplete1_Group" ID="{3AFB1AFA-AAC5-4717-9FE3-002BEDA5E8E9}" ShortID="388636366">
 					<PropertyList>
+						<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -1220,6 +1379,8 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="PartyOrderComplete2_Group" ID="{F5496FB4-F3F7-4B3B-AA62-454882F4356D}" ShortID="251337500">
 					<PropertyList>
+						<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -1375,6 +1536,8 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="PartyOrderComplete4_Group" ID="{D1377057-3BC9-4F21-BB2F-275E8F898EA1}" ShortID="183025264">
 					<PropertyList>
+						<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -1452,6 +1615,8 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="PartyOrderComplete5_Group" ID="{EDD9F427-8DF3-4B5A-9A72-C40A172B1105}" ShortID="741875032">
 					<PropertyList>
+						<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -1581,6 +1746,8 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="Platter_Tutorial_Group" ID="{04DCC24A-5A1C-421D-91FB-858BACC05D38}" ShortID="556666356">
 					<PropertyList>
+						<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -1684,6 +1851,8 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="Popcorn_No_Carton" ID="{1E46DCB9-DBA7-404E-8BDD-DAB59116B703}" ShortID="1068715270">
 					<PropertyList>
+						<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -1761,6 +1930,8 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="PopcornMachine_Group" ID="{C52B9839-4409-4F67-84FF-C8247BC0FF90}" ShortID="115837154">
 					<PropertyList>
+						<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -1864,6 +2035,8 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="RAND_Stove_Group" ID="{E7ACCEEB-4F7A-402E-840A-90F5BC4DDABD}" ShortID="257540637">
 					<PropertyList>
+						<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -1967,6 +2140,8 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="RAND_Throw_Group" ID="{934532C8-3A6A-4201-94E3-6A5910C160C1}" ShortID="709904518">
 					<PropertyList>
+						<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 					</PropertyList>
 					<ReferenceList>
@@ -2198,7 +2373,7 @@
 						<Property Name="IsVoice" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>5</Value>
+								<Value>6</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -2231,7 +2406,7 @@
 						<Property Name="IsVoice" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>5</Value>
+								<Value>6</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -2327,6 +2502,8 @@
 				</Sound>
 				<RandomSequenceContainer Name="X_Theatre3OrderComplete0_Sequence" ID="{07F4F780-CEFD-4C31-B68B-418F36F76DBB}" ShortID="550085101">
 					<PropertyList>
+						<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -2404,6 +2581,8 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="X_Theatre3OrderComplete2_Sequence" ID="{3A598B36-B321-410F-B424-2864AC7AC125}" ShortID="814718285">
 					<PropertyList>
+						<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -2481,6 +2660,8 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="X_Theatre3OrderComplete4_Sequence" ID="{6B037F58-8364-41F4-AB0A-C5E24FE43E6B}" ShortID="870695172">
 					<PropertyList>
+						<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -2584,6 +2765,8 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="sequence_2b" ID="{26138761-8522-4196-8EBB-B6A21C418567}" ShortID="375319265">
 					<PropertyList>
+						<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -2687,6 +2870,8 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="sequence_3a" ID="{EC703ACA-CD57-4311-9139-F67B80458074}" ShortID="979333900">
 					<PropertyList>
+						<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -2764,6 +2949,8 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="sequence_4" ID="{7C19FFB8-3190-4B6F-9386-B368D6436868}" ShortID="793703262">
 					<PropertyList>
+						<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -2841,6 +3028,8 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="sequence_5a" ID="{7A22F743-DEC5-425F-B2E5-61923FFF8315}" ShortID="964300219">
 					<PropertyList>
+						<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -2944,6 +3133,8 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="sequence_6a" ID="{9FF36DE4-A43A-4D80-8BB6-97383F74E00D}" ShortID="573786504">
 					<PropertyList>
+						<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -3021,6 +3212,8 @@
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="SodaOrdered_Group" ID="{AA6709B8-E029-4097-82A2-DED560CAE4DD}" ShortID="974937311">
 					<PropertyList>
+						<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -3096,6 +3289,344 @@
 						<ItemRef Name="X_SodaOrdered_01_edited" ID="{38BEE9B0-C736-41E1-A007-F4578174E13F}"/>
 					</Playlist>
 				</RandomSequenceContainer>
+				<Sound Name="Popcorn_Done_Overflowed" ID="{553ACD62-8FB6-4FD9-A4C0-4B78F95A699D}" ShortID="537173385">
+					<PropertyList>
+						<Property Name="InitialDelay" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{9849083A-9313-4173-A5B6-B8992142D53F}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{0AE69946-2B33-4032-9A66-6D250504D177}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="100"/>
+											<Property Name="Min" Type="Real64" Value="-100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80B8C6FB-FAD1-422B-A20C-0B74A41AB906}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F376297D-AB07-4958-BBDC-FB26A5AD928C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Popcorn_Done_Overflowed" ID="{3422AEC2-B8ED-4576-A77C-52CC044AAADA}">
+							<Language>SFX</Language>
+							<AudioFile>Popcorn_Done_Overflowed.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="480115235"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Popcorn_Done_Overflowed" ID="{3422AEC2-B8ED-4576-A77C-52CC044AAADA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Popcorn_Filled_Carton" ID="{87C0E019-E410-4B22-944D-368B816556F8}" ShortID="686845608">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{98D608DD-29F7-445B-B1CA-DF5A18AB1CC2}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="125"/>
+											<Property Name="Min" Type="Real64" Value="-125"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80B8C6FB-FAD1-422B-A20C-0B74A41AB906}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F376297D-AB07-4958-BBDC-FB26A5AD928C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Popcorn_Filled_Carton" ID="{B830FBC0-FFDA-4145-91A6-1036618505A7}">
+							<Language>SFX</Language>
+							<AudioFile>Popcorn_Filled_Carton.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="838077759"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Popcorn_Filled_Carton" ID="{B830FBC0-FFDA-4145-91A6-1036618505A7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Popcorn_Ready" ID="{1E7F5994-D410-4498-868F-E67ED6D6F871}" ShortID="467024424">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{7DC4A5CE-BBF1-4592-AADA-331481E2BF88}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="100"/>
+											<Property Name="Min" Type="Real64" Value="-100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80B8C6FB-FAD1-422B-A20C-0B74A41AB906}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F376297D-AB07-4958-BBDC-FB26A5AD928C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Popcorn_Ready" ID="{F3494EB1-5053-4F38-AC11-5FF825C8E8BF}">
+							<Language>SFX</Language>
+							<AudioFile>Popcorn_Ready.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1018794257"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Popcorn_Ready" ID="{F3494EB1-5053-4F38-AC11-5FF825C8E8BF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Popcorn_Withdraw_NoCarton" ID="{E5A3171C-1BC8-451A-A3D6-18874F6C0DD4}" ShortID="1049695736">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{4ED0C09C-3B18-4D46-BB24-343D335575EC}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="125"/>
+											<Property Name="Min" Type="Real64" Value="-125"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80B8C6FB-FAD1-422B-A20C-0B74A41AB906}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F376297D-AB07-4958-BBDC-FB26A5AD928C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Popcorn_Withdraw_NoCarton" ID="{B28DB7BF-8F8E-4F32-AE4F-E6D52564D326}">
+							<Language>SFX</Language>
+							<AudioFile>Popcorn_Withdraw_NoCarton.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="113344117"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Popcorn_Withdraw_NoCarton" ID="{B28DB7BF-8F8E-4F32-AE4F-E6D52564D326}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Hotdog" ID="{F1D7FB2D-1811-4803-AA03-98B75A51E67E}" ShortID="278997787">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{5EBD901E-E0EB-43CF-80A8-F39AD163FF6F}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="100"/>
+											<Property Name="Min" Type="Real64" Value="-100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80B8C6FB-FAD1-422B-A20C-0B74A41AB906}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F376297D-AB07-4958-BBDC-FB26A5AD928C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Hotdog" ID="{158438DF-43CB-46A8-97F2-57985BD7802D}">
+							<Language>SFX</Language>
+							<AudioFile>Hotdog.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="239186557"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Hotdog" ID="{158438DF-43CB-46A8-97F2-57985BD7802D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Close_Freezer" ID="{F5CB0F07-E53C-47C7-9289-F8E291102072}" ShortID="603081163">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{4DFA24B0-D083-4BC4-BDE9-37D9D8A2096E}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="100"/>
+											<Property Name="Min" Type="Real64" Value="-100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80B8C6FB-FAD1-422B-A20C-0B74A41AB906}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F376297D-AB07-4958-BBDC-FB26A5AD928C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Close_Freezer" ID="{5CD239D0-C39E-4722-8750-F687386635ED}">
+							<Language>SFX</Language>
+							<AudioFile>Close_Freezer.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="845272214"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Close_Freezer" ID="{5CD239D0-C39E-4722-8750-F687386635ED}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Open_Freezer" ID="{D192B58E-457E-4539-8FE3-F702C0F2D668}" ShortID="1057290194">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{1A7D4C6A-084E-4FC0-A895-1B9FCB67AD91}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="100"/>
+											<Property Name="Min" Type="Real64" Value="-100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80B8C6FB-FAD1-422B-A20C-0B74A41AB906}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F376297D-AB07-4958-BBDC-FB26A5AD928C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Open_Freezer" ID="{B8CE4C6B-0A54-416B-B287-F0C3427A291D}">
+							<Language>SFX</Language>
+							<AudioFile>Open_Freezer.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="476000979"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Open_Freezer" ID="{B8CE4C6B-0A54-416B-B287-F0C3427A291D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Popping_Corn" ID="{F43AEBD6-64B7-4447-9ACB-45C05AC23657}" ShortID="801576370">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{0FCC72A4-2546-49B6-8706-83355520C3BA}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="100"/>
+											<Property Name="Min" Type="Real64" Value="-100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{3F6C58B8-126E-4478-BDDB-2024C1B242CB}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-3"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{80B8C6FB-FAD1-422B-A20C-0B74A41AB906}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F376297D-AB07-4958-BBDC-FB26A5AD928C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Popping_Corn" ID="{C06688B7-F115-4A6A-A275-7B43338ABBDA}">
+							<Language>SFX</Language>
+							<AudioFile>Popping_Corn.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="208716685"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Popping_Corn" ID="{C06688B7-F115-4A6A-A275-7B43338ABBDA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
