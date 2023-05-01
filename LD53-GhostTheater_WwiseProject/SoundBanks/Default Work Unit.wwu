@@ -33,21 +33,26 @@
 						<ObjectRef Name="PartyOrderComplete0_Sequence" ID="{6616C8AA-0128-449C-BFDB-B16B23F484C9}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="OrderCompleteApology_Sequence" ID="{9F0BB485-3003-452B-836E-71C9F63983D1}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stove_Tutorial" ID="{5DC31597-0BA6-4537-9B32-027F7F8BCEF3}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Soda_Ordered_Sequence" ID="{ECD2E957-42C4-4685-8B39-DDBDF2F8E5DB}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PartyOrderComplete1_Sequence" ID="{0DE0CC77-7032-473B-9D98-74CDBEAFC502}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Voice_3_1" ID="{CD8F38BE-0216-4744-928E-0739FAFE2B50}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Platter_Tutorial_Sequence" ID="{05F322E4-52ED-475B-8CAD-E733C10DE8EB}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Voice_5_1" ID="{D6650A66-BFCD-4776-A97C-34EBDBE11BC6}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Theater3Order2_Sequence" ID="{131F7C9F-1704-48F9-A676-9E6057B00C6F}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Narration_05_01_Sequence" ID="{E5CFC0EE-8188-493B-906E-FB9635F28E8D}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RAND_Throw_Sequence" ID="{53C5D8FA-11F8-4977-BF69-BF3EF5C0EE48}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Narration_02_01_Sequence" ID="{0078A67A-74C3-498D-B4F7-BD4BD33C950A}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Theater3Order4_Sequence" ID="{FFA10873-BEC9-4A0C-8408-468289444A0D}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PopcornNoCarton_Sequence" ID="{711BF8E3-FE37-4A0E-867B-B7BD71445987}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="OrderCompleteNottheWorst_Sequence" ID="{026AF2A6-E037-4A51-8265-06943E120028}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Sequence1_Voices" ID="{5B267994-E16B-4A64-BE58-4390BC087A9B}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Get_Soda" ID="{6774A200-E5C8-4A89-A0B8-E5C017B3D545}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PartyOrderComplete3" ID="{7359D47A-16A9-4AC6-AC25-B75AB0E1EFE8}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Narration_06_01_Sequence" ID="{DFF4A62B-A409-4AC9-86B0-DEA317C0A409}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PartyOrderComplete5_Sequence" ID="{6C5BC172-02B2-4B3E-A4CC-A503FD4C65E5}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Sequence2_Voices" ID="{11424117-35BC-4D10-B9FC-16D562758FDD}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Popcorn_Machine_Sequence" ID="{ED106547-99AC-4D93-BEDA-B79A7151EAB2}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Narration_03_01_Sequence" ID="{4AE89E52-0283-4DB1-9210-4C2B9FEA4963}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PartyOrderComplete2_Sequence" ID="{B49A3A01-0274-4DDF-A4C7-39842375F76B}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Corn_Sequence" ID="{F5DB977D-1263-4E0F-B060-CF43731FD4D3}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Theater3Order0_Sequence" ID="{B32D192F-6D0B-4F9B-B3BB-CD6314AE9743}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>

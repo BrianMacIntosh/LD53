@@ -22,6 +22,10 @@ namespace AK
         static const AkUniqueID GET_STICKS = 2360116985U;
         static const AkUniqueID GETHOTDOGPOPCORN_SEQUENCE = 2627373943U;
         static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID NARRATION_02_01_SEQUENCE = 954364540U;
+        static const AkUniqueID NARRATION_03_01_SEQUENCE = 3132980017U;
+        static const AkUniqueID NARRATION_05_01_SEQUENCE = 3714960967U;
+        static const AkUniqueID NARRATION_06_01_SEQUENCE = 3166432864U;
         static const AkUniqueID OPEN_FRIDGE = 1027365271U;
         static const AkUniqueID ORDERCOMPLETEAPOLOGY_SEQUENCE = 1923862681U;
         static const AkUniqueID ORDERCOMPLETENOTTHEWORST_SEQUENCE = 1524787101U;
@@ -40,6 +44,7 @@ namespace AK
         static const AkUniqueID SEQUENCE1_VOICES = 88281251U;
         static const AkUniqueID SEQUENCE2_VOICES = 2102032462U;
         static const AkUniqueID SEQUENCE4_VOICES = 513774604U;
+        static const AkUniqueID SODA_ORDERED_SEQUENCE = 2408431640U;
         static const AkUniqueID STOVE_OFF = 1902865914U;
         static const AkUniqueID STOVE_ON = 1278791036U;
         static const AkUniqueID STOVE_TUTORIAL = 3385034585U;

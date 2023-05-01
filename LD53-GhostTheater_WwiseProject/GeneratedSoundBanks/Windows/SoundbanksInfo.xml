@@ -25,7 +25,7 @@
 				<GameParameter Id="240153585" Name="Test_Parameter"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3930136735" Type="User" Language="English(US)" Hash="{18AC49F4-EB19-EE55-B228-773856B8AA00}">
+		<SoundBank Id="3930136735" Type="User" Language="English(US)" Hash="{4D5C99DE-797B-7A6C-A73F-459B5B8B78C1}">
 			<ShortName>Dialogue</ShortName>
 			<Path>English(US)/Dialogue.bnk</Path>
 			<Media>
@@ -48,6 +48,10 @@
 				<File Id="45511749" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>X_Theatre3OrderComplete0_Sequence\X_Theatre3OrderComplete0_01_edited.wav</ShortName>
 					<CachePath>Voices/English(US)/X_Theatre3OrderComplete0_Sequence/X_Theatre3OrderComplete0_01_edited_10C4C929.wem</CachePath>
+				</File>
+				<File Id="94708600" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>sequence_5a\05_01_01_edited.wav</ShortName>
+					<CachePath>Voices/English(US)/sequence_5a/05_01_01_edited_10C4C929.wem</CachePath>
 				</File>
 				<File Id="103397309" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>coin_tutorial\99_CornTutorial_00_edited.wav</ShortName>
@@ -81,6 +85,14 @@
 					<ShortName>PartyOrderComplete4_Group\X_PartyOrderComplete4_00_edited.wav</ShortName>
 					<CachePath>Voices/English(US)/PartyOrderComplete4_Group/X_PartyOrderComplete4_00_edited_10C4C929.wem</CachePath>
 				</File>
+				<File Id="168253262" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>sequence_3a\03_01_00_edited.wav</ShortName>
+					<CachePath>Voices/English(US)/sequence_3a/03_01_00_edited_10C4C929.wem</CachePath>
+				</File>
+				<File Id="181038427" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>SodaOrdered_Group\X_SodaOrdered_01_edited.wav</ShortName>
+					<CachePath>Voices/English(US)/SodaOrdered_Group/X_SodaOrdered_01_edited_10C4C929.wem</CachePath>
+				</File>
 				<File Id="205165112" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>PartyOrderComplete2_Group\X_PartyOrderComplete2_00_edited.wav</ShortName>
 					<CachePath>Voices/English(US)/PartyOrderComplete2_Group/X_PartyOrderComplete2_00_edited_10C4C929.wem</CachePath>
@@ -113,9 +125,17 @@
 					<ShortName>RAND_Throw_Group\RAND_Throw_06_edited.wav</ShortName>
 					<CachePath>Voices/English(US)/RAND_Throw_Group/RAND_Throw_06_edited_10C4C929.wem</CachePath>
 				</File>
+				<File Id="403555431" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>sequence_2b\02_01_00_edited.wav</ShortName>
+					<CachePath>Voices/English(US)/sequence_2b/02_01_00_edited_10C4C929.wem</CachePath>
+				</File>
 				<File Id="412659066" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>voice_3_1.wav</ShortName>
 					<CachePath>Voices/English(US)/voice_3_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="418339426" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>SodaOrdered_Group\X_SodaOrdered_00_edited.wav</ShortName>
+					<CachePath>Voices/English(US)/SodaOrdered_Group/X_SodaOrdered_00_edited_10C4C929.wem</CachePath>
 				</File>
 				<File Id="422779954" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Popcorn_No_Carton\PopcornNoCarton_00_edited.wav</ShortName>
@@ -141,9 +161,17 @@
 					<ShortName>99_StoveTutorial_00_edited.wav</ShortName>
 					<CachePath>Voices/English(US)/99_StoveTutorial_00_edited_10C4C929.wem</CachePath>
 				</File>
+				<File Id="487366810" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>sequence_2b\02_01_01_edited.wav</ShortName>
+					<CachePath>Voices/English(US)/sequence_2b/02_01_01_edited_10C4C929.wem</CachePath>
+				</File>
 				<File Id="499340588" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>PartyOrderComplete5_Group\X_PartyOrderComplete5_03_edited.wav</ShortName>
 					<CachePath>Voices/English(US)/PartyOrderComplete5_Group/X_PartyOrderComplete5_03_edited_10C4C929.wem</CachePath>
+				</File>
+				<File Id="500876644" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>sequence_6a\06_01_00_edited.wav</ShortName>
+					<CachePath>Voices/English(US)/sequence_6a/06_01_00_edited_10C4C929.wem</CachePath>
 				</File>
 				<File Id="515012426" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>PartyOrderComplete1_Group\X_PartyOrderComplete1_01_edited.wav</ShortName>
@@ -161,9 +189,17 @@
 					<ShortName>Platter_Tutorial_Group\99_PlatterTutorial_00_edited.wav</ShortName>
 					<CachePath>Voices/English(US)/Platter_Tutorial_Group/99_PlatterTutorial_00_edited_10C4C929.wem</CachePath>
 				</File>
+				<File Id="602841647" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>sequence_3a\03_01_01_edited.wav</ShortName>
+					<CachePath>Voices/English(US)/sequence_3a/03_01_01_edited_10C4C929.wem</CachePath>
+				</File>
 				<File Id="604820586" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>voice_4_1.wav</ShortName>
 					<CachePath>Voices/English(US)/voice_4_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="611690467" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>sequence_6a\06_01_01_edited.wav</ShortName>
+					<CachePath>Voices/English(US)/sequence_6a/06_01_01_edited_10C4C929.wem</CachePath>
 				</File>
 				<File Id="617751221" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>voice_5_1.wav</ShortName>
@@ -225,6 +261,14 @@
 					<ShortName>PartyOrderComplete2_Group\X_PartyOrderComplete2_02_edited.wav</ShortName>
 					<CachePath>Voices/English(US)/PartyOrderComplete2_Group/X_PartyOrderComplete2_02_edited_10C4C929.wem</CachePath>
 				</File>
+				<File Id="797974393" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>sequence_5a\05_01_02_edited.wav</ShortName>
+					<CachePath>Voices/English(US)/sequence_5a/05_01_02_edited_10C4C929.wem</CachePath>
+				</File>
+				<File Id="802658012" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>sequence_2b\02_01_02_edited.wav</ShortName>
+					<CachePath>Voices/English(US)/sequence_2b/02_01_02_edited_10C4C929.wem</CachePath>
+				</File>
 				<File Id="806345590" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>PartyOrderComplete2_Group\X_PartyOrderComplete2_03_edited.wav</ShortName>
 					<CachePath>Voices/English(US)/PartyOrderComplete2_Group/X_PartyOrderComplete2_03_edited_10C4C929.wem</CachePath>
@@ -244,6 +288,10 @@
 				<File Id="856661052" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>voice_1_1.wav</ShortName>
 					<CachePath>Voices/English(US)/voice_1_1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="861478868" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>sequence_5a\05_01_00_edited.wav</ShortName>
+					<CachePath>Voices/English(US)/sequence_5a/05_01_00_edited_10C4C929.wem</CachePath>
 				</File>
 				<File Id="865967908" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>RAND_Throw_Group\RAND_Throw_01_edited.wav</ShortName>
@@ -340,6 +388,52 @@
 					<PluginRefs>
 						<ShareSets>
 							<PluginRef Id="701863527"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="954364540" Name="Narration_02_01_Sequence" DurationType="OneShot" DurationMin="4.016521" DurationMax="6.1392083">
+					<MediaRefs>
+						<MediaRef Id="403555431"/>
+						<MediaRef Id="487366810"/>
+						<MediaRef Id="802658012"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3036946058"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="3132980017" Name="Narration_03_01_Sequence" DurationType="OneShot" DurationMin="5.217625" DurationMax="7.089396">
+					<MediaRefs>
+						<MediaRef Id="168253262"/>
+						<MediaRef Id="602841647"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3036946058"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="3714960967" Name="Narration_05_01_Sequence" DurationType="OneShot" DurationMin="4.9964585" DurationMax="6.356854">
+					<MediaRefs>
+						<MediaRef Id="94708600"/>
+						<MediaRef Id="797974393"/>
+						<MediaRef Id="861478868"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3036946058"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="3166432864" Name="Narration_06_01_Sequence" DurationType="OneShot" DurationMin="4.1920624" DurationMax="5.495917">
+					<MediaRefs>
+						<MediaRef Id="500876644"/>
+						<MediaRef Id="611690467"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3036946058"/>
 						</ShareSets>
 					</PluginRefs>
 				</Event>
@@ -537,6 +631,12 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
+				<Event Id="2408431640" Name="Soda_Ordered_Sequence" DurationType="OneShot" DurationMin="3.69175" DurationMax="7.9936457">
+					<MediaRefs>
+						<MediaRef Id="181038427"/>
+						<MediaRef Id="418339426"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3385034585" Name="Stove_Tutorial" DurationType="OneShot" DurationMin="8.480938" DurationMax="8.480938">
 					<MediaRefs>
 						<MediaRef Id="478046826"/>
@@ -701,5 +801,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D16E3DC0-FF5F-8A24-2E8B-D0C38BD67556}</FileHash>
+	<FileHash>{1D040946-4017-66DE-07E3-6A9E4BF31770}</FileHash>
 </SoundBanksInfo>

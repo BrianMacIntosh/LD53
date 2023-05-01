@@ -388,6 +388,61 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Narration_02_01_Sequence" ID="{0078A67A-74C3-498D-B4F7-BD4BD33C950A}">
+					<ChildrenList>
+						<Action Name="" ID="{116D8073-7BEC-4535-9A1E-49DB79EFA040}" ShortID="984294722">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sequence_2b" ID="{26138761-8522-4196-8EBB-B6A21C418567}" WorkUnitID="{AFA54749-B2B2-492E-A0D0-6C99A3CA1D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Narration_03_01_Sequence" ID="{4AE89E52-0283-4DB1-9210-4C2B9FEA4963}">
+					<ChildrenList>
+						<Action Name="" ID="{0B555CB1-4D6D-40E5-9A59-E76F7C6D4814}" ShortID="552612778">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sequence_3a" ID="{EC703ACA-CD57-4311-9139-F67B80458074}" WorkUnitID="{AFA54749-B2B2-492E-A0D0-6C99A3CA1D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Narration_05_01_Sequence" ID="{E5CFC0EE-8188-493B-906E-FB9635F28E8D}">
+					<ChildrenList>
+						<Action Name="" ID="{71A9FECD-3945-4AC5-B2D9-E578FE51DAFA}" ShortID="952323502">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sequence_5a" ID="{7A22F743-DEC5-425F-B2E5-61923FFF8315}" WorkUnitID="{AFA54749-B2B2-492E-A0D0-6C99A3CA1D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Narration_06_01_Sequence" ID="{DFF4A62B-A409-4AC9-86B0-DEA317C0A409}">
+					<ChildrenList>
+						<Action Name="" ID="{216C39FE-CCCC-43D4-9298-C73DB8CADB86}" ShortID="668495197">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sequence_6a" ID="{9FF36DE4-A43A-4D80-8BB6-97383F74E00D}" WorkUnitID="{AFA54749-B2B2-492E-A0D0-6C99A3CA1D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Soda_Ordered_Sequence" ID="{ECD2E957-42C4-4685-8B39-DDBDF2F8E5DB}">
+					<ChildrenList>
+						<Action Name="" ID="{4E95876F-2352-4388-BA62-3324AEA7F7CA}" ShortID="883997846">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SodaOrdered_Group" ID="{AA6709B8-E029-4097-82A2-DED560CAE4DD}" WorkUnitID="{AFA54749-B2B2-492E-A0D0-6C99A3CA1D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
