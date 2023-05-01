@@ -16,23 +16,23 @@ public class OrderEntryWidget : MonoBehaviour
 		switch(order.Customer.MyRoom)
 		{
 			case CustomerRoom.RedTheater:
-				color = Color.red;
+				color = new Color(.99f, .57f, .57f);
 				name = "Red Theater";
 				break;
 			case CustomerRoom.BlueTheater:
-				color = Color.blue;
-				name = "Blue Theater";
+				color = new Color(.39f, .93f, .99f);
+                name = "Blue Theater";
 				break;
 			case CustomerRoom.GreenTheater: 
-				color = Color.green;
+				color = new Color(.35f, .93f, .60f);
 				name = "Green Theater";
 				break;
-			case CustomerRoom.PartyRoom: 
-				color = Color.magenta;
+			case CustomerRoom.PartyRoom:
+				color = new Color(.98f, .70f, 1f);
 				name = "Party Room";
 				break;
 			case CustomerRoom.CoachRoom: 
-				color = Color.yellow;
+				color = new Color(.99f, 1f, .88f);
 				name = "Lounge";
 				break;
 			default:
