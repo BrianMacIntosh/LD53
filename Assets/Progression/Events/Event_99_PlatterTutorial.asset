@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5f6b0011962f854095d8a7ef7aef723, type: 3}
+  m_Name: Event_99_PlatterTutorial
+  m_EditorClassIdentifier: 
+  Comment: 
+  Conditions:
+  - {fileID: 11400000, guid: a97c09b06debf3144adae17b515f9c55, type: 2}
+  - {fileID: 11400000, guid: 843fbbeafb4c81548baf7e7b3319e1fb, type: 2}
+  ConditionOperator: 0
+  Delay: 0
+  m_narrationSet: {fileID: 11400000, guid: 0ffb7bfb353a36f4d900e2fc2a921150, type: 2}
