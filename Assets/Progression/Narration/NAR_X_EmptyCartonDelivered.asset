@@ -15,9 +15,11 @@ MonoBehaviour:
   WwiseEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 343d768518169374284277c998ffaf65,
+      type: 2}
   PlayMode: 0
   Priority: 0
+  Recorded: 0
   Lines:
   - Caption: "An empty carton\u2026what possibility. "
   - Caption: Will it be home to popcorn?

@@ -25,10 +25,14 @@
 				<GameParameter Id="240153585" Name="Test_Parameter"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3930136735" Type="User" Language="English(US)" Hash="{6D5E495F-3B79-2FC4-F407-65216E864834}">
+		<SoundBank Id="3930136735" Type="User" Language="English(US)" Hash="{18AC49F4-EB19-EE55-B228-773856B8AA00}">
 			<ShortName>Dialogue</ShortName>
 			<Path>English(US)/Dialogue.bnk</Path>
 			<Media>
+				<File Id="16879613" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>X_Theatre3OrderComplete4_Sequence\X_Theatre3OrderComplete4_00_edited.wav</ShortName>
+					<CachePath>Voices/English(US)/X_Theatre3OrderComplete4_Sequence/X_Theatre3OrderComplete4_00_edited_10C4C929.wem</CachePath>
+				</File>
 				<File Id="26797801" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>RAND_Throw_Group\RAND_Throw_05_edited.wav</ShortName>
 					<CachePath>Voices/English(US)/RAND_Throw_Group/RAND_Throw_05_edited_10C4C929.wem</CachePath>
@@ -37,9 +41,21 @@
 					<ShortName>voice_2_2.wav</ShortName>
 					<CachePath>Voices/English(US)/voice_2_2_10C4C929.wem</CachePath>
 				</File>
+				<File Id="43128300" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>X_Theatre3OrderComplete2_Sequence\X_Theatre3OrderComplete2_00_edited.wav</ShortName>
+					<CachePath>Voices/English(US)/X_Theatre3OrderComplete2_Sequence/X_Theatre3OrderComplete2_00_edited_10C4C929.wem</CachePath>
+				</File>
+				<File Id="45511749" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>X_Theatre3OrderComplete0_Sequence\X_Theatre3OrderComplete0_01_edited.wav</ShortName>
+					<CachePath>Voices/English(US)/X_Theatre3OrderComplete0_Sequence/X_Theatre3OrderComplete0_01_edited_10C4C929.wem</CachePath>
+				</File>
 				<File Id="103397309" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>coin_tutorial\99_CornTutorial_00_edited.wav</ShortName>
 					<CachePath>Voices/English(US)/coin_tutorial/99_CornTutorial_00_edited_10C4C929.wem</CachePath>
+				</File>
+				<File Id="104327337" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>X_Theatre3OrderComplete4_Sequence\X_Theatre3OrderComplete4_01_edited.wav</ShortName>
+					<CachePath>Voices/English(US)/X_Theatre3OrderComplete4_Sequence/X_Theatre3OrderComplete4_01_edited_10C4C929.wem</CachePath>
 				</File>
 				<File Id="116791383" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>X_PartyOrderComplete3_00_edited.wav</ShortName>
@@ -153,6 +169,14 @@
 					<ShortName>voice_5_1.wav</ShortName>
 					<CachePath>Voices/English(US)/voice_5_1_10C4C929.wem</CachePath>
 				</File>
+				<File Id="634838362" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>X_Theatre3OrderComplete4_Sequence\X_Theatre3OrderComplete4_02_edited.wav</ShortName>
+					<CachePath>Voices/English(US)/X_Theatre3OrderComplete4_Sequence/X_Theatre3OrderComplete4_02_edited_10C4C929.wem</CachePath>
+				</File>
+				<File Id="643724115" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>X_Theatre3OrderComplete0_Sequence\X_Theatre3OrderComplete0_00.wav</ShortName>
+					<CachePath>Voices/English(US)/X_Theatre3OrderComplete0_Sequence/X_Theatre3OrderComplete0_00_10C4C929.wem</CachePath>
+				</File>
 				<File Id="657526009" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>PartyOrderComplete1_Group\X_PartyOrderComplete1_00_edited.wav</ShortName>
 					<CachePath>Voices/English(US)/PartyOrderComplete1_Group/X_PartyOrderComplete1_00_edited_10C4C929.wem</CachePath>
@@ -228,6 +252,10 @@
 				<File Id="872452947" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>GetHotDogPopcorn_Group\X_GetHotDogPopcorn_01_edited.wav</ShortName>
 					<CachePath>Voices/English(US)/GetHotDogPopcorn_Group/X_GetHotDogPopcorn_01_edited_10C4C929.wem</CachePath>
+				</File>
+				<File Id="879168294" Language="English(US)" Streaming="false" Location="Memory">
+					<ShortName>X_Theatre3OrderComplete2_Sequence\X_Theatre3OrderComplete2_01_edited.wav</ShortName>
+					<CachePath>Voices/English(US)/X_Theatre3OrderComplete2_Sequence/X_Theatre3OrderComplete2_01_edited_10C4C929.wem</CachePath>
 				</File>
 				<File Id="897329279" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>X_GetSticks_00_edited1.wav</ShortName>
@@ -519,6 +547,40 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
+				<Event Id="581849877" Name="Theater3Order0_Sequence" DurationType="OneShot" DurationMin="5.588917" DurationMax="9.270583">
+					<MediaRefs>
+						<MediaRef Id="45511749"/>
+						<MediaRef Id="643724115"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3036946058"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="2921329727" Name="Theater3Order2_Sequence" DurationType="OneShot" DurationMin="6.4722085" DurationMax="6.9764376">
+					<MediaRefs>
+						<MediaRef Id="43128300"/>
+						<MediaRef Id="879168294"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3036946058"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="893229993" Name="Theater3Order4_Sequence" DurationType="OneShot" DurationMin="1.9861875" DurationMax="8.997146">
+					<MediaRefs>
+						<MediaRef Id="16879613"/>
+						<MediaRef Id="104327337"/>
+						<MediaRef Id="634838362"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3036946058"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
 				<Event Id="932918847" Name="Voice_3_1" DurationType="OneShot" DurationMin="10.557" DurationMax="10.557">
 					<MediaRefs>
 						<MediaRef Id="412659066"/>
@@ -639,5 +701,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{33B9186D-7F2B-3644-C564-88DB3971A98E}</FileHash>
+	<FileHash>{CE0D8D5A-8608-1DB1-CAF1-2B5965946293}</FileHash>
 </SoundBanksInfo>

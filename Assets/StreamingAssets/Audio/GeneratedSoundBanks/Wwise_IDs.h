@@ -43,6 +43,9 @@ namespace AK
         static const AkUniqueID STOVE_OFF = 1902865914U;
         static const AkUniqueID STOVE_ON = 1278791036U;
         static const AkUniqueID STOVE_TUTORIAL = 3385034585U;
+        static const AkUniqueID THEATER3ORDER0_SEQUENCE = 581849877U;
+        static const AkUniqueID THEATER3ORDER2_SEQUENCE = 2921329727U;
+        static const AkUniqueID THEATER3ORDER4_SEQUENCE = 893229993U;
         static const AkUniqueID VOICE_3_1 = 932918847U;
         static const AkUniqueID VOICE_5_1 = 931933109U;
     } // namespace EVENTS

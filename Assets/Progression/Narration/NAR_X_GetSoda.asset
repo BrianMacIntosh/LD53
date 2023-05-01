@@ -15,9 +15,12 @@ MonoBehaviour:
   WwiseEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 40de98dab45b215478b69611704d90b7,
+      type: 2}
   PlayMode: 0
   Priority: 2
   Recorded: 1
   Lines:
   - Caption: Ah yes. Water with enough sugar to raise the dead.
+  - Caption: 'Ghostly flavors of soda include Spirit, Soula Cola, Professor Spice,
+      and '

@@ -16,7 +16,7 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
-  PlayMode: 0
+  PlayMode: 2
   Priority: 2
   Recorded: 0
   Lines:

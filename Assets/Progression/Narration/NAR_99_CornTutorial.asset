@@ -15,7 +15,8 @@ MonoBehaviour:
   WwiseEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: cead90264ee053e4ead8dc8ff45daa67,
+      type: 2}
   PlayMode: 0
   Priority: 0
   Recorded: 1
