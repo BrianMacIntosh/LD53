@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02acb5021310f854cb37a9133faa6877, type: 3}
+  m_Name: 53C5D8FA-11F8-4977-BF69-BF3EF5C0EE48
+  m_EditorClassIdentifier: 
+  objectName: RAND_Throw_Sequence
+  id: 2758822327
+  guid: 53C5D8FA-11F8-4977-BF69-BF3EF5C0EE48
