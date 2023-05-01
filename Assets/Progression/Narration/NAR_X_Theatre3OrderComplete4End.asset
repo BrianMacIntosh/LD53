@@ -18,9 +18,10 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 0}
   PlayMode: 0
   Priority: 0
+  Recorded: 0
   Lines:
   - Caption: 'What''s this? '
-  - Caption: " Is it\u2013Cant it be--Have the strange orders\u2013been unwitting
+  - Caption: "Is it \u2013 can it be \u2013 have the strange orders been unwitting
       tribute to the Second Coming of the Great Quacken?"
-  - Caption: What an honor! Oh Great Quaken, Oh Wise Quacken! Accept this humble
+  - Caption: What an honor! Oh Great Quaken, oh wise Quacken! Accept this humble
       offering!
