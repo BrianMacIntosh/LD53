@@ -16,5 +16,6 @@ MonoBehaviour:
   Conditions:
   - {fileID: 11400000, guid: 29e91d00fa47d1e4cab62261a6158563, type: 2}
   ConditionOperator: 0
-  Delay: 0
+  Delay: 4
+  DoesRepeat: 0
   m_narrationSet: {fileID: 11400000, guid: 88f44b641cb9d3848974354e08f86751, type: 2}

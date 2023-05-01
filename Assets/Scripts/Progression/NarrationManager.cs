@@ -19,6 +19,7 @@ public class NarrationManager : MonoBehaviour
 	public static event CaptionChangedDelegate OnCaptionChanged;
 
 	private Coroutine m_fallbackCoroutine;
+	private uint m_wwiseWaitOnId;
 
 	private void Awake()
 	{
@@ -79,8 +80,12 @@ public class NarrationManager : MonoBehaviour
 
 	private void HandleNarrationCallback(object in_cookie, AkCallbackType in_type, AkCallbackInfo in_info)
 	{
-		Debug.Log("Narration next line from WWise.");
-		PostNextLine();
+		AkEventCallbackInfo evtInfo = (AkEventCallbackInfo)in_info;
+		if (evtInfo.playingID == m_wwiseWaitOnId)
+		{
+			Debug.Log("Narration next line from WWise.");
+			PostNextLine();
+		}
 	}
 
 	private IEnumerator FallbackWait()
@@ -142,7 +147,7 @@ public class NarrationManager : MonoBehaviour
 			return;
 		}
 
-		uint result = m_activeSet.WwiseEvent.Post(gameObject, (uint)AkCallbackType.AK_EndOfEvent, HandleNarrationCallback);
+		m_wwiseWaitOnId = m_activeSet.WwiseEvent.Post(gameObject, (uint)AkCallbackType.AK_EndOfEvent, HandleNarrationCallback);
 
 		//TODO: use Wwise markers
 		if (OnCaptionChanged != null)
@@ -150,7 +155,7 @@ public class NarrationManager : MonoBehaviour
 			OnCaptionChanged(this, m_activeSet.Lines[m_activeSetIndex].Caption);
 		}
 
-		if (result == 0)
+		if (m_wwiseWaitOnId == 0)
 		{
 			// fallback: no audio line
 			m_fallbackCoroutine = StartCoroutine(FallbackWait());
