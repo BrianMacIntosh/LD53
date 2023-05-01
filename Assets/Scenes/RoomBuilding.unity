@@ -17230,6 +17230,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 62c3310835aaeec49831b35e095a1dd0, type: 2}
     - target: {fileID: 3509229663449720714, guid: 9d14b6491e9488c4dbd5990bc073f73a,
         type: 3}
+      propertyPath: m_Looping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509229663449720714, guid: 9d14b6491e9488c4dbd5990bc073f73a,
+        type: 3}
       propertyPath: m_VideoClip
       value: 
       objectReference: {fileID: 32900000, guid: e8f2115b2bdf81b4891ec8cd41b21ad1,
@@ -17991,6 +17996,22 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[2]
       value: 
       objectReference: {fileID: 2100000, guid: 32f137fb3d482ca41b1001e5c527b016, type: 2}
+    - target: {fileID: 3509229663449720714, guid: 9d14b6491e9488c4dbd5990bc073f73a,
+        type: 3}
+      propertyPath: m_Looping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509229663449720714, guid: 9d14b6491e9488c4dbd5990bc073f73a,
+        type: 3}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: 1160a9da53bfd204c950ffcedab5acf6,
+        type: 3}
+    - target: {fileID: 3509229663449720714, guid: 9d14b6491e9488c4dbd5990bc073f73a,
+        type: 3}
+      propertyPath: m_TargetTexture
+      value: 
+      objectReference: {fileID: 8400000, guid: b61b767d3918f9447b463393e0d996af, type: 2}
     - target: {fileID: 3603017105845292399, guid: 9d14b6491e9488c4dbd5990bc073f73a,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -18192,6 +18213,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[2]
       value: 
       objectReference: {fileID: 2100000, guid: 32f137fb3d482ca41b1001e5c527b016, type: 2}
+    - target: {fileID: 6589226911300577109, guid: 9d14b6491e9488c4dbd5990bc073f73a,
+        type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 8400000, guid: b61b767d3918f9447b463393e0d996af, type: 2}
     - target: {fileID: 6611580344002299315, guid: 9d14b6491e9488c4dbd5990bc073f73a,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -24135,6 +24161,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[2]
       value: 
       objectReference: {fileID: 2100000, guid: 36e5209e2d18b144bb9469d4e11fc392, type: 2}
+    - target: {fileID: 3509229663449720714, guid: 9d14b6491e9488c4dbd5990bc073f73a,
+        type: 3}
+      propertyPath: m_Looping
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3509229663449720714, guid: 9d14b6491e9488c4dbd5990bc073f73a,
         type: 3}
       propertyPath: m_VideoClip
