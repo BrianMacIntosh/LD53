@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &1046870019300270874
+--- !u!1001 &808259136791186263
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -11,18 +11,29 @@ PrefabInstance:
         type: 3}
       propertyPath: m_itemData
       value: 
-      objectReference: {fileID: 11400000, guid: 0f16894f0546b6a479095982ef1d77f4,
+      objectReference: {fileID: 11400000, guid: 3bae046cf8ebd03469280537fcc29329,
         type: 2}
     - target: {fileID: 101935324790074051, guid: 07356d4d52ead1e4c968831fd1f0c487,
         type: 3}
       propertyPath: m_Name
-      value: Item_IceCreamBowl
+      value: Item_IceCream_Assembled
+      objectReference: {fileID: 0}
+    - target: {fileID: 3926304666522619026, guid: 07356d4d52ead1e4c968831fd1f0c487,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3926304666522619026, guid: 07356d4d52ead1e4c968831fd1f0c487,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 4310586713465477566, guid: f1063ae343ca0924cbb130a073af1187,
+      objectReference: {fileID: 1151844921754575795, guid: da38a9144e4407f4196ee11ff2f4423b,
+        type: 3}
+    - target: {fileID: 3926304666522619026, guid: 07356d4d52ead1e4c968831fd1f0c487,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 4310586713465477566, guid: a610c2b88caa460489bd98a00453c883,
         type: 3}
     - target: {fileID: 7578939992139013115, guid: 07356d4d52ead1e4c968831fd1f0c487,
         type: 3}
@@ -83,23 +94,66 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 9058321125818178498, guid: f1063ae343ca0924cbb130a073af1187,
+      objectReference: {fileID: -6338809769395751404, guid: a610c2b88caa460489bd98a00453c883,
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07356d4d52ead1e4c968831fd1f0c487, type: 3}
---- !u!1 &1147607698629134809 stripped
+--- !u!1 &746936475144823188 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 101935324790074051, guid: 07356d4d52ead1e4c968831fd1f0c487,
     type: 3}
-  m_PrefabInstance: {fileID: 1046870019300270874}
+  m_PrefabInstance: {fileID: 808259136791186263}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &-8213199452163978857
+--- !u!136 &-5439143548780651167
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746936475144823188}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.13581939
+  m_Height: 0.46321967
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.23160984, z: 0}
+--- !u!114 &6683830016911523475
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1147607698629134809}
+  m_GameObject: {fileID: 746936475144823188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 548f0f4007e6bb5409180eeacc9e4c3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_itemData: {fileID: 11400000, guid: 3bae046cf8ebd03469280537fcc29329, type: 2}
+  m_pickUpSuccessEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  m_pickUpFailEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  m_dropEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  m_impactEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!114 &6784773081577775582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746936475144823188}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6cce8e10640508a4c9574a26107d3f58, type: 3}
