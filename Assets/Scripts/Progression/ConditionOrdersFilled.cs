@@ -9,6 +9,6 @@ public class ConditionOrdersFilled : BaseProgressionCondition
 	public override bool Evaluate()
 	{
 		return ProgressionManager.Instance.HasEventExecuted(m_ordersEvent)
-			&& OrderManager.Instance.HasNoOrders();
+			&& OrderManager.Instance.HasNoOrders(m_ordersEvent);
 	}
 }

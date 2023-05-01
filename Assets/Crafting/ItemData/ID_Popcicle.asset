@@ -14,4 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CookResult: {fileID: 4629212286002530374, guid: 10217fb6a2e6e764791b6d6830d51376,
     type: 3}
+  DefaultCookedState: 0
   CookTime: 5
+  Combinations: []
+  AcceptsModifiers: 0
+  PickUpEvent: {fileID: 11400000, guid: 5189be6971f66164a81524fbda64bae3, type: 2}
+  AddPopcornEvent: {fileID: 0}

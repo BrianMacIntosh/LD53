@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Event_06_X_OrderComplete0NotTheWorst
   m_EditorClassIdentifier: 
   Comment: 
-  Conditions: []
+  Conditions:
+  - {fileID: 11400000, guid: 9d69a602e8a1c4d45bab06b63836199b, type: 2}
   ConditionOperator: 0
   Delay: 0
   m_narrationSet: {fileID: 11400000, guid: 727dbfa1fb5d1974abc0ae1b25cb2b85, type: 2}

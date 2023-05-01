@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{FD659412-CC49-4939-B62D-4A2E9DC10591}" SchemaVersion="110">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{FD659412-CC49-4939-B62D-4A2E9DC10591}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{FD659412-CC49-4939-B62D-4A2E9DC10591}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Ghost_Verb" ID="{85F15F97-CA7F-4AD5-90AD-174E252C1F5C}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

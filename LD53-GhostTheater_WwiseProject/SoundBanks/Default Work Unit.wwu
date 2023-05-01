@@ -26,11 +26,29 @@
 				</SoundBank>
 				<SoundBank Name="Dialogue" ID="{672A334C-1F02-4F48-B482-3DAD1ABCF7A3}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Get_Sticks" ID="{8C6E91A2-6FFC-400F-8D88-83F46A4F926D}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PartyOrderComplete4_Sequence" ID="{90A2B3A5-1056-405E-9EA4-F2FEFB2D475C}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RAND_Stove_Sequence" ID="{A6E2774B-EA80-4119-A816-3E63CEC076BD}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Sequence4_Voices" ID="{186639C8-C373-4405-A5D7-580B6B9CE619}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PartyOrderComplete0_Sequence" ID="{6616C8AA-0128-449C-BFDB-B16B23F484C9}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="OrderCompleteApology_Sequence" ID="{9F0BB485-3003-452B-836E-71C9F63983D1}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stove_Tutorial" ID="{5DC31597-0BA6-4537-9B32-027F7F8BCEF3}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PartyOrderComplete1_Sequence" ID="{0DE0CC77-7032-473B-9D98-74CDBEAFC502}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Voice_3_1" ID="{CD8F38BE-0216-4744-928E-0739FAFE2B50}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Platter_Tutorial_Sequence" ID="{05F322E4-52ED-475B-8CAD-E733C10DE8EB}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Voice_5_1" ID="{D6650A66-BFCD-4776-A97C-34EBDBE11BC6}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RAND_Throw_Sequence" ID="{53C5D8FA-11F8-4977-BF69-BF3EF5C0EE48}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PopcornNoCarton_Sequence" ID="{711BF8E3-FE37-4A0E-867B-B7BD71445987}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="OrderCompleteNottheWorst_Sequence" ID="{026AF2A6-E037-4A51-8265-06943E120028}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Sequence1_Voices" ID="{5B267994-E16B-4A64-BE58-4390BC087A9B}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Get_Soda" ID="{6774A200-E5C8-4A89-A0B8-E5C017B3D545}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PartyOrderComplete3" ID="{7359D47A-16A9-4AC6-AC25-B75AB0E1EFE8}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PartyOrderComplete5_Sequence" ID="{6C5BC172-02B2-4B3E-A4CC-A503FD4C65E5}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Sequence2_Voices" ID="{11424117-35BC-4D10-B9FC-16D562758FDD}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Popcorn_Machine_Sequence" ID="{ED106547-99AC-4D93-BEDA-B79A7151EAB2}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PartyOrderComplete2_Sequence" ID="{B49A3A01-0274-4DDF-A4C7-39842375F76B}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Corn_Sequence" ID="{F5DB977D-1263-4E0F-B060-CF43731FD4D3}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GetHotDogPopcorn_Sequence" ID="{E181CBBD-8825-4FA3-A2ED-253AB17E0D4B}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

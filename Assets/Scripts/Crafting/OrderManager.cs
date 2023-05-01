@@ -98,6 +98,18 @@ public class OrderManager : MonoBehaviour
 		m_orderFilledEvent.Post(gameObject);
 	}
 
+	public void FillAllOrders()
+	{
+		m_orders.Clear();
+
+		if (OnOrdersChanged != null)
+		{
+			OnOrdersChanged(this);
+		}
+
+		m_orderFilledEvent.Post(gameObject);
+	}
+
 	/// <summary>
 	/// Returns true if there are no outstanding orders.
 	/// </summary>
@@ -106,6 +118,21 @@ public class OrderManager : MonoBehaviour
 		return m_orders.Count == 0;
 	}
 
+	public bool HasNoOrders(EventAddOrders fromEvent)
+	{
+		//HACK: this is just complete garbage
+		foreach (var order in fromEvent.Orders)
+		{
+			foreach (var outstanding in m_orders.Values)
+			{
+				if (outstanding.Data == order.Data)
+				{
+					return false;
+				}
+			}
+		}
+		return true;
+	}
 
 	/// <summary>
 	/// Returns the ids of every outstanding order for the specified customer.

@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Event_12_X_OrderCompletete1Apology
   m_EditorClassIdentifier: 
   Comment: 
-  Conditions: []
+  Conditions:
+  - {fileID: 11400000, guid: 2f19fea48b373f246aada5504e8efb3b, type: 2}
   ConditionOperator: 0
   Delay: 0
   m_narrationSet: {fileID: 11400000, guid: c6e5eb7a4d69e8e46a8abb84434a3818, type: 2}

@@ -98,6 +98,15 @@ public partial class @InputMaster: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""OrderSkip"",
+                    ""type"": ""Button"",
+                    ""id"": ""4316767b-b380-4017-9316-c4e9e670f865"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -232,6 +241,17 @@ public partial class @InputMaster: IInputActionCollection2, IDisposable
                     ""action"": ""DialogueSkip"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e68fd75f-8dc7-4762-948e-409612b6be82"",
+                    ""path"": ""<Keyboard>/2"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""OrderSkip"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -248,6 +268,7 @@ public partial class @InputMaster: IInputActionCollection2, IDisposable
         m_Main_NextItem = m_Main.FindAction("NextItem", throwIfNotFound: true);
         m_Main_DropItem = m_Main.FindAction("DropItem", throwIfNotFound: true);
         m_Main_DialogueSkip = m_Main.FindAction("DialogueSkip", throwIfNotFound: true);
+        m_Main_OrderSkip = m_Main.FindAction("OrderSkip", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -317,6 +338,7 @@ public partial class @InputMaster: IInputActionCollection2, IDisposable
     private readonly InputAction m_Main_NextItem;
     private readonly InputAction m_Main_DropItem;
     private readonly InputAction m_Main_DialogueSkip;
+    private readonly InputAction m_Main_OrderSkip;
     public struct MainActions
     {
         private @InputMaster m_Wrapper;
@@ -329,6 +351,7 @@ public partial class @InputMaster: IInputActionCollection2, IDisposable
         public InputAction @NextItem => m_Wrapper.m_Main_NextItem;
         public InputAction @DropItem => m_Wrapper.m_Main_DropItem;
         public InputAction @DialogueSkip => m_Wrapper.m_Main_DialogueSkip;
+        public InputAction @OrderSkip => m_Wrapper.m_Main_OrderSkip;
         public InputActionMap Get() { return m_Wrapper.m_Main; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -362,6 +385,9 @@ public partial class @InputMaster: IInputActionCollection2, IDisposable
             @DialogueSkip.started += instance.OnDialogueSkip;
             @DialogueSkip.performed += instance.OnDialogueSkip;
             @DialogueSkip.canceled += instance.OnDialogueSkip;
+            @OrderSkip.started += instance.OnOrderSkip;
+            @OrderSkip.performed += instance.OnOrderSkip;
+            @OrderSkip.canceled += instance.OnOrderSkip;
         }
 
         private void UnregisterCallbacks(IMainActions instance)
@@ -390,6 +416,9 @@ public partial class @InputMaster: IInputActionCollection2, IDisposable
             @DialogueSkip.started -= instance.OnDialogueSkip;
             @DialogueSkip.performed -= instance.OnDialogueSkip;
             @DialogueSkip.canceled -= instance.OnDialogueSkip;
+            @OrderSkip.started -= instance.OnOrderSkip;
+            @OrderSkip.performed -= instance.OnOrderSkip;
+            @OrderSkip.canceled -= instance.OnOrderSkip;
         }
 
         public void RemoveCallbacks(IMainActions instance)
@@ -417,5 +446,6 @@ public partial class @InputMaster: IInputActionCollection2, IDisposable
         void OnNextItem(InputAction.CallbackContext context);
         void OnDropItem(InputAction.CallbackContext context);
         void OnDialogueSkip(InputAction.CallbackContext context);
+        void OnOrderSkip(InputAction.CallbackContext context);
     }
 }

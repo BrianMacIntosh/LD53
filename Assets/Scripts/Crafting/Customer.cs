@@ -57,14 +57,17 @@ public class Customer : Interactable
 		// satisfy the first possible order
 		PlayerInventory inventory = interactor.GetComponent<PlayerInventory>();
 		CraftingItem currentItem = inventory.PeekItem();
-		foreach (Order order in m_orderBuffer)
+		if (currentItem)
 		{
-			if (order.AcceptsItem(currentItem))
+			foreach (Order order in m_orderBuffer)
 			{
-				OrderManager.Instance.FillOrder(order.Id);
-				currentItem.CustomerEat();
-				m_orderFilledEvent.Post(gameObject);
-				break;
+				if (order.AcceptsItem(currentItem))
+				{
+					OrderManager.Instance.FillOrder(order.Id);
+					currentItem.CustomerEat();
+					m_orderFilledEvent.Post(gameObject);
+					break;
+				}
 			}
 		}
 	}

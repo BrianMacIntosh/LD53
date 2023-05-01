@@ -18,8 +18,9 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 0}
   PlayMode: 0
   Priority: 0
+  Recorded: 0
   Lines:
-  - Caption: " Ah yes, my favorite film. If I hadn\u2019t seen it ten thousand times
-      already, I might just watch that instead of supervising you. Fortunately for
-      you, I\u2019ve seen it about a hundred thousand times. So I\u2019ll keep you
-      company.\r\n"
+  - Caption: "Ah yes, my favorite film. If I hadn\u2019t seen it ten thousand times
+      already, I might just watch that instead of supervising you."
+  - Caption: "Fortunately for you, I\u2019ve seen it about a hundred thousand times.
+      So I\u2019ll keep you company.\r\n"

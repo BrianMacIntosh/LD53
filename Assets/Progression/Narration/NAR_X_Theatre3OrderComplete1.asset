@@ -18,7 +18,9 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 0}
   PlayMode: 0
   Priority: 0
+  Recorded: 0
   Lines:
-  - Caption: "Did you know that the prop used in the film is an actual piece of stone?
-      Heavy as a rock! Heard that from one of the ghosts. You know, back when they
-      deigned to talk to me.\r"
+  - Caption: Did you know that the prop used in the film is an actual piece of stone?
+      Heavy as a rock!
+  - Caption: "Heard that from one of the ghosts. You know, back when they deigned
+      to talk to me.\r"
