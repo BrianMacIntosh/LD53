@@ -13,4 +13,16 @@ MonoBehaviour:
   m_Name: ID_IceCream
   m_EditorClassIdentifier: 
   CookResult: {fileID: 0}
+  DefaultCookedState: 0
   CookTime: 15
+  Combinations:
+  - OtherItem: {fileID: 11400000, guid: 0f16894f0546b6a479095982ef1d77f4, type: 2}
+    ResultItem: {fileID: 3667634451959653516, guid: b9ed814847b853d4c8eedda7dc4e1afb,
+      type: 3}
+    CombinedEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 0}
+  AcceptsModifiers: 0
+  PickUpEvent: {fileID: 11400000, guid: 7699853d883b8d042a047f4b79af86ab, type: 2}
+  AddPopcornEvent: {fileID: 0}
