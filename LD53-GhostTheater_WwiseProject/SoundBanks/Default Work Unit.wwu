@@ -37,7 +37,9 @@
 						<ObjectRef Name="Voice_3_1" ID="{CD8F38BE-0216-4744-928E-0739FAFE2B50}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Platter_Tutorial_Sequence" ID="{05F322E4-52ED-475B-8CAD-E733C10DE8EB}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Voice_5_1" ID="{D6650A66-BFCD-4776-A97C-34EBDBE11BC6}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Theater3Order2_Sequence" ID="{131F7C9F-1704-48F9-A676-9E6057B00C6F}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RAND_Throw_Sequence" ID="{53C5D8FA-11F8-4977-BF69-BF3EF5C0EE48}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Theater3Order4_Sequence" ID="{FFA10873-BEC9-4A0C-8408-468289444A0D}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PopcornNoCarton_Sequence" ID="{711BF8E3-FE37-4A0E-867B-B7BD71445987}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="OrderCompleteNottheWorst_Sequence" ID="{026AF2A6-E037-4A51-8265-06943E120028}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Sequence1_Voices" ID="{5B267994-E16B-4A64-BE58-4390BC087A9B}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
@@ -48,6 +50,7 @@
 						<ObjectRef Name="Popcorn_Machine_Sequence" ID="{ED106547-99AC-4D93-BEDA-B79A7151EAB2}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PartyOrderComplete2_Sequence" ID="{B49A3A01-0274-4DDF-A4C7-39842375F76B}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Corn_Sequence" ID="{F5DB977D-1263-4E0F-B060-CF43731FD4D3}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Theater3Order0_Sequence" ID="{B32D192F-6D0B-4F9B-B3BB-CD6314AE9743}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GetHotDogPopcorn_Sequence" ID="{E181CBBD-8825-4FA3-A2ED-253AB17E0D4B}" WorkUnitID="{2CB7979C-AE09-4587-B1A0-25DAE613E011}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

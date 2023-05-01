@@ -3,7 +3,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	167085234	RAND_Stove_Sequence			\Default Work Unit\RAND_Stove_Sequence	
 	491748880	PartyOrderComplete0_Sequence			\Default Work Unit\PartyOrderComplete0_Sequence	
 	513774604	Sequence4_Voices			\Default Work Unit\Sequence4_Voices	
+	581849877	Theater3Order0_Sequence			\Default Work Unit\Theater3Order0_Sequence	
 	645192540	Platter_Tutorial_Sequence			\Default Work Unit\Platter_Tutorial_Sequence	
+	893229993	Theater3Order4_Sequence			\Default Work Unit\Theater3Order4_Sequence	
 	898156511	PartyOrderComplete5_Sequence			\Default Work Unit\PartyOrderComplete5_Sequence	
 	931933109	Voice_5_1			\Default Work Unit\Voice_5_1	
 	932918847	Voice_3_1			\Default Work Unit\Voice_3_1	
@@ -19,6 +21,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2561939411	PartyOrderComplete3			\Default Work Unit\PartyOrderComplete3	
 	2627373943	GetHotDogPopcorn_Sequence			\Default Work Unit\GetHotDogPopcorn_Sequence	
 	2758822327	RAND_Throw_Sequence			\Default Work Unit\RAND_Throw_Sequence	
+	2921329727	Theater3Order2_Sequence			\Default Work Unit\Theater3Order2_Sequence	
 	3385034585	Stove_Tutorial			\Default Work Unit\Stove_Tutorial	
 	3441730803	PartyOrderComplete1_Sequence			\Default Work Unit\PartyOrderComplete1_Sequence	
 	4096944978	Popcorn_Machine_Sequence			\Default Work Unit\Popcorn_Machine_Sequence	
@@ -28,9 +31,13 @@ Effect plug-ins	ID	Name	Type				Notes
 	3036946058	Inside_Your_Head	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	16879613	X_Theatre3OrderComplete4_00_edited	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Mac\Voices\English(US)\X_Theatre3OrderComplete4_Sequence\X_Theatre3OrderComplete4_00_edited_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\X_Theatre3OrderComplete4_Sequence\X_Theatre3OrderComplete4_00_edited		381444
 	26797801	RAND_Throw_05_edited	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Mac\Voices\English(US)\RAND_Throw_Group\RAND_Throw_05_edited_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\RAND_Throw_Group\RAND_Throw_05_edited		1522992
 	40595667	voice_2_2	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Mac\Voices\English(US)\voice_2_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequence2_Voice\voice_2_2		959772
+	43128300	X_Theatre3OrderComplete2_00_edited	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Mac\Voices\English(US)\X_Theatre3OrderComplete2_Sequence\X_Theatre3OrderComplete2_00_edited_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\X_Theatre3OrderComplete2_Sequence\X_Theatre3OrderComplete2_00_edited		1339572
+	45511749	X_Theatre3OrderComplete0_01_edited	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Mac\Voices\English(US)\X_Theatre3OrderComplete0_Sequence\X_Theatre3OrderComplete0_01_edited_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\X_Theatre3OrderComplete0_Sequence\X_Theatre3OrderComplete0_01_edited		1073168
 	103397309	99_CornTutorial_00_edited	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Mac\Voices\English(US)\coin_tutorial\99_CornTutorial_00_edited_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\coin_tutorial\99_CornTutorial_00_edited		574212
+	104327337	X_Theatre3OrderComplete4_01_edited	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Mac\Voices\English(US)\X_Theatre3OrderComplete4_Sequence\X_Theatre3OrderComplete4_01_edited_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\X_Theatre3OrderComplete4_Sequence\X_Theatre3OrderComplete4_01_edited		1727548
 	116791383	X_PartyOrderComplete3_00_edited	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Mac\Voices\English(US)\X_PartyOrderComplete3_00_edited_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\X_PartyOrderComplete3_00_edited		1415368
 	119881967	12_X_OrderCompletete1Apology_00_edited	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Mac\Voices\English(US)\OrderCompleteApology\12_X_OrderCompletete1Apology_00_edited_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\OrderCompleteApology\12_X_OrderCompletete1Apology_00_edited		636252
 	153657574	X_PartyOrderComplete5_02_edited	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Mac\Voices\English(US)\PartyOrderComplete5_Group\X_PartyOrderComplete5_02_edited_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PartyOrderComplete5_Group\X_PartyOrderComplete5_02_edited		855632
@@ -59,6 +66,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	546843662	99_PlatterTutorial_00_edited	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Mac\Voices\English(US)\Platter_Tutorial_Group\99_PlatterTutorial_00_edited_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Platter_Tutorial_Group\99_PlatterTutorial_00_edited		707952
 	604820586	voice_4_1	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Mac\Voices\English(US)\voice_4_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequence4_Voice\voice_4_1		568752
 	617751221	voice_5_1	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Mac\Voices\English(US)\voice_5_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\voice_5_1		1008312
+	634838362	X_Theatre3OrderComplete4_02_edited	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Mac\Voices\English(US)\X_Theatre3OrderComplete4_Sequence\X_Theatre3OrderComplete4_02_edited_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\X_Theatre3OrderComplete4_Sequence\X_Theatre3OrderComplete4_02_edited		1628436
+	643724115	X_Theatre3OrderComplete0_00	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Mac\Voices\English(US)\X_Theatre3OrderComplete0_Sequence\X_Theatre3OrderComplete0_00_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\X_Theatre3OrderComplete0_Sequence\X_Theatre3OrderComplete0_00		1780048
 	657526009	X_PartyOrderComplete1_00_edited	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Mac\Voices\English(US)\PartyOrderComplete1_Group\X_PartyOrderComplete1_00_edited_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PartyOrderComplete1_Group\X_PartyOrderComplete1_00_edited		1184428
 	664107253	X_GetHotDogPopcorn_00_edited	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Mac\Voices\English(US)\GetHotDogPopcorn_Group\X_GetHotDogPopcorn_00_edited_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GetHotDogPopcorn_Group\X_GetHotDogPopcorn_00_edited		1128704
 	669800559	RAND_Throw_04_edited	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Mac\Voices\English(US)\RAND_Throw_Group\RAND_Throw_04_edited_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\RAND_Throw_Group\RAND_Throw_04_edited		770220
@@ -78,6 +87,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	856661052	Voice_1_1	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Mac\Voices\English(US)\voice_1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sequence1_Voice\Voice_1_1		1632980
 	865967908	RAND_Throw_01_edited	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Mac\Voices\English(US)\RAND_Throw_Group\RAND_Throw_01_edited_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\RAND_Throw_Group\RAND_Throw_01_edited		685664
 	872452947	X_GetHotDogPopcorn_01_edited	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Mac\Voices\English(US)\GetHotDogPopcorn_Group\X_GetHotDogPopcorn_01_edited_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\GetHotDogPopcorn_Group\X_GetHotDogPopcorn_01_edited		709672
+	879168294	X_Theatre3OrderComplete2_01_edited	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Mac\Voices\English(US)\X_Theatre3OrderComplete2_Sequence\X_Theatre3OrderComplete2_01_edited_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\X_Theatre3OrderComplete2_Sequence\X_Theatre3OrderComplete2_01_edited		1242760
 	897329279	X_GetSticks_00_edited1	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Mac\Voices\English(US)\X_GetSticks_00_edited1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\X_GetSticks_00_edited1		967088
 	931060642	12_X_OrderCompletete1Apology_01_edited	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Mac\Voices\English(US)\OrderCompleteApology\12_X_OrderCompletete1Apology_01_edited_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\OrderCompleteApology\12_X_OrderCompletete1Apology_01_edited		833344
 	934854009	X_PartyOrderComplete0_02_edited	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Mac\Voices\English(US)\PartyOrderComplete0_Group\X_PartyOrderComplete0_02_edited_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\PartyOrderComplete0_Group\X_PartyOrderComplete0_02_edited		1245728

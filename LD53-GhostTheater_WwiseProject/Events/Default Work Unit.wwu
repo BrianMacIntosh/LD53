@@ -355,6 +355,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Theater3Order0_Sequence" ID="{B32D192F-6D0B-4F9B-B3BB-CD6314AE9743}">
+					<ChildrenList>
+						<Action Name="" ID="{C6E7C6F1-2072-4116-82DC-1BAB9C91CD1C}" ShortID="799507540">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="X_Theatre3OrderComplete0_Sequence" ID="{07F4F780-CEFD-4C31-B68B-418F36F76DBB}" WorkUnitID="{AFA54749-B2B2-492E-A0D0-6C99A3CA1D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Theater3Order2_Sequence" ID="{131F7C9F-1704-48F9-A676-9E6057B00C6F}">
+					<ChildrenList>
+						<Action Name="" ID="{7EF217DE-9F28-47AA-BFE9-E29813E242A6}" ShortID="564255014">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="X_Theatre3OrderComplete2_Sequence" ID="{3A598B36-B321-410F-B424-2864AC7AC125}" WorkUnitID="{AFA54749-B2B2-492E-A0D0-6C99A3CA1D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Theater3Order4_Sequence" ID="{FFA10873-BEC9-4A0C-8408-468289444A0D}">
+					<ChildrenList>
+						<Action Name="" ID="{5B67BDCC-15DE-4D78-ABAC-F15446652AD8}" ShortID="124686384">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="X_Theatre3OrderComplete4_Sequence" ID="{6B037F58-8364-41F4-AB0A-C5E24FE43E6B}" WorkUnitID="{AFA54749-B2B2-492E-A0D0-6C99A3CA1D89}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
