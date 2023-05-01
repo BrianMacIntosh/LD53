@@ -17,4 +17,8 @@ MonoBehaviour:
   CookTime: 15
   Combinations: []
   AcceptsModifiers: 7
-  PickUpEvent: {fileID: 0}
+  PickUpEvent: {fileID: 11400000, guid: ba9330a3c4cb33443b6b26c895e8dfed, type: 2}
+  AddPopcornEvent: {fileID: 0}
+  BurnEvent: {fileID: 0}
+  CombineEvent: {fileID: 0}
+  CombineEventRaw: {fileID: 0}

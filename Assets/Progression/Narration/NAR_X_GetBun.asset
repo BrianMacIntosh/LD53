@@ -16,8 +16,8 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
-  PlayMode: 0
-  Priority: 0
+  PlayMode: 1
+  Priority: 2
   Recorded: 0
   Lines:
   - Caption: 'Ah Carbs, Ghosts aren''t afraid of carbs. '

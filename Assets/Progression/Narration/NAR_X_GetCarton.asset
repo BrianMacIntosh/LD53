@@ -17,7 +17,8 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
   PlayMode: 0
-  Priority: 0
+  Priority: 2
+  Recorded: 0
   Lines:
   - Caption: "An empty carton\u2026what possibility. "
   - Caption: Will it be home to popcorn?

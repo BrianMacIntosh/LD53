@@ -12,3 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 557fee967921f8c468404c789ec43ef7, type: 3}
   m_Name: ID_Corn
   m_EditorClassIdentifier: 
+  CookResult: {fileID: 0}
+  DefaultCookedState: 0
+  CookTime: 15
+  Combinations: []
+  AcceptsModifiers: 0
+  PickUpEvent: {fileID: 11400000, guid: a533433304b836f4d81195f7f5861afd, type: 2}
+  AddPopcornEvent: {fileID: 0}
+  BurnEvent: {fileID: 0}
+  CombineEvent: {fileID: 0}
+  CombineEventRaw: {fileID: 0}
