@@ -25,7 +25,7 @@
 				<GameParameter Id="240153585" Name="Test_Parameter"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3930136735" Type="User" Language="English(US)" Hash="{4D5C99DE-797B-7A6C-A73F-459B5B8B78C1}">
+		<SoundBank Id="3930136735" Type="User" Language="English(US)" Hash="{01B73C1F-3357-8C95-4368-89A11F4E4CE7}">
 			<ShortName>Dialogue</ShortName>
 			<Path>English(US)/Dialogue.bnk</Path>
 			<Media>
@@ -636,6 +636,11 @@
 						<MediaRef Id="181038427"/>
 						<MediaRef Id="418339426"/>
 					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3036946058"/>
+						</ShareSets>
+					</PluginRefs>
 				</Event>
 				<Event Id="3385034585" Name="Stove_Tutorial" DurationType="OneShot" DurationMin="8.480938" DurationMax="8.480938">
 					<MediaRefs>
@@ -801,5 +806,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0A89322B-5CC0-BF69-9F02-EEBA642FBE26}</FileHash>
+	<FileHash>{1D46E9A8-9E4F-0152-5D55-90D5A72250EA}</FileHash>
 </SoundBanksInfo>
