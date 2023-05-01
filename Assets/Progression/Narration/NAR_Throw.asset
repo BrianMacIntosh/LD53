@@ -18,9 +18,10 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 0}
   PlayMode: 2
   Priority: 0
+  Recorded: 1
   Lines:
   - Caption: 'I agree. That was an inferior snack. You can make it better. '
-  - Caption: 'Cast it into the fire! '
+  - Caption: Cast it into the flames!
   - Caption: YEET!
   - Caption: "Alas, throwing things does little more than create more work. \r"
   - Caption: "Excuse you, you\u2019ll get stains on my carpet. \r\n"
@@ -31,11 +32,4 @@ MonoBehaviour:
   - Caption: "Uh. Are you quite okay? If you ever need to talk\u2026well, I\u2019ll
       be here. But I think there\u2019s a nice field down the road you can haunt.
       \n"
-  - Caption: "And then in a fit of existential rage, the newbie waiter yeeted everything
-      in their hands at the wall and screamed into the void. Eeeeek [unenthusiastic
-      scream]. I added the scream part in for you. You\u2019re welcome.\r\n"
-  - Caption: "That. Is. Mahogany! Well, it isn\u2019t, but I pretend it is. Makes
-      me feel sophisticated.  "
   - Caption: 'Okay I believe that is enough food wasted. '
-  - Caption: "Even if it\u2019s summoned thoughtform food, we shouldn\u2019t waste
-      it.\r"

@@ -18,6 +18,7 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 0}
   PlayMode: 0
   Priority: 0
+  Recorded: 1
   Lines:
   - Caption: "Have I been mean to you? I\u2019m sorry. "
   - Caption: "Well, not really sorry, but I\u2019m supposed to say that right? "

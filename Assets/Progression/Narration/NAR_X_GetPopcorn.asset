@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b580463c563951b459b06ff63109d045, type: 3}
-  m_Name: NAR-X_GetPopcorn
+  m_Name: NAR_X_GetPopcorn
   m_EditorClassIdentifier: 
   WwiseEvent:
     idInternal: 0
@@ -18,6 +18,7 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 0}
   PlayMode: 0
   Priority: 0
+  Recorded: 1
   Lines:
-  - Caption: "So much buttery goodness. Imagine swimming in that.That\u2019s what
-      someone\u2019s red blood cells are going doing soon. "
+  - Caption: So much buttery goodness. Imagine swimming in that.
+  - Caption: "That\u2019s what someone\u2019s red blood cells are going to do soon."
