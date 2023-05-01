@@ -30,7 +30,13 @@ public class CraftingItemData : ScriptableObject
 
 	public BaseProgressionEvent AddPopcornEvent;
 
-	public ItemCombination GetCombinationWith(CraftingItemData other)
+	public BaseProgressionEvent BurnEvent;
+
+	public BaseProgressionEvent CombineEvent;
+
+    public BaseProgressionEvent CombineEventRaw;
+
+    public ItemCombination GetCombinationWith(CraftingItemData other)
 	{
 		foreach (ItemCombination combo in Combinations)
 		{
