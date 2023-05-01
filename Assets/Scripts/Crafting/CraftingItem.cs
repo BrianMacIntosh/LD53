@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public enum ItemCookedState
 {
@@ -104,9 +105,16 @@ public class CraftingItem : Interactable
 				CraftingItem newItem = Instantiate(combo.ResultItem);
 				newItem.SetCookedState(CombineCookedState(topItem.CookedState, CookedState));
 				combo.CombinedEvent.Post(newItem.gameObject);
-				MachineReplace(newItem);
+                MachineReplace(newItem);
 				topItem.CombineEat();
-				return;
+                if (topItem.ItemData.CombineEvent)
+					ProgressionManager.Instance.TriggerEvent(topItem.ItemData.CombineEvent);
+				if (topItem.ItemData.CombineEventRaw)
+				{
+					if(topItem.CookedState == ItemCookedState.Raw)
+                        ProgressionManager.Instance.TriggerEvent(topItem.ItemData.CombineEventRaw);
+                }
+                return;
 			}
 
 			combo = ItemData.GetCombinationWith(topItem.ItemData);
@@ -116,8 +124,15 @@ public class CraftingItem : Interactable
 				newItem.SetCookedState(CombineCookedState(topItem.CookedState, CookedState)); //TODO: globalize transfering data on combine
 				combo.CombinedEvent.Post(newItem.gameObject);
 				topItem.MachineReplace(newItem);
-				CombineEat();
-				return;
+                CombineEat();
+                if (ItemData.CombineEvent)
+                    ProgressionManager.Instance.TriggerEvent(ItemData.CombineEvent);
+                if (ItemData.CombineEventRaw)
+                {
+                    if (m_cookedState == ItemCookedState.Raw)
+                        ProgressionManager.Instance.TriggerEvent(ItemData.CombineEventRaw);
+                }
+                return;
 			}
 
 			// attempt to transfer modifiers between the items
@@ -151,7 +166,9 @@ public class CraftingItem : Interactable
 					break;
 				case ItemCookedState.Cooked:
 					SetCookedState(ItemCookedState.Burnt);
-					break;
+                    if (ItemData.BurnEvent)
+                        ProgressionManager.Instance.TriggerEvent(ItemData.BurnEvent);
+                    break;
 			}
 		}
 		else

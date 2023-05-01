@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CookResult: {fileID: 0}
   DefaultCookedState: 1
-  CookTime: 15
+  CookTime: 5
   Combinations:
   - OtherItem: {fileID: 11400000, guid: d0d1d772a7e93ef42bb6b37dc8f97149, type: 2}
     ResultItem: {fileID: 7832490819023485140, guid: 2d9b5126cdbb80a438c1091ec38f2466,
@@ -26,3 +26,6 @@ MonoBehaviour:
   AcceptsModifiers: 0
   PickUpEvent: {fileID: 0}
   AddPopcornEvent: {fileID: 0}
+  BurnEvent: {fileID: 11400000, guid: 8ca15853de79f4242812698929cc5b6e, type: 2}
+  CombineEvent: {fileID: 0}
+  CombineEventRaw: {fileID: 11400000, guid: b862f7c0af3a0774198390ad9c0c7173, type: 2}
