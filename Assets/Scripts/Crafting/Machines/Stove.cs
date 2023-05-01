@@ -45,6 +45,8 @@ public class Stove : ToggleInteractable
 			item.CookCountdown -= Time.deltaTime;
 			if (item.CookCountdown <= 0f)
 			{
+				item.CookCountdown = item.Item.ItemData.CookTime;
+				m_items[index] = item;
 				item.Item.Cook();
 			}
 			else

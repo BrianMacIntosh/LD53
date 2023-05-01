@@ -18,6 +18,11 @@ public class EventAddOrders : BaseProgressionEvent
 	[SerializeField]
 	private OrderSpecification[] m_orders;
 
+	public OrderSpecification[] Orders
+	{
+		get { return m_orders; }
+	}
+
 	public override void Execute()
 	{
 		foreach (OrderSpecification order in m_orders)

@@ -16,7 +16,7 @@ namespace PlayerControl
         private bool jumpInput;
         private Vector3 velocity;
 
-        public static event Action<Vector2> NewMousePos;
+        //public static event Action<Vector2> NewMousePos;
 
         private void Start()
         {
@@ -66,7 +66,7 @@ namespace PlayerControl
         public void OnMousePos(InputValue value)
         {
             var pos = value.Get<Vector2>();
-            NewMousePos?.Invoke(pos);
+            //NewMousePos?.Invoke(pos);
         }
     }
 }

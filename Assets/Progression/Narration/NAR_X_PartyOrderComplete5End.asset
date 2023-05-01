@@ -18,9 +18,9 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 0}
   PlayMode: 0
   Priority: 0
+  Recorded: 1
   Lines:
-  - Caption: "What\u2019s this? A Founding Day party? For moi?"
+  - Caption: "What\u2019s this? A Founding Day party? For me?"
   - Caption: "Was. Was this your doing? This\u2026this is\u2026so sentimental! "
-  - Caption: "Disgusting. You may just be the best employee at Sir Quacky\u2019s.
-      [tearful sniff]\r"
+  - Caption: "You may just be the best employee at Sir Quacky\u2019s."
   - Caption: "You\u2019re still not getting paid though."

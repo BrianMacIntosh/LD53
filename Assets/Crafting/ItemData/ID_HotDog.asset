@@ -23,3 +23,6 @@ MonoBehaviour:
       idInternal: 0
       valueGuidInternal: 
       WwiseObjectReference: {fileID: 0}
+  AcceptsModifiers: 0
+  PickUpEvent: {fileID: 0}
+  AddPopcornEvent: {fileID: 0}

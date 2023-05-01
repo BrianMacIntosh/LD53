@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c3e15b00e7dce24eaefd29e45958344, type: 3}
-  m_Name: Event_02_00_Order_Popsicles
+  m_Name: Event_02_00_Order_Popsicles_PARTY
   m_EditorClassIdentifier: 
   Comment: 
   Conditions:
@@ -19,6 +19,6 @@ MonoBehaviour:
   Delay: 0
   m_orders:
   - Data: {fileID: 11400000, guid: 6d7a0b0b187b92548bc9a87fc46a7472, type: 2}
-    Customer: {fileID: 11400000, guid: 8e0d1d9525b535d4384eed49d1ecfbd9, type: 2}
+    Customer: {fileID: 11400000, guid: 91f3bc0fb373c5a4c96e827629e910d9, type: 2}
   - Data: {fileID: 11400000, guid: 6d7a0b0b187b92548bc9a87fc46a7472, type: 2}
-    Customer: {fileID: 11400000, guid: 85a7243ad8538b14193cc027d58fa109, type: 2}
+    Customer: {fileID: 11400000, guid: 61f4dfee0555e6b43b07eccb33d775fa, type: 2}

@@ -12,3 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 557fee967921f8c468404c789ec43ef7, type: 3}
   m_Name: ID_HotDogBun
   m_EditorClassIdentifier: 
+  CookResult: {fileID: 0}
+  DefaultCookedState: 0
+  CookTime: 15
+  Combinations: []
+  AcceptsModifiers: 0
+  PickUpEvent: {fileID: 11400000, guid: 31675571a13a5e04ba617a28b7089787, type: 2}
+  AddPopcornEvent: {fileID: 11400000, guid: f337dd60960bc854a881ebdfb6e68ea2, type: 2}

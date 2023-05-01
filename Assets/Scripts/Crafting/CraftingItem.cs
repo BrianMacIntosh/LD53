@@ -61,6 +61,11 @@ public class CraftingItem : Interactable
 	public void AddModifier(ItemModifiers mod)
 	{
 		Modifiers = Modifiers | mod;
+		if (ItemData.AddPopcornEvent
+			&& (mod & ItemModifiers.Popcorn) == ItemModifiers.Popcorn)
+		{
+			ProgressionManager.Instance.TriggerEvent(ItemData.AddPopcornEvent);
+		}
 	}
 
 	public delegate void CraftingItemDelegate(CraftingItem sender);
