@@ -10,7 +10,8 @@ namespace RoomShifting
 
         private void OnTriggerEnter(Collider other)
         {
-            shifter.SwapToRandomLocation();
+            if(other.tag == "Player")
+                shifter.SwapToRandomLocation();
         }
     }
 }
