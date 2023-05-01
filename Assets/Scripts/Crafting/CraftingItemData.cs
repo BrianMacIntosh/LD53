@@ -34,7 +34,7 @@ public class CraftingItemData : ScriptableObject
 	{
 		foreach (ItemCombination combo in Combinations)
 		{
-			if (combo.OtherItem = other)
+			if (combo.OtherItem == other)
 			{
 				return combo;
 			}
