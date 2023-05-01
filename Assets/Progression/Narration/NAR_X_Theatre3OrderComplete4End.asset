@@ -18,7 +18,7 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 0}
   PlayMode: 0
   Priority: 0
-  Recorded: 0
+  Recorded: 1
   Lines:
   - Caption: 'What''s this? '
   - Caption: "Is it \u2013 can it be \u2013 have the strange orders been unwitting

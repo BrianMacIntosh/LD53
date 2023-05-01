@@ -18,7 +18,7 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 0}
   PlayMode: 0
   Priority: 0
-  Recorded: 0
+  Recorded: 1
   Lines:
   - Caption: "If I were to start a cult, I think I should call it Sir Quacky Quack\u2019s
       Society of Wealth and Property Management."

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c3e15b00e7dce24eaefd29e45958344, type: 3}
-  m_Name: Event_05_00_Order_Sticks
+  m_Name: Event_05_00_Order_Sticks_PARTY
   m_EditorClassIdentifier: 
   Comment: 
   Conditions:
@@ -24,5 +24,3 @@ MonoBehaviour:
     Customer: {fileID: 11400000, guid: 67c6144ea3f193542a0296110283a2b6, type: 2}
   - Data: {fileID: 11400000, guid: f659641686cc4d04b9923e72f279efdf, type: 2}
     Customer: {fileID: 11400000, guid: 51c5008484574ce45a8290c195496589, type: 2}
-  - Data: {fileID: 11400000, guid: 6d7a0b0b187b92548bc9a87fc46a7472, type: 2}
-    Customer: {fileID: 11400000, guid: 91f3bc0fb373c5a4c96e827629e910d9, type: 2}
