@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b580463c563951b459b06ff63109d045, type: 3}
-  m_Name: NAR_X_PartyOrderComplete4
+  m_Name: NAR_99_StoveTutorial
   m_EditorClassIdentifier: 
   WwiseEvent:
     idInternal: 0
@@ -20,5 +20,4 @@ MonoBehaviour:
   Priority: 0
   Recorded: 1
   Lines:
-  - Caption: 'Now what are they up to? '
-  - Caption: 'What is happening here? '
+  - Caption: Psst - the stove's off. It's off. I thought you'd want to know that.

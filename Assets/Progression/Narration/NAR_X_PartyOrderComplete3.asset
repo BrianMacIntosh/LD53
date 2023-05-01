@@ -18,6 +18,7 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 0}
   PlayMode: 0
   Priority: 0
+  Recorded: 1
   Lines:
   - Caption: "Usually the Party Room doesn\u2019t have such interesting requests.
-      Something\u2026sketchy is happening here. "
+      Something\u2026unusual is happening here. "

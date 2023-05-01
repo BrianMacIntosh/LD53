@@ -18,12 +18,13 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 0}
   PlayMode: 0
   Priority: 0
+  Recorded: 1
   Lines:
-  - Caption: "Oh The party room. They\u2019re always celebrating something interesting. "
-  - Caption: 'I have no idea why some of these things are celebrated, but you know
+  - Caption: "Oh, the party room. They\u2019re always celebrating something interesting. "
+  - Caption: 'I have no idea why some of these things are important, but you know
       how it is. '
   - Caption: Celebrating your Birth Day or Death Day gets old after a hundred or
-      so times,
-  - Caption: 'Not that anyone has celebrated my founding day in a while. [sniff]
+      so times.
+  - Caption: 'Not that anyone has celebrated my founding day in a while.
 
 '

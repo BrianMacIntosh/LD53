@@ -18,6 +18,7 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 0}
   PlayMode: 0
   Priority: 0
+  Recorded: 1
   Lines:
   - Caption: 'A birth! '
   - Caption: 'Something about watching new life really tickles the undead. '
