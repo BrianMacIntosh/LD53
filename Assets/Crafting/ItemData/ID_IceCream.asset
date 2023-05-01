@@ -23,6 +23,16 @@ MonoBehaviour:
       idInternal: 0
       valueGuidInternal: 
       WwiseObjectReference: {fileID: 0}
+  - OtherItem: {fileID: 11400000, guid: 0f16894f0546b6a479095982ef1d77f4, type: 2}
+    ResultItem: {fileID: 1267554360212722721, guid: 8b9e69ec2c0d7064e9883e0da6c68c7d,
+      type: 3}
+    CombinedEvent:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 0}
   AcceptsModifiers: 0
   PickUpEvent: {fileID: 11400000, guid: 7699853d883b8d042a047f4b79af86ab, type: 2}
   AddPopcornEvent: {fileID: 0}
+  BurnEvent: {fileID: 11400000, guid: 3c16f32279b04ed479a294ed01ff340f, type: 2}
+  CombineEvent: {fileID: 0}
+  CombineEventRaw: {fileID: 0}
