@@ -20,6 +20,8 @@ public abstract class BaseProgressionEvent : ScriptableObject
 
 	public float Delay = 0f;
 
+	public bool DoesRepeat;
+
 	public bool CanTrigger()
 	{
 		bool result = ConditionOperator == Operator.Or ? false : true;
