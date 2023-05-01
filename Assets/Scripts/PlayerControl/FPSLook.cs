@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 namespace PlayerControl
 {
@@ -17,12 +18,13 @@ namespace PlayerControl
             cameraY = transform.position.y - player.transform.position.y;
             Cursor.lockState = CursorLockMode.Locked;
 
-            FPSMovement.NewMousePos += NewMousePos;
+            //FPSMovement.NewMousePos += NewMousePos;
         }
 
 
         private void LateUpdate()
         {
+            mousePos = Mouse.current.delta.ReadValue();
             UpdateCameraPosition();
             UpgradeCameraRotation();
         }
@@ -43,9 +45,9 @@ namespace PlayerControl
             player.transform.localRotation = Quaternion.Euler(0, yRotation, 0);
         }
 
-        private void NewMousePos(Vector2 pos)
-        {
-            mousePos = pos;
-        }
+        //private void NewMousePos(Vector2 pos)
+        //{
+        //    mousePos = pos;
+        //}
     }
 }
