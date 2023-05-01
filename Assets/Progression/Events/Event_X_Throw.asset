@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f5f6b0011962f854095d8a7ef7aef723, type: 3}
-  m_Name: Event_X_Theatre3OrderComplete2
+  m_Name: Event_X_Throw
   m_EditorClassIdentifier: 
   Comment: 
   Conditions: []
   ConditionOperator: 0
   Delay: 0
-  m_narrationSet: {fileID: 11400000, guid: 2ced9d38b3f8e0e4482cf3d9995fce88, type: 2}
+  m_narrationSet: {fileID: 11400000, guid: 1d825565770773243b0142b75184df03, type: 2}

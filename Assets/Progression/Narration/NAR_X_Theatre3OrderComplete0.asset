@@ -18,7 +18,7 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 0}
   PlayMode: 0
   Priority: 0
-  Recorded: 0
+  Recorded: 1
   Lines:
   - Caption: "Ah yes, my favorite film. If I hadn\u2019t seen it ten thousand times
       already, I might just watch that instead of supervising you."
