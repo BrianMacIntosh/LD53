@@ -51,4 +51,9 @@ public class PlayerInteractor : MonoBehaviour
             target.DebugSkip();
         }
     }
+
+    public void OnOrderSkip(InputValue value)
+	{
+        OrderManager.Instance.FillAllOrders();
+	}
 }

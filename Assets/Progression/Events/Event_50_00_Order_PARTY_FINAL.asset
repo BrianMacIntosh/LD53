@@ -10,19 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c3e15b00e7dce24eaefd29e45958344, type: 3}
-  m_Name: Event_05_00_Order_Sticks
+  m_Name: Event_50_00_Order_PARTY_FINAL
   m_EditorClassIdentifier: 
   Comment: 
   Conditions:
-  - {fileID: 11400000, guid: 87b1c077245bf934b8d023b3308c928d, type: 2}
+  - {fileID: 11400000, guid: 2f19fea48b373f246aada5504e8efb3b, type: 2}
   ConditionOperator: 0
   Delay: 0
   m_orders:
-  - Data: {fileID: 11400000, guid: f659641686cc4d04b9923e72f279efdf, type: 2}
+  - Data: {fileID: 11400000, guid: 66b7c451a24b4c142bc49946502d149a, type: 2}
     Customer: {fileID: 11400000, guid: 61f4dfee0555e6b43b07eccb33d775fa, type: 2}
-  - Data: {fileID: 11400000, guid: f659641686cc4d04b9923e72f279efdf, type: 2}
+  - Data: {fileID: 11400000, guid: 66b7c451a24b4c142bc49946502d149a, type: 2}
     Customer: {fileID: 11400000, guid: 67c6144ea3f193542a0296110283a2b6, type: 2}
-  - Data: {fileID: 11400000, guid: f659641686cc4d04b9923e72f279efdf, type: 2}
+  - Data: {fileID: 11400000, guid: 66b7c451a24b4c142bc49946502d149a, type: 2}
     Customer: {fileID: 11400000, guid: 51c5008484574ce45a8290c195496589, type: 2}
-  - Data: {fileID: 11400000, guid: 6d7a0b0b187b92548bc9a87fc46a7472, type: 2}
-    Customer: {fileID: 11400000, guid: 91f3bc0fb373c5a4c96e827629e910d9, type: 2}
