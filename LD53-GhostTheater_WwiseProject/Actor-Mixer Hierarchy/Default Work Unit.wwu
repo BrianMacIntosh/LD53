@@ -112,6 +112,11 @@
 				<RandomSequenceContainer Name="Sequence1_Voice" ID="{CB2A2638-CF78-4A2E-9AF9-01AB2277D6F4}" ShortID="133435039">
 					<PropertyList>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -184,6 +189,11 @@
 				<RandomSequenceContainer Name="Sequence2_Voice" ID="{9D56B077-B388-4075-A310-79AA315BDD61}" ShortID="727253380">
 					<PropertyList>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -310,6 +320,11 @@
 				<RandomSequenceContainer Name="Sequence4_Voice" ID="{8888D7B7-0737-421A-AC5E-95FDCC8E8E71}" ShortID="223274294">
 					<PropertyList>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">

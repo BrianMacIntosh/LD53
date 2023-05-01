@@ -25,7 +25,7 @@
 				<GameParameter Id="240153585" Name="Test_Parameter"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3930136735" Type="User" Language="English(US)" Hash="{486F11C0-76E4-AB6C-4BDD-5900A088EA27}">
+		<SoundBank Id="3930136735" Type="User" Language="English(US)" Hash="{1C4A875A-8403-8FAF-4579-DF971D040F69}">
 			<ShortName>Dialogue</ShortName>
 			<Path>English(US)/Dialogue.bnk</Path>
 			<Media>
@@ -72,7 +72,7 @@
 				</ShareSets>
 			</Plugins>
 			<Events>
-				<Event Id="88281251" Name="Sequence1_Voices" DurationType="OneShot" DurationMin="7.170396" DurationMax="9.037292">
+				<Event Id="88281251" Name="Sequence1_Voices" DurationType="OneShot" DurationMin="7.170396" DurationMax="8.504604">
 					<MediaRefs>
 						<MediaRef Id="702158308"/>
 						<MediaRef Id="856661052"/>
@@ -226,5 +226,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{107C4FC9-0620-819A-EE05-9A47A7DE736E}</FileHash>
+	<FileHash>{79278A59-DDE6-F8E6-8830-8B56FFB9ED13}</FileHash>
 </SoundBanksInfo>
