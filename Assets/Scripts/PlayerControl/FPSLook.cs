@@ -21,11 +21,14 @@ namespace PlayerControl
             //FPSMovement.NewMousePos += NewMousePos;
         }
 
-
-        private void LateUpdate()
+        private void Update()
         {
             mousePos = Mouse.current.delta.ReadValue();
             UpdateCameraPosition();
+        }
+
+        private void LateUpdate()
+        {
             UpgradeCameraRotation();
         }
 
