@@ -31,7 +31,64 @@
 							</ReferenceList>
 							<ChildrenList>
 								<MusicTrack Name="Spoopy_Theater" ID="{7AE6CA00-49E4-43E3-ACD1-FC957730DE68}" ShortID="62080972">
+									<PropertyList>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Conversion">
+											<Custom CreatedFrom="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}">
+												<Conversion Name="Vorbis Quality Medium (Custom)" ID="{2A486B22-B003-4667-A7C3-BD064AB5B90C}">
+													<PropertyList>
+														<Property Name="Channels" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">4</Value>
+																<Value Platform="Mac">4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="LRMix" Type="Real64">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MaxSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="MinSampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+														<Property Name="SampleRate" Type="int32">
+															<ValueList>
+																<Value Platform="Windows">0</Value>
+																<Value Platform="Mac">0</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ConversionPluginInfoList>
+														<ConversionPluginInfo Platform="Windows">
+															<ConversionPlugin Name="" ID="{F94795B1-6C6B-42DA-AAEA-3D8C3502F046}" PluginName="Vorbis" CompanyID="0" PluginID="4">
+																<PropertyList>
+																	<Property Name="QualityFactor" Type="Real32" Value="2"/>
+																</PropertyList>
+															</ConversionPlugin>
+														</ConversionPluginInfo>
+														<ConversionPluginInfo Platform="Mac">
+															<ConversionPlugin Name="" ID="{94FD3CF1-50B7-40AB-A635-886ABB103882}" PluginName="Vorbis" CompanyID="0" PluginID="4">
+																<PropertyList>
+																	<Property Name="QualityFactor" Type="Real32" Value="2"/>
+																</PropertyList>
+															</ConversionPlugin>
+														</ConversionPluginInfo>
+													</ConversionPluginInfoList>
+												</Conversion>
+											</Custom>
+										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F376297D-AB07-4958-BBDC-FB26A5AD928C}"/>
 										</Reference>

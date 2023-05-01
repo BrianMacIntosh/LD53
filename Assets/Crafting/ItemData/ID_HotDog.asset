@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CookResult: {fileID: 0}
   DefaultCookedState: 1
-  CookTime: 5
+  CookTime: 10
   Combinations:
   - OtherItem: {fileID: 11400000, guid: d0d1d772a7e93ef42bb6b37dc8f97149, type: 2}
     ResultItem: {fileID: 7832490819023485140, guid: 2d9b5126cdbb80a438c1091ec38f2466,
