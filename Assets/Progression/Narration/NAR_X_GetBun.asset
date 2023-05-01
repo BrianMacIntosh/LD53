@@ -19,4 +19,5 @@ MonoBehaviour:
   PlayMode: 0
   Priority: 0
   Recorded: 0
-  Lines: []
+  Lines:
+  - Caption: 'Ah Carbs, Ghosts aren''t afraid of carbs. '
