@@ -18,8 +18,8 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 0}
   PlayMode: 2
   Priority: 0
+  Recorded: 0
   Lines:
-  - Caption: '[giggling] Whaaaa This was totally always the same theatre right? '
   - Caption: 'Theatres moving around? What an absolutely ridiculous notion. '
   - Caption: 'Me, changing the layout of the cinema? Amusing, but whyever would I
       do such a prank? '

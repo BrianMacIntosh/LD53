@@ -58,7 +58,7 @@ public class ProgressionManager : MonoBehaviour
 
 	public void TriggerEvent(BaseProgressionEvent evt)
 	{
-		if (!m_eventsTriggered.Contains(evt) && evt.CanTrigger())
+		if ((!m_eventsTriggered.Contains(evt) || evt.DoesRepeat) && evt.CanTrigger())
 		{
 			StartCoroutine(TriggerEventCoroutine(evt));
 			m_eventsTriggered.Add(evt);

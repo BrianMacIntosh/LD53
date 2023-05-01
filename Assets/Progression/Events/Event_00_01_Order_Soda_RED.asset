@@ -10,17 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c3e15b00e7dce24eaefd29e45958344, type: 3}
-  m_Name: Event_04_00_Order_HotDog
+  m_Name: Event_00_01_Order_Soda_RED
   m_EditorClassIdentifier: 
-  Comment: 
+  Comment: Initial soda order.
   Conditions:
-  - {fileID: 11400000, guid: 843fbbeafb4c81548baf7e7b3319e1fb, type: 2}
+  - {fileID: 11400000, guid: 5b23a58123824344981a9a3aa9055825, type: 2}
   ConditionOperator: 0
-  Delay: 0
+  Delay: 3
   m_orders:
   - Data: {fileID: 11400000, guid: c8ad1ac373b84d148a5fb5353f8e909f, type: 2}
     Customer: {fileID: 11400000, guid: 9edb45c21aa69ac43aa9098fc0c9f843, type: 2}
-  - Data: {fileID: 11400000, guid: 8c84414946c9df349974a73668621889, type: 2}
-    Customer: {fileID: 11400000, guid: 85a7243ad8538b14193cc027d58fa109, type: 2}
-  - Data: {fileID: 11400000, guid: 8c84414946c9df349974a73668621889, type: 2}
-    Customer: {fileID: 11400000, guid: 8e0d1d9525b535d4384eed49d1ecfbd9, type: 2}

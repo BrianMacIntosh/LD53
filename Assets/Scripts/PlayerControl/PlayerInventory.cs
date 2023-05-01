@@ -32,6 +32,11 @@ public class PlayerInventory : MonoBehaviour
 		get { return m_selectedItem; }
 	}
 
+	public bool HasChangedSlot
+	{
+		get; private set;
+	}
+
 	/// <summary>
 	/// Slots held items can be attached to.
 	/// </summary>
@@ -93,6 +98,8 @@ public class PlayerInventory : MonoBehaviour
 	/// </summary>
 	public void OnPrevItem(InputValue value)
 	{
+		HasChangedSlot = true;
+
 		m_selectedItem = (m_selectedItem - 1 + m_items.Length) % m_items.Length;
 
 		if (m_items[m_selectedItem])
@@ -112,6 +119,8 @@ public class PlayerInventory : MonoBehaviour
 	/// </summary>
 	public void OnNextItem(InputValue value)
 	{
+		HasChangedSlot = true;
+
 		m_selectedItem = (m_selectedItem + 1) % m_items.Length;
 
 		if (m_items[m_selectedItem])

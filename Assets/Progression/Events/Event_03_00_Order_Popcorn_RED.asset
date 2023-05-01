@@ -10,17 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c3e15b00e7dce24eaefd29e45958344, type: 3}
-  m_Name: Event_06_00_Order_Corndog
+  m_Name: Event_03_00_Order_Popcorn_RED
   m_EditorClassIdentifier: 
   Comment: 
   Conditions:
-  - {fileID: 11400000, guid: 1f5e13abcf7d8dd4baedc99d25e331f0, type: 2}
+  - {fileID: 11400000, guid: 46292f6b5d9eeb647b3297517534ab03, type: 2}
   ConditionOperator: 0
   Delay: 0
   m_orders:
-  - Data: {fileID: 11400000, guid: 39df73cfb13af264d8b579f52963140b, type: 2}
-    Customer: {fileID: 11400000, guid: d57b7e2c8ee70f341b8dca3d1060ba08, type: 2}
-  - Data: {fileID: 11400000, guid: 8c84414946c9df349974a73668621889, type: 2}
-    Customer: {fileID: 11400000, guid: e2721992e315a9d4099ab6e33af1dfe5, type: 2}
   - Data: {fileID: 11400000, guid: c8ad1ac373b84d148a5fb5353f8e909f, type: 2}
-    Customer: {fileID: 11400000, guid: e2721992e315a9d4099ab6e33af1dfe5, type: 2}
+    Customer: {fileID: 11400000, guid: 524ff353c7a5be44592f9347f37ddcb9, type: 2}
+  - Data: {fileID: 11400000, guid: 83971ca282d018249a0f583aa3c212c6, type: 2}
+    Customer: {fileID: 11400000, guid: 8e0d1d9525b535d4384eed49d1ecfbd9, type: 2}

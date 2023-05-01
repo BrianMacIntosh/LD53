@@ -202,6 +202,9 @@ public class PopcornMachine : CraftingMachine
 
 	public override void DebugSkip()
 	{
-		m_nextPopTime = Time.time;
+		if (m_nextPopTime > 0f)
+		{
+			m_nextPopTime = Time.time;
+		}
 	}
 }
