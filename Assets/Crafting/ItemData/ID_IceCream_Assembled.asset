@@ -16,5 +16,6 @@ MonoBehaviour:
   DefaultCookedState: 0
   CookTime: 15
   Combinations: []
-  AcceptsModifiers: 3
+  AcceptsModifiers: 0
   PickUpEvent: {fileID: 0}
+  AddPopcornEvent: {fileID: 0}
