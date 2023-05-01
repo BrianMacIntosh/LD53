@@ -28,6 +28,8 @@ public class CraftingItemData : ScriptableObject
 
 	public BaseProgressionEvent PickUpEvent;
 
+	public BaseProgressionEvent AddPopcornEvent;
+
 	public ItemCombination GetCombinationWith(CraftingItemData other)
 	{
 		foreach (ItemCombination combo in Combinations)
