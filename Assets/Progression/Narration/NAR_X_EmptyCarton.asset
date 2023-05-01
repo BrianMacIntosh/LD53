@@ -18,6 +18,7 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 0}
   PlayMode: 0
   Priority: 0
+  Recorded: 0
   Lines:
-  - Caption: "Empty popcorn cartons\u2026Oh they need more plates, that\u2019s what
+  - Caption: "Empty popcorn cartons\u2026oh they need more plates, that\u2019s what
       this is."

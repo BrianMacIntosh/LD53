@@ -18,11 +18,12 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 0}
   PlayMode: 2
   Priority: 2
+  Recorded: 0
   Lines:
   - Caption: Well you know what they say, everyone makes mistakes. Might as well
       make them now.
   - Caption: "Sometimes, we know better what people need, not what they want. But
-      if they won\u2019t accept our generous help, then all we can do it turn away."
+      if they won\u2019t accept our generous help, then all we can do is turn away."
   - Caption: "Oh mark my words, one day you\u2019ll want this concession and there
       shall be none left!"
   - Caption: "Oh I\u2019m sorry, why don\u2019t you just get your own snacks? "
