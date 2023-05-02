@@ -727,7 +727,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{09E469F9-566B-E246-A966-F5AA6C5B9517}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{E95CE4D1-62E1-EBD9-A7A7-F45AAD049894}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
@@ -737,7 +737,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3991942870" Name="Music" DurationType="OneShot" DurationMin="255.98053" DurationMax="255.98053">
+				<Event Id="3991942870" Name="Music" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="231788945"/>
 					</MediaRefs>
@@ -912,5 +912,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{044B9A68-7F67-BD45-8505-806A930F0B01}</FileHash>
+	<FileHash>{910C323D-8A98-AC9F-6339-5B87C479DA49}</FileHash>
 </SoundBanksInfo>
