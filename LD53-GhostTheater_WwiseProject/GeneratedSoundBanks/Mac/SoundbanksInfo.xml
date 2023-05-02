@@ -25,7 +25,7 @@
 				<GameParameter Id="240153585" Name="Test_Parameter"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3930136735" Type="User" Language="English(US)" Hash="{D6C8D748-8BE8-CABD-FDD2-DA186D1D5F1E}">
+		<SoundBank Id="3930136735" Type="User" Language="English(US)" Hash="{86303137-249C-CA4A-453C-B4D9E3237F47}">
 			<ShortName>Dialogue</ShortName>
 			<Path>English(US)/Dialogue.bnk</Path>
 			<Media>
@@ -357,7 +357,7 @@
 				</ShareSets>
 			</Plugins>
 			<Events>
-				<Event Id="1506259429" Name="Corn_Sequence" DurationType="OneShot" DurationMin="7.808917" DurationMax="7.808917">
+				<Event Id="1506259429" Name="Corn_Sequence" DurationType="OneShot" DurationMin="2.9901874" DurationMax="4.8187294">
 					<MediaRefs>
 						<MediaRef Id="103397309"/>
 						<MediaRef Id="780420761"/>
@@ -388,7 +388,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="2627373943" Name="GetHotDogPopcorn_Sequence" DurationType="OneShot" DurationMin="9.573875" DurationMax="9.573875">
+				<Event Id="2627373943" Name="GetHotDogPopcorn_Sequence" DurationType="OneShot" DurationMin="3.6957083" DurationMax="5.8781667">
 					<MediaRefs>
 						<MediaRef Id="664107253"/>
 						<MediaRef Id="872452947"/>
@@ -399,7 +399,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="3520966566" Name="GetPopcorn_Sequence" DurationType="OneShot" DurationMin="9.260146" DurationMax="9.260146">
+				<Event Id="3520966566" Name="GetPopcorn_Sequence" DurationType="OneShot" DurationMin="4.412396" DurationMax="4.84775">
 					<MediaRefs>
 						<MediaRef Id="62210821"/>
 						<MediaRef Id="251428905"/>
@@ -410,7 +410,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="954364540" Name="Narration_02_01_Sequence" DurationType="OneShot" DurationMin="14.236397" DurationMax="14.236397">
+				<Event Id="954364540" Name="Narration_02_01_Sequence" DurationType="OneShot" DurationMin="4.016521" DurationMax="6.1392083">
 					<MediaRefs>
 						<MediaRef Id="403555431"/>
 						<MediaRef Id="487366810"/>
@@ -422,7 +422,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="3132980017" Name="Narration_03_01_Sequence" DurationType="OneShot" DurationMin="12.307021" DurationMax="12.307021">
+				<Event Id="3132980017" Name="Narration_03_01_Sequence" DurationType="OneShot" DurationMin="5.217625" DurationMax="7.089396">
 					<MediaRefs>
 						<MediaRef Id="168253262"/>
 						<MediaRef Id="602841647"/>
@@ -433,7 +433,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="3714960967" Name="Narration_05_01_Sequence" DurationType="OneShot" DurationMin="17.246" DurationMax="17.246">
+				<Event Id="3714960967" Name="Narration_05_01_Sequence" DurationType="OneShot" DurationMin="4.9964585" DurationMax="6.356854">
 					<MediaRefs>
 						<MediaRef Id="94708600"/>
 						<MediaRef Id="797974393"/>
@@ -445,7 +445,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="3166432864" Name="Narration_06_01_Sequence" DurationType="OneShot" DurationMin="9.687979" DurationMax="9.687979">
+				<Event Id="3166432864" Name="Narration_06_01_Sequence" DurationType="OneShot" DurationMin="4.1920624" DurationMax="5.495917">
 					<MediaRefs>
 						<MediaRef Id="500876644"/>
 						<MediaRef Id="611690467"/>
@@ -456,7 +456,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="1923862681" Name="OrderCompleteApology_Sequence" DurationType="OneShot" DurationMin="11.702749" DurationMax="11.702749">
+				<Event Id="1923862681" Name="OrderCompleteApology_Sequence" DurationType="OneShot" DurationMin="3.3133125" DurationMax="4.3398333">
 					<MediaRefs>
 						<MediaRef Id="119881967"/>
 						<MediaRef Id="321879506"/>
@@ -468,7 +468,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="1524787101" Name="OrderCompleteNottheWorst_Sequence" DurationType="OneShot" DurationMin="16.21227" DurationMax="16.21227">
+				<Event Id="1524787101" Name="OrderCompleteNottheWorst_Sequence" DurationType="OneShot" DurationMin="3.4545834" DurationMax="8.708083">
 					<MediaRefs>
 						<MediaRef Id="159048756"/>
 						<MediaRef Id="429461362"/>
@@ -480,7 +480,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="491748880" Name="PartyOrderComplete0_Sequence" DurationType="OneShot" DurationMin="22.970022" DurationMax="22.970022">
+				<Event Id="491748880" Name="PartyOrderComplete0_Sequence" DurationType="OneShot" DurationMin="4.8158336" DurationMax="6.4876666">
 					<MediaRefs>
 						<MediaRef Id="477088815"/>
 						<MediaRef Id="851609592"/>
@@ -493,7 +493,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="3441730803" Name="PartyOrderComplete1_Sequence" DurationType="OneShot" DurationMin="9.550396" DurationMax="9.550396">
+				<Event Id="3441730803" Name="PartyOrderComplete1_Sequence" DurationType="OneShot" DurationMin="3.382" DurationMax="6.168396">
 					<MediaRefs>
 						<MediaRef Id="515012426"/>
 						<MediaRef Id="657526009"/>
@@ -504,7 +504,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="1965063182" Name="PartyOrderComplete2_Sequence" DurationType="OneShot" DurationMin="18.873875" DurationMax="18.873875">
+				<Event Id="1965063182" Name="PartyOrderComplete2_Sequence" DurationType="OneShot" DurationMin="2.3015625" DurationMax="4.920375">
 					<MediaRefs>
 						<MediaRef Id="205165112"/>
 						<MediaRef Id="792438881"/>
@@ -528,7 +528,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="2202236252" Name="PartyOrderComplete4_Sequence" DurationType="OneShot" DurationMin="5.1241045" DurationMax="5.1241045">
+				<Event Id="2202236252" Name="PartyOrderComplete4_Sequence" DurationType="OneShot" DurationMin="2.4096875" DurationMax="2.7144167">
 					<MediaRefs>
 						<MediaRef Id="160853680"/>
 						<MediaRef Id="262780444"/>
@@ -539,7 +539,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="898156511" Name="PartyOrderComplete5_Sequence" DurationType="OneShot" DurationMin="20.34025" DurationMax="20.34025">
+				<Event Id="898156511" Name="PartyOrderComplete5_Sequence" DurationType="OneShot" DurationMin="2.865354" DurationMax="7.1408124">
 					<MediaRefs>
 						<MediaRef Id="153657574"/>
 						<MediaRef Id="499340588"/>
@@ -552,7 +552,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="645192540" Name="Platter_Tutorial_Sequence" DurationType="OneShot" DurationMin="11.854291" DurationMax="11.854291">
+				<Event Id="645192540" Name="Platter_Tutorial_Sequence" DurationType="OneShot" DurationMin="3.4938958" DurationMax="4.673646">
 					<MediaRefs>
 						<MediaRef Id="237883370"/>
 						<MediaRef Id="331057442"/>
@@ -564,7 +564,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="4096944978" Name="Popcorn_Machine_Sequence" DurationType="OneShot" DurationMin="20.25823" DurationMax="20.25823">
+				<Event Id="4096944978" Name="Popcorn_Machine_Sequence" DurationType="OneShot" DurationMin="3.9867084" DurationMax="10.595938">
 					<MediaRefs>
 						<MediaRef Id="333278700"/>
 						<MediaRef Id="449788328"/>
@@ -576,7 +576,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="1519229424" Name="PopcornNoCarton_Sequence" DurationType="OneShot" DurationMin="10.400417" DurationMax="10.400417">
+				<Event Id="1519229424" Name="PopcornNoCarton_Sequence" DurationType="OneShot" DurationMin="4.957646" DurationMax="5.442771">
 					<MediaRefs>
 						<MediaRef Id="422779954"/>
 						<MediaRef Id="1050731454"/>
@@ -587,7 +587,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="167085234" Name="RAND_Stove_Sequence" DurationType="OneShot" DurationMin="21.531311" DurationMax="21.531311">
+				<Event Id="167085234" Name="RAND_Stove_Sequence" DurationType="OneShot" DurationMin="3.9867084" DurationMax="12.683291">
 					<MediaRefs>
 						<MediaRef Id="153981399"/>
 						<MediaRef Id="438584039"/>
@@ -599,7 +599,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="2758822327" Name="RAND_Throw_Sequence" DurationType="OneShot" DurationMin="41.937584" DurationMax="41.937584">
+				<Event Id="2758822327" Name="RAND_Throw_Sequence" DurationType="OneShot" DurationMin="2.047" DurationMax="10.062208">
 					<MediaRefs>
 						<MediaRef Id="26797801"/>
 						<MediaRef Id="232588876"/>
@@ -616,7 +616,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="88281251" Name="Sequence1_Voices" DurationType="OneShot" DurationMin="15.675" DurationMax="15.675">
+				<Event Id="88281251" Name="Sequence1_Voices" DurationType="OneShot" DurationMin="7.170396" DurationMax="8.504604">
 					<MediaRefs>
 						<MediaRef Id="702158308"/>
 						<MediaRef Id="856661052"/>
@@ -627,7 +627,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="2102032462" Name="Sequence2_Voices" DurationType="OneShot" DurationMin="14.306562" DurationMax="14.306562">
+				<Event Id="2102032462" Name="Sequence2_Voices" DurationType="OneShot" DurationMin="4.3099375" DurationMax="4.9983125">
 					<MediaRefs>
 						<MediaRef Id="40595667"/>
 						<MediaRef Id="955443258"/>
@@ -639,7 +639,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="513774604" Name="Sequence4_Voices" DurationType="OneShot" DurationMin="7.465125" DurationMax="7.465125">
+				<Event Id="513774604" Name="Sequence4_Voices" DurationType="OneShot" DurationMin="2.96175" DurationMax="4.503375">
 					<MediaRefs>
 						<MediaRef Id="604820586"/>
 						<MediaRef Id="838162831"/>
@@ -650,7 +650,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="2408431640" Name="Soda_Ordered_Sequence" DurationType="OneShot" DurationMin="11.685396" DurationMax="11.685396">
+				<Event Id="2408431640" Name="Soda_Ordered_Sequence" DurationType="OneShot" DurationMin="3.69175" DurationMax="7.9936457">
 					<MediaRefs>
 						<MediaRef Id="181038427"/>
 						<MediaRef Id="418339426"/>
@@ -671,7 +671,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="581849877" Name="Theater3Order0_Sequence" DurationType="OneShot" DurationMin="14.8595" DurationMax="14.8595">
+				<Event Id="581849877" Name="Theater3Order0_Sequence" DurationType="OneShot" DurationMin="5.588917" DurationMax="9.270583">
 					<MediaRefs>
 						<MediaRef Id="45511749"/>
 						<MediaRef Id="643724115"/>
@@ -682,7 +682,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="2921329727" Name="Theater3Order2_Sequence" DurationType="OneShot" DurationMin="13.448647" DurationMax="13.448647">
+				<Event Id="2921329727" Name="Theater3Order2_Sequence" DurationType="OneShot" DurationMin="6.4722085" DurationMax="6.9764376">
 					<MediaRefs>
 						<MediaRef Id="43128300"/>
 						<MediaRef Id="879168294"/>
@@ -693,7 +693,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="893229993" Name="Theater3Order4_Sequence" DurationType="OneShot" DurationMin="19.464272" DurationMax="19.464272">
+				<Event Id="893229993" Name="Theater3Order4_Sequence" DurationType="OneShot" DurationMin="1.9861875" DurationMax="8.997146">
 					<MediaRefs>
 						<MediaRef Id="16879613"/>
 						<MediaRef Id="104327337"/>
@@ -912,5 +912,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B434D35B-3EB9-1434-F27A-07A23640FD0E}</FileHash>
+	<FileHash>{044B9A68-7F67-BD45-8505-806A930F0B01}</FileHash>
 </SoundBanksInfo>

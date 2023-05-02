@@ -2,5 +2,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	3991942870	Music			\Music\Music	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	231788945	Spoopy_Theater	E:\Projects\LD53-GhostTheater\LD53-GhostTheater_WwiseProject\.cache\Mac\SFX\Spoopy_Theater_696A9007.wem		\Interactive Music Hierarchy\Music\Background_Music\Spoopy_Theater\Spoopy_Theater		2878526
+	231788945	Spoopy_Theater	C:\Users\Christian\Documents\Ghost_Theater\LD53-GhostTheater_WwiseProject\.cache\Mac\SFX\Spoopy_Theater_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Background_Music\Spoopy_Theater\Spoopy_Theater		49796224
 

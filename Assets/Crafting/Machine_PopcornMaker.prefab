@@ -162,19 +162,23 @@ MonoBehaviour:
   m_cornReadyEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 3d18d28249aa09d49b1aec842b5254b6,
+      type: 2}
   m_cornReadyOverflowEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 005c02ad29e345345a30c66ad11686b6,
+      type: 2}
   m_withdrawSuccessEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 08e9d3a6090b5ba4595c993dd7a2b0a1,
+      type: 2}
   m_withdrawFailEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: a24d31204c02a35479dcb50f25aaeba9,
+      type: 2}
 --- !u!114 &8675201478033772357
 MonoBehaviour:
   m_ObjectHideFlags: 0

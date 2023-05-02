@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 86cbe3bee8f5bd4b93a9a7458f1813c0
     GuidInternal: 
-    m_lastTime: -8585186808754848589
+    m_lastTime: -8585186222489265171
     List:
     - name: Dialogue
       guid: 4c332a67021f484fb4823dad1abcf7a3
@@ -122,8 +122,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 9c97b72c09ae8745b1a025dae613e011
     GuidInternal: 
-    m_lastTime: -8585186808755053624
+    m_lastTime: -8585186222489490217
     List:
+    - name: Close_Freezer
+      guid: 96aafc7cdea9834ca291d79950a471b8
+      id: 3612216855
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9c97b72c09ae8745b1a025dae613e011
+      - ElementName: Close_Freezer
+        ObjectType: 3
+        guid: 96aafc7cdea9834ca291d79950a471b8
+      Path: Events\Default Work Unit\Close_Freezer
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Close_Fridge
       guid: 1a90a0777eea5545be9a9f78f842c70f
       id: 4149631081
@@ -138,6 +155,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: 1a90a0777eea5545be9a9f78f842c70f
       Path: Events\Default Work Unit\Close_Fridge
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Combine_Hotdog
+      guid: dd492be3230d304891b5e5e94df3f9f1
+      id: 2552711898
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9c97b72c09ae8745b1a025dae613e011
+      - ElementName: Combine_Hotdog
+        ObjectType: 3
+        guid: dd492be3230d304891b5e5e94df3f9f1
+      Path: Events\Default Work Unit\Combine_Hotdog
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -345,6 +379,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Open_Freezer
+      guid: c8c35313363c044c904d74e3a4b7f023
+      id: 374342109
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9c97b72c09ae8745b1a025dae613e011
+      - ElementName: Open_Freezer
+        ObjectType: 3
+        guid: c8c35313363c044c904d74e3a4b7f023
+      Path: Events\Default Work Unit\Open_Freezer
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Open_Fridge
       guid: d5f85df8ceb9c846973b4626a3831bd6
       id: 1027365271
@@ -515,6 +566,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Popcorn_Done_Overflowed
+      guid: 1142bb09e5694d4586cc9b013b8762e8
+      id: 2962880407
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9c97b72c09ae8745b1a025dae613e011
+      - ElementName: Popcorn_Done_Overflowed
+        ObjectType: 3
+        guid: 1142bb09e5694d4586cc9b013b8762e8
+      Path: Events\Default Work Unit\Popcorn_Done_Overflowed
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Popcorn_Filled_Carton
+      guid: 838187a139d73e41ab4f7516207a29cd
+      id: 367907887
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9c97b72c09ae8745b1a025dae613e011
+      - ElementName: Popcorn_Filled_Carton
+        ObjectType: 3
+        guid: 838187a139d73e41ab4f7516207a29cd
+      Path: Events\Default Work Unit\Popcorn_Filled_Carton
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Popcorn_Machine_Sequence
       guid: 476510edac99934dbedab79a7151eab2
       id: 4096944978
@@ -532,6 +617,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Popcorn_Ready
+      guid: 673a5838c8e8474486e0ac0fbbd82564
+      id: 641532120
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9c97b72c09ae8745b1a025dae613e011
+      - ElementName: Popcorn_Ready
+        ObjectType: 3
+        guid: 673a5838c8e8474486e0ac0fbbd82564
+      Path: Events\Default Work Unit\Popcorn_Ready
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Popcorn_Withdraw_NoCarton
+      guid: 81892b1f4dbee648a0b9f9ad18c1ed88
+      id: 416986624
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9c97b72c09ae8745b1a025dae613e011
+      - ElementName: Popcorn_Withdraw_NoCarton
+        ObjectType: 3
+        guid: 81892b1f4dbee648a0b9f9ad18c1ed88
+      Path: Events\Default Work Unit\Popcorn_Withdraw_NoCarton
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: PopcornNoCarton_Sequence
       guid: e3f81b7137fe0e4a867bb7bd71445987
       id: 1519229424
@@ -546,6 +665,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: e3f81b7137fe0e4a867bb7bd71445987
       Path: Events\Default Work Unit\PopcornNoCarton_Sequence
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Popping_Corn
+      guid: 765ce60b384ac645beea94d82434b830
+      id: 3293062167
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9c97b72c09ae8745b1a025dae613e011
+      - ElementName: Popping_Corn
+        ObjectType: 3
+        guid: 765ce60b384ac645beea94d82434b830
+      Path: Events\Default Work Unit\Popping_Corn
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
