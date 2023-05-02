@@ -157,7 +157,7 @@ MonoBehaviour:
   m_cornPopEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: bfee3fc48aa1b164092756e421861383,
+    WwiseObjectReference: {fileID: 11400000, guid: 46d52049b78093246a7c49bac79c7f4a,
       type: 2}
   m_cornReadyEvent:
     idInternal: 0
