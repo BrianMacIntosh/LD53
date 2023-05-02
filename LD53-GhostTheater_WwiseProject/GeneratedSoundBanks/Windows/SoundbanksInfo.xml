@@ -744,7 +744,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="4275143406" Type="User" Language="SFX" Hash="{88929250-E2BB-F083-D810-242A3A20CF58}">
+		<SoundBank Id="4275143406" Type="User" Language="SFX" Hash="{D8F1D4D0-90D1-ACC5-DEC2-8717E1A21BAF}">
 			<ShortName>Game_Sounds</ShortName>
 			<Path>Game_Sounds.bnk</Path>
 			<Media>
@@ -879,7 +879,7 @@
 						<MediaRef Id="838077759"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="641532120" Name="Popcorn_Ready" DurationType="OneShot" DurationMin="1.8877485" DurationMax="2.1189263">
+				<Event Id="641532120" Name="Popcorn_Ready" MaxAttenuation="50" DurationType="OneShot" DurationMin="1.8877485" DurationMax="2.1189263">
 					<MediaRefs>
 						<MediaRef Id="1018794257"/>
 					</MediaRefs>
@@ -912,5 +912,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6E6D9723-A761-162C-144D-11B208481BBF}</FileHash>
+	<FileHash>{5072A28F-A172-86ED-69CB-06A4BF4E7649}</FileHash>
 </SoundBanksInfo>
