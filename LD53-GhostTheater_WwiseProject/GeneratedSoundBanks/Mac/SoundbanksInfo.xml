@@ -25,329 +25,329 @@
 				<GameParameter Id="240153585" Name="Test_Parameter"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3930136735" Type="User" Language="English(US)" Hash="{86303137-249C-CA4A-453C-B4D9E3237F47}">
+		<SoundBank Id="3930136735" Type="User" Language="English(US)" Hash="{A9E8B7A9-451D-B652-8325-101F4849694B}">
 			<ShortName>Dialogue</ShortName>
 			<Path>English(US)/Dialogue.bnk</Path>
 			<Media>
 				<File Id="16879613" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>X_Theatre3OrderComplete4_Sequence\X_Theatre3OrderComplete4_00_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/X_Theatre3OrderComplete4_Sequence/X_Theatre3OrderComplete4_00_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/X_Theatre3OrderComplete4_Sequence/X_Theatre3OrderComplete4_00_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="26797801" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>RAND_Throw_Group\RAND_Throw_05_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/RAND_Throw_Group/RAND_Throw_05_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/RAND_Throw_Group/RAND_Throw_05_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="40595667" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>voice_2_2.wav</ShortName>
-					<CachePath>Voices/English(US)/voice_2_2_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/voice_2_2_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="43128300" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>X_Theatre3OrderComplete2_Sequence\X_Theatre3OrderComplete2_00_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/X_Theatre3OrderComplete2_Sequence/X_Theatre3OrderComplete2_00_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/X_Theatre3OrderComplete2_Sequence/X_Theatre3OrderComplete2_00_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="45511749" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>X_Theatre3OrderComplete0_Sequence\X_Theatre3OrderComplete0_01_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/X_Theatre3OrderComplete0_Sequence/X_Theatre3OrderComplete0_01_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/X_Theatre3OrderComplete0_Sequence/X_Theatre3OrderComplete0_01_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="62210821" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>GetPopcorn_Group\X_GetPopcorn_01_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/GetPopcorn_Group/X_GetPopcorn_01_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/GetPopcorn_Group/X_GetPopcorn_01_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="94708600" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>sequence_5a\05_01_01_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/sequence_5a/05_01_01_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/sequence_5a/05_01_01_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="103397309" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>coin_tutorial\99_CornTutorial_00_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/coin_tutorial/99_CornTutorial_00_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/coin_tutorial/99_CornTutorial_00_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="104327337" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>X_Theatre3OrderComplete4_Sequence\X_Theatre3OrderComplete4_01_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/X_Theatre3OrderComplete4_Sequence/X_Theatre3OrderComplete4_01_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/X_Theatre3OrderComplete4_Sequence/X_Theatre3OrderComplete4_01_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="116791383" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>X_PartyOrderComplete3_00_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/X_PartyOrderComplete3_00_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/X_PartyOrderComplete3_00_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="119881967" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>OrderCompleteApology\12_X_OrderCompletete1Apology_00_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/OrderCompleteApology/12_X_OrderCompletete1Apology_00_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/OrderCompleteApology/12_X_OrderCompletete1Apology_00_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="153657574" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>PartyOrderComplete5_Group\X_PartyOrderComplete5_02_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/PartyOrderComplete5_Group/X_PartyOrderComplete5_02_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/PartyOrderComplete5_Group/X_PartyOrderComplete5_02_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="153981399" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>RAND_Stove_Group\RAND_Stove_01_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/RAND_Stove_Group/RAND_Stove_01_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/RAND_Stove_Group/RAND_Stove_01_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="159048756" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>OrderComplete_NottheWorst\06_X_OrderComplete0NotTheWorst_01_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/OrderComplete_NottheWorst/06_X_OrderComplete0NotTheWorst_01_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/OrderComplete_NottheWorst/06_X_OrderComplete0NotTheWorst_01_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="160853680" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>PartyOrderComplete4_Group\X_PartyOrderComplete4_00_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/PartyOrderComplete4_Group/X_PartyOrderComplete4_00_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/PartyOrderComplete4_Group/X_PartyOrderComplete4_00_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="168253262" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>sequence_3a\03_01_00_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/sequence_3a/03_01_00_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/sequence_3a/03_01_00_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="181038427" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>SodaOrdered_Group\X_SodaOrdered_01_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/SodaOrdered_Group/X_SodaOrdered_01_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/SodaOrdered_Group/X_SodaOrdered_01_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="205165112" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>PartyOrderComplete2_Group\X_PartyOrderComplete2_00_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/PartyOrderComplete2_Group/X_PartyOrderComplete2_00_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/PartyOrderComplete2_Group/X_PartyOrderComplete2_00_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="232588876" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>RAND_Throw_Group\RAND_Throw_02_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/RAND_Throw_Group/RAND_Throw_02_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/RAND_Throw_Group/RAND_Throw_02_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="237883370" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Platter_Tutorial_Group\99_PlatterTutorial_02_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/Platter_Tutorial_Group/99_PlatterTutorial_02_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/Platter_Tutorial_Group/99_PlatterTutorial_02_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="251428905" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>GetPopcorn_Group\X_GetPopcorn_00_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/GetPopcorn_Group/X_GetPopcorn_00_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/GetPopcorn_Group/X_GetPopcorn_00_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="262780444" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>PartyOrderComplete4_Group\X_PartyOrderComplete4_01_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/PartyOrderComplete4_Group/X_PartyOrderComplete4_01_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/PartyOrderComplete4_Group/X_PartyOrderComplete4_01_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="321879506" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>OrderCompleteApology\12_X_OrderCompletete1Apology_02_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/OrderCompleteApology/12_X_OrderCompletete1Apology_02_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/OrderCompleteApology/12_X_OrderCompletete1Apology_02_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="331057442" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Platter_Tutorial_Group\99_PlatterTutorial_01_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/Platter_Tutorial_Group/99_PlatterTutorial_01_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/Platter_Tutorial_Group/99_PlatterTutorial_01_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="333278700" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>PopcornMachine_Group\PopcornMachine_01_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/PopcornMachine_Group/PopcornMachine_01_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/PopcornMachine_Group/PopcornMachine_01_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="369810028" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>RAND_Throw_Group\RAND_Throw_06_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/RAND_Throw_Group/RAND_Throw_06_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/RAND_Throw_Group/RAND_Throw_06_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="403555431" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>sequence_2b\02_01_00_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/sequence_2b/02_01_00_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/sequence_2b/02_01_00_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="412659066" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>voice_3_1.wav</ShortName>
-					<CachePath>Voices/English(US)/voice_3_1_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/voice_3_1_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="418339426" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>SodaOrdered_Group\X_SodaOrdered_00_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/SodaOrdered_Group/X_SodaOrdered_00_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/SodaOrdered_Group/X_SodaOrdered_00_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="422779954" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Popcorn_No_Carton\PopcornNoCarton_00_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/Popcorn_No_Carton/PopcornNoCarton_00_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/Popcorn_No_Carton/PopcornNoCarton_00_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="429461362" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>OrderComplete_NottheWorst\06_X_OrderComplete0NotTheWorst_00_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/OrderComplete_NottheWorst/06_X_OrderComplete0NotTheWorst_00_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/OrderComplete_NottheWorst/06_X_OrderComplete0NotTheWorst_00_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="438584039" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>RAND_Stove_Group\RAND_Stove_00_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/RAND_Stove_Group/RAND_Stove_00_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/RAND_Stove_Group/RAND_Stove_00_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="449788328" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>PopcornMachine_Group\PopcornMachine_02_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/PopcornMachine_Group/PopcornMachine_02_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/PopcornMachine_Group/PopcornMachine_02_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="477088815" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>PartyOrderComplete0_Group\X_PartyOrderComplete0_00_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/PartyOrderComplete0_Group/X_PartyOrderComplete0_00_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/PartyOrderComplete0_Group/X_PartyOrderComplete0_00_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="478046826" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>99_StoveTutorial_00_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/99_StoveTutorial_00_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/99_StoveTutorial_00_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="487366810" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>sequence_2b\02_01_01_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/sequence_2b/02_01_01_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/sequence_2b/02_01_01_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="499340588" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>PartyOrderComplete5_Group\X_PartyOrderComplete5_03_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/PartyOrderComplete5_Group/X_PartyOrderComplete5_03_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/PartyOrderComplete5_Group/X_PartyOrderComplete5_03_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="500876644" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>sequence_6a\06_01_00_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/sequence_6a/06_01_00_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/sequence_6a/06_01_00_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="515012426" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>PartyOrderComplete1_Group\X_PartyOrderComplete1_01_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/PartyOrderComplete1_Group/X_PartyOrderComplete1_01_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/PartyOrderComplete1_Group/X_PartyOrderComplete1_01_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="516058937" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>RAND_Stove_Group\RAND_Stove_02_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/RAND_Stove_Group/RAND_Stove_02_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/RAND_Stove_Group/RAND_Stove_02_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="535002392" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>X_GetSoda_00_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/X_GetSoda_00_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/X_GetSoda_00_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="546843662" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Platter_Tutorial_Group\99_PlatterTutorial_00_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/Platter_Tutorial_Group/99_PlatterTutorial_00_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/Platter_Tutorial_Group/99_PlatterTutorial_00_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="602841647" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>sequence_3a\03_01_01_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/sequence_3a/03_01_01_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/sequence_3a/03_01_01_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="604820586" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>voice_4_1.wav</ShortName>
-					<CachePath>Voices/English(US)/voice_4_1_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/voice_4_1_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="611690467" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>sequence_6a\06_01_01_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/sequence_6a/06_01_01_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/sequence_6a/06_01_01_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="617751221" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>voice_5_1.wav</ShortName>
-					<CachePath>Voices/English(US)/voice_5_1_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/voice_5_1_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="634838362" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>X_Theatre3OrderComplete4_Sequence\X_Theatre3OrderComplete4_02_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/X_Theatre3OrderComplete4_Sequence/X_Theatre3OrderComplete4_02_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/X_Theatre3OrderComplete4_Sequence/X_Theatre3OrderComplete4_02_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="643724115" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>X_Theatre3OrderComplete0_Sequence\X_Theatre3OrderComplete0_00.wav</ShortName>
-					<CachePath>Voices/English(US)/X_Theatre3OrderComplete0_Sequence/X_Theatre3OrderComplete0_00_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/X_Theatre3OrderComplete0_Sequence/X_Theatre3OrderComplete0_00_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="657526009" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>PartyOrderComplete1_Group\X_PartyOrderComplete1_00_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/PartyOrderComplete1_Group/X_PartyOrderComplete1_00_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/PartyOrderComplete1_Group/X_PartyOrderComplete1_00_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="664107253" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>GetHotDogPopcorn_Group\X_GetHotDogPopcorn_00_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/GetHotDogPopcorn_Group/X_GetHotDogPopcorn_00_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/GetHotDogPopcorn_Group/X_GetHotDogPopcorn_00_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="669800559" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>RAND_Throw_Group\RAND_Throw_04_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/RAND_Throw_Group/RAND_Throw_04_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/RAND_Throw_Group/RAND_Throw_04_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="683989990" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>PartyOrderComplete5_Group\X_PartyOrderComplete5_00_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/PartyOrderComplete5_Group/X_PartyOrderComplete5_00_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/PartyOrderComplete5_Group/X_PartyOrderComplete5_00_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="702158308" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>voice_1_2.wav</ShortName>
-					<CachePath>Voices/English(US)/voice_1_2_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/voice_1_2_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="704396827" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>OrderComplete_NottheWorst\06_X_OrderComplete0NotTheWorst_02_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/OrderComplete_NottheWorst/06_X_OrderComplete0NotTheWorst_02_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/OrderComplete_NottheWorst/06_X_OrderComplete0NotTheWorst_02_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="713827764" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>PartyOrderComplete5_Group\X_PartyOrderComplete5_01_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/PartyOrderComplete5_Group/X_PartyOrderComplete5_01_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/PartyOrderComplete5_Group/X_PartyOrderComplete5_01_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="724544118" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>RAND_Throw_Group\RAND_Throw_00_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/RAND_Throw_Group/RAND_Throw_00_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/RAND_Throw_Group/RAND_Throw_00_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="780420761" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>coin_tutorial\99_CornTutorial_01_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/coin_tutorial/99_CornTutorial_01_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/coin_tutorial/99_CornTutorial_01_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="783335192" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>RAND_Throw_Group\RAND_Throw_03_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/RAND_Throw_Group/RAND_Throw_03_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/RAND_Throw_Group/RAND_Throw_03_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="792438881" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>PartyOrderComplete2_Group\X_PartyOrderComplete2_04_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/PartyOrderComplete2_Group/X_PartyOrderComplete2_04_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/PartyOrderComplete2_Group/X_PartyOrderComplete2_04_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="794201160" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>PartyOrderComplete2_Group\X_PartyOrderComplete2_02_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/PartyOrderComplete2_Group/X_PartyOrderComplete2_02_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/PartyOrderComplete2_Group/X_PartyOrderComplete2_02_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="797974393" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>sequence_5a\05_01_02_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/sequence_5a/05_01_02_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/sequence_5a/05_01_02_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="802658012" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>sequence_2b\02_01_02_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/sequence_2b/02_01_02_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/sequence_2b/02_01_02_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="806345590" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>PartyOrderComplete2_Group\X_PartyOrderComplete2_03_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/PartyOrderComplete2_Group/X_PartyOrderComplete2_03_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/PartyOrderComplete2_Group/X_PartyOrderComplete2_03_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="808295816" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>RAND_Throw_Group\RAND_Throw_07_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/RAND_Throw_Group/RAND_Throw_07_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/RAND_Throw_Group/RAND_Throw_07_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="838162831" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>voice_4_2.wav</ShortName>
-					<CachePath>Voices/English(US)/voice_4_2_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/voice_4_2_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="851609592" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>PartyOrderComplete0_Group\X_PartyOrderComplete0_01_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/PartyOrderComplete0_Group/X_PartyOrderComplete0_01_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/PartyOrderComplete0_Group/X_PartyOrderComplete0_01_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="856661052" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>voice_1_1.wav</ShortName>
-					<CachePath>Voices/English(US)/voice_1_1_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/voice_1_1_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="861478868" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>sequence_5a\05_01_00_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/sequence_5a/05_01_00_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/sequence_5a/05_01_00_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="865967908" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>RAND_Throw_Group\RAND_Throw_01_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/RAND_Throw_Group/RAND_Throw_01_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/RAND_Throw_Group/RAND_Throw_01_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="872452947" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>GetHotDogPopcorn_Group\X_GetHotDogPopcorn_01_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/GetHotDogPopcorn_Group/X_GetHotDogPopcorn_01_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/GetHotDogPopcorn_Group/X_GetHotDogPopcorn_01_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="879168294" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>X_Theatre3OrderComplete2_Sequence\X_Theatre3OrderComplete2_01_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/X_Theatre3OrderComplete2_Sequence/X_Theatre3OrderComplete2_01_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/X_Theatre3OrderComplete2_Sequence/X_Theatre3OrderComplete2_01_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="897329279" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>X_GetSticks_00_edited1.wav</ShortName>
-					<CachePath>Voices/English(US)/X_GetSticks_00_edited1_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/X_GetSticks_00_edited1_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="931060642" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>OrderCompleteApology\12_X_OrderCompletete1Apology_01_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/OrderCompleteApology/12_X_OrderCompletete1Apology_01_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/OrderCompleteApology/12_X_OrderCompletete1Apology_01_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="934854009" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>PartyOrderComplete0_Group\X_PartyOrderComplete0_02_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/PartyOrderComplete0_Group/X_PartyOrderComplete0_02_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/PartyOrderComplete0_Group/X_PartyOrderComplete0_02_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="955443258" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>voice_2_3.wav</ShortName>
-					<CachePath>Voices/English(US)/voice_2_3_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/voice_2_3_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="981784077" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>PartyOrderComplete2_Group\X_PartyOrderComplete2_01_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/PartyOrderComplete2_Group/X_PartyOrderComplete2_01_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/PartyOrderComplete2_Group/X_PartyOrderComplete2_01_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="1000649313" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>voice_2_1.wav</ShortName>
-					<CachePath>Voices/English(US)/voice_2_1_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/voice_2_1_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="1024851424" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>PartyOrderComplete0_Group\X_PartyOrderComplete0_03_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/PartyOrderComplete0_Group/X_PartyOrderComplete0_03_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/PartyOrderComplete0_Group/X_PartyOrderComplete0_03_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="1042289961" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>PopcornMachine_Group\PopcornMachine_00_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/PopcornMachine_Group/PopcornMachine_00_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/PopcornMachine_Group/PopcornMachine_00_edited_3F75BDB9.wem</CachePath>
 				</File>
 				<File Id="1050731454" Language="English(US)" Streaming="false" Location="Memory">
 					<ShortName>Popcorn_No_Carton\PopcornNoCarton_01_edited.wav</ShortName>
-					<CachePath>Voices/English(US)/Popcorn_No_Carton/PopcornNoCarton_01_edited_10C4C929.wem</CachePath>
+					<CachePath>Voices/English(US)/Popcorn_No_Carton/PopcornNoCarton_01_edited_3F75BDB9.wem</CachePath>
 				</File>
 			</Media>
 			<Plugins>
@@ -727,24 +727,24 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{E95CE4D1-62E1-EBD9-A7A7-F45AAD049894}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{DFEA99CE-FF54-7867-2939-448D8DF6744B}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
 				<File Id="231788945" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Spoopy_Theater.wav</ShortName>
-					<CachePath>SFX/Spoopy_Theater_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/Spoopy_Theater_696A9007.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3991942870" Name="Music" DurationType="Infinite">
+				<Event Id="3991942870" Name="Music" DurationType="OneShot" DurationMin="255.98053" DurationMax="255.98053">
 					<MediaRefs>
 						<MediaRef Id="231788945"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="4275143406" Type="User" Language="SFX" Hash="{D8F1D4D0-90D1-ACC5-DEC2-8717E1A21BAF}">
+		<SoundBank Id="4275143406" Type="User" Language="SFX" Hash="{88929250-E2BB-F083-D810-242A3A20CF58}">
 			<ShortName>Game_Sounds</ShortName>
 			<Path>Game_Sounds.bnk</Path>
 			<Media>
@@ -879,7 +879,7 @@
 						<MediaRef Id="838077759"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="641532120" Name="Popcorn_Ready" MaxAttenuation="50" DurationType="OneShot" DurationMin="1.8877485" DurationMax="2.1189263">
+				<Event Id="641532120" Name="Popcorn_Ready" DurationType="OneShot" DurationMin="1.8877485" DurationMax="2.1189263">
 					<MediaRefs>
 						<MediaRef Id="1018794257"/>
 					</MediaRefs>
@@ -912,5 +912,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{DE52695E-0EC6-EE3C-4531-F6D6D7F00EE6}</FileHash>
+	<FileHash>{BEC6288D-D727-D42F-15F0-78DC23C46C78}</FileHash>
 </SoundBanksInfo>
